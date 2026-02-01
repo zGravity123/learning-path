@@ -1,2 +1,29 @@
-# learning-path
-Programming Logic, Algorithms, and Backend Fundamentals
+# My Learning Path
+
+Welcome to my central study repository.
+Here I document my daily evolution in programming, saving exercises, logic challenges, and small projects.
+
+> "Consistency is the key to mastery."
+
+## Logic & Fundamentals
+Currently, I am focused on strengthening my foundation in **Programming Logic** and **Structured Algorithms**. To achieve this, I am using **Pascal** (via Pascalzim), which is excellent for visualizing data flow without distractions.
+
+### Languages & Tools
+* **Pascal (Pascalzim):** Conditional structures, loops, arrays, and matrices.
+* **Python:** (Coming Soon) Migrating logic to modern scripts and automation.
+* **Git:** Learning code versioning in practice.
+
+## Contents
+
+| Folder | Content | Status |
+| :--- | :--- | :--- |
+| `/Pascalzim` | Algorithm exercises, mathematical logic, and data structures. | Active |
+| `/Python` | Automation scripts and Backend studies. | Coming Soon |
+
+---
+
+### My Goal
+My focus is not just to memorize syntax, but to **learn to think like a programmer**. This repository serves as my technical evolution history towards Backend architecture.
+
+---
+*Created and maintained by [Sérgio Almeida](https://github.com/zGravity123)*
