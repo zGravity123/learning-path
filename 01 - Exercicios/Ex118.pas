@@ -6,12 +6,12 @@ var v:array[1..10] of integer;
 Procedure Menu;
  Begin
  		writeln('Menu:');
- 		writeln('1 - Gerar números aleatórios');
- 		writeln('2 - Listar números');
- 		writeln('3 - Média dos números');
- 		writeln('4 - Número de valores Pares');
- 		writeln('5 - Númer de valores impares');
- 		writeln('6 - Valor Máximo');
+ 		writeln('1 - Gerar nÃºmeros aleatÃ³rios');
+ 		writeln('2 - Listar nÃºmeros');
+ 		writeln('3 - MÃ©dia dos nÃºmeros');
+ 		writeln('4 - NÃºmero de valores Pares');
+ 		writeln('5 - NÃºmer de valores impares');
+ 		writeln('6 - Valor MÃ¡ximo');
  		writeln('7 - Valor Minimo');
  		writeln('');
  		writeln('8 - Sair');
@@ -103,6 +103,7 @@ Begin
  		8: break;
  	end;
  	
- 	until i := 100;
+ 	until i = 100;
 readkey;
+
 End.
