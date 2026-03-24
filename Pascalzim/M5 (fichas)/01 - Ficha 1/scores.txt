@@ -1,2 +1,0 @@
-serjao | Pontos: -500000 | Certas: 1 | Erradas: 3
-Manco | Pontos: 6500000 | Certas: 11 | Erradas: 9

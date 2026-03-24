@@ -1,0 +1,8 @@
+Aluno: Sérgio
+Nota: 20
+Codigo da Disciplina: 1
+
+Aluno: Jontas
+Nota: 16
+Codigo da Disciplina: 1
+

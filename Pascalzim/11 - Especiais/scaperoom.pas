@@ -1,5 +1,4 @@
 Program Pzim;
-uses crt;
 
 var
   acertos, erros: integer;

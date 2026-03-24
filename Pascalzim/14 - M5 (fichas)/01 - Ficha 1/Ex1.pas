@@ -1,5 +1,4 @@
 Program Pzim;
-uses crt;
 
 var 
   usada: array[1..20] of integer;
@@ -22,9 +21,8 @@ begin
   writeln;
   
   assign(arq, 'scores.txt');
-  {$I-} 
+  
   reset(arq); 
-  {$I+} 
   
   if IOResult <> 0 then
     writeln('Ainda nao ha pontuacoes guardadas. Joga uma partida primeiro!')
@@ -64,7 +62,7 @@ begin
     
     assign(arq, 'scores.txt');
 
-    append(arq); 
+    append(arq);
     
     if IOResult <> 0 then 
       rewrite(arq);
@@ -73,7 +71,7 @@ begin
     close(arq);
     
     TextColor(LightGreen);
-    writeln('Score guardado com sucesso!');
+    writeln('Score guardado com sucesso');
   end;
   
   readkey;
@@ -136,9 +134,13 @@ begin
        
        respondidas := respondidas + 1;
        if (r = 'b') or (r = 'B') then
-       begin writeln('Correto!'); pontos := pontos + 1000000; certas := certas + 1; end
+       begin 
+			 	writeln('Correto!'); pontos := pontos + 1000000; certas := certas + 1; 
+			 end
        else
-       begin writeln('Incorreto! A resposta certa e b) Lisboa'); pontos := pontos - 500000; erradas := erradas + 1; end;
+       begin 
+       	textcolor(Red);
+			 	writeln('Incorreto! A resposta certa e b) Lisboa'); pontos := pontos - 500000; erradas := erradas + 1; end;
      end;
 
   2: begin
@@ -153,9 +155,13 @@ begin
 
        respondidas := respondidas + 1;
        if (r = 'a') or (r = 'A') then
-       begin writeln('Correto!'); pontos := pontos + 1000000; certas := certas + 1; end
+       begin 
+			 	writeln('Correto!'); pontos := pontos + 1000000; certas := certas + 1; 
+			 end
        else
-       begin writeln('Incorreto! A resposta certa e a) 1974'); pontos := pontos - 500000; erradas := erradas + 1; end;
+       begin 
+       	textcolor(Red);
+			 	writeln('Incorreto! A resposta certa e a) 1974'); pontos := pontos - 500000; erradas := erradas + 1; end;
      end;
 
   3: begin
@@ -170,9 +176,13 @@ begin
 
        respondidas := respondidas + 1;
        if (r = 'b') or (r = 'B') then
-       begin writeln('Correto!'); pontos := pontos + 1000000; certas := certas + 1; end
+       begin 
+			 	writeln('Correto!'); pontos := pontos + 1000000; certas := certas + 1; 
+			 end
        else
-       begin writeln('Incorreto! A resposta certa e b) Luis de Camoes'); pontos := pontos - 500000; erradas := erradas + 1; end;
+       begin 
+       	textcolor(Red);
+			 	writeln('Incorreto! A resposta certa e b) Luis de Camoes'); pontos := pontos - 500000; erradas := erradas + 1; end;
      end;
 
   4: begin
@@ -187,9 +197,13 @@ begin
 
        respondidas := respondidas + 1;
        if (r = 'd') or (r = 'D') then
-       begin writeln('Correto!'); pontos := pontos + 1000000; certas := certas + 1; end
+       begin 
+			 	writeln('Correto!'); pontos := pontos + 1000000; certas := certas + 1; 
+			 end
        else
-       begin writeln('Incorreto! A resposta certa e d) Bacalhau a Bras'); pontos := pontos - 500000; erradas := erradas + 1; end;
+       begin 
+       	textcolor(Red);
+			 	writeln('Incorreto! A resposta certa e d) Bacalhau a Bras'); pontos := pontos - 500000; erradas := erradas + 1; end;
      end;
 
   5: begin
@@ -205,9 +219,11 @@ begin
        respondidas := respondidas + 1;
        if (r = 'c') or (r = 'C') then
        	begin 
-				 writeln('Correto!'); pontos := pontos + 1000000; certas := certas + 1; end
+				 writeln('Correto!'); pontos := pontos + 1000000; certas := certas + 1; 
+				end
        else
        	begin 
+       		textcolor(Red);
 					writeln('Incorreto! A resposta certa e c) Tejo'); pontos := pontos - 500000; erradas := erradas + 1; end;
      end;
 
@@ -216,22 +232,24 @@ begin
        writeln('a) Cristovao Colombo');
        writeln('b) Bartolomeu Dias');
        writeln('c) Vasco da Gama');
-       writeln('d) Fernao Mendes Pinto');
+       writeln('d) Fernão De Magãlhes');
        write('Sua resposta (ou "s" para desistir): ');
        readln(r);
        if (r = 's') or (r = 'S') then exit;
 
        respondidas := respondidas + 1;
-       if (r = 'c') or (r = 'C') then
+       if (r = 'd') or (r = 'D') then
        	begin 
-					writeln('Correto!'); pontos := pontos + 1000000; certas := certas + 1; end
+					writeln('Correto!'); pontos := pontos + 1000000; certas := certas + 1; 
+				end
        else
        	begin 
+       	 textcolor(Red);
 				 writeln('Incorreto! A resposta certa e c) Vasco da Gama'); pontos := pontos - 500000; erradas := erradas + 1; end;
      end;
 
   7: begin
-       writeln('Em que cidade portuguesa se realiza anualmente o Festival da Eurovisao?');
+       writeln('Em que cidade portugues se realiza anualmente o Festival da Eurovisao?');
        writeln('a) Porto');
        writeln('b) Lisboa');
        writeln('c) Faro');
@@ -243,9 +261,11 @@ begin
        respondidas := respondidas + 1;
        if (r = 'b') or (r = 'B') then
        	begin 
-					writeln('Correto!'); pontos := pontos + 1000000; certas := certas + 1; end
+					writeln('Correto!'); pontos := pontos + 1000000; certas := certas + 1; 
+				end
        else
-       	begin 
+       	begin
+				 	textcolor(Red); 
 				  writeln('Incorreto! A resposta certa e b) Lisboa'); pontos := pontos - 500000; erradas := erradas + 1; end;
      end;
 
@@ -257,14 +277,17 @@ begin
        writeln('d) Terceira');
        write('Sua resposta (ou "s" para desistir): ');
        readln(r);
-       if (r = 's') or (r = 'S') then exit;
+       if (r = 's') or (r = 'S') then 
+			 	exit;
 
        respondidas := respondidas + 1;
        if (r = 'b') or (r = 'B') then
        	begin 
-					writeln('Correto!'); pontos := pontos + 1000000; certas := certas + 1; end
+					writeln('Correto!'); pontos := pontos + 1000000; certas := certas + 1; 
+				end
        else
        	begin 
+       		textcolor(Red);
 					writeln('Incorreto! A resposta certa e b) Madeira'); pontos := pontos - 500000; erradas := erradas + 1; end;
      end;
 
@@ -276,14 +299,17 @@ begin
        writeln('d) Eusebio');
        write('Sua resposta (ou "s" para desistir): ');
        readln(r);
-       if (r = 's') or (r = 'S') then exit;
+       if (r = 's') or (r = 'S') then 
+			 	exit;
 
        respondidas := respondidas + 1;
        if (r = 'a') or (r = 'A') then
        	begin 
-				 writeln('Correto!'); pontos := pontos + 1000000; certas := certas + 1; end
+				 writeln('Correto!'); pontos := pontos + 1000000; certas := certas + 1; 
+				end
        else
        	begin 
+       	 textcolor(Red);
 				 writeln('Incorreto! A resposta certa e a) Cristiano Ronaldo'); pontos := pontos - 500000; erradas := erradas + 1; end;
      end;
 
@@ -295,14 +321,17 @@ begin
         writeln('d) Pao de Lo');
         write('Sua resposta (ou "s" para desistir): ');
         readln(r);
-        if (r = 's') or (r = 'S') then exit;
+        if (r = 's') or (r = 'S') then 
+					exit;
 
         respondidas := respondidas + 1;
         if (r = 'b') or (r = 'B') then
         	begin 
-						writeln('Correto!'); pontos := pontos + 1000000; certas := certas + 1; end
+						writeln('Correto!'); pontos := pontos + 1000000; certas := certas + 1; 
+					end
         else
-        	begin 
+        	begin
+						textcolor(Red); 
 						writeln('Incorreto! A resposta certa e b) Queijada'); pontos := pontos - 500000; erradas := erradas + 1; end;
       end;
 
@@ -314,14 +343,17 @@ begin
         writeln('d) Lisboa');
         write('Sua resposta (ou "s" para desistir): ');
         readln(r);
-        if (r = 's') or (r = 'S') then exit;
+        if (r = 's') or (r = 'S') then 
+					exit;
 
         respondidas := respondidas + 1;
         if (r = 'd') or (r = 'D') then
         	begin 
-						writeln('Correto!'); pontos := pontos + 1000000; certas := certas + 1; end
+						writeln('Correto!'); pontos := pontos + 1000000; certas := certas + 1; 
+					end
         else
         	begin 
+        		textcolor(Red);
 						writeln('Incorreto! A resposta certa e d) Lisboa'); pontos := pontos - 500000; erradas := erradas + 1; end;
       end;
 
@@ -333,14 +365,17 @@ begin
         writeln('d) 2001');
         write('Sua resposta (ou "s" para desistir): ');
         readln(r);
-        if (r = 's') or (r = 'S') then exit;
+        if (r = 's') or (r = 'S') then 
+					exit;
 
         respondidas := respondidas + 1;
         if (r = 'a') or (r = 'A') then
         	begin 
-						writeln('Correto!'); pontos := pontos + 1000000; certas := certas + 1; end
+						writeln('Correto!'); pontos := pontos + 1000000; certas := certas + 1; 
+					end
         else
-        	begin 
+        	begin
+						textcolor(Red); 
 						writeln('Incorreto! A resposta certa e a) 1986'); pontos := pontos - 500000; erradas := erradas + 1; end;
       end;
 
@@ -352,14 +387,17 @@ begin
         writeln('d) Egas Moniz');
         write('Sua resposta (ou "s" para desistir): ');
         readln(r);
-        if (r = 's') or (r = 'S') then exit;
+        if (r = 's') or (r = 'S') then 
+					exit;
 
         respondidas := respondidas + 1;
         if (r = 'a') or (r = 'A') then
         	begin 
-						writeln('Correto!'); pontos := pontos + 1000000; certas := certas + 1; end
+						writeln('Correto!'); pontos := pontos + 1000000; certas := certas + 1; 
+					end
         else
         	begin 
+        		textcolor(Red);
 						writeln('Incorreto! A resposta certa e a) Jose Saramago'); pontos := pontos - 500000; erradas := erradas + 1; end;
       end;
 
@@ -371,14 +409,17 @@ begin
         writeln('d) Cabo Verde');
         write('Sua resposta (ou "s" para desistir): ');
         readln(r);
-        if (r = 's') or (r = 'S') then exit;
+        if (r = 's') or (r = 'S') then 
+					exit;
 
         respondidas := respondidas + 1;
         if (r = 'b') or (r = 'B') then
         	begin 
-						writeln('Correto!'); pontos := pontos + 1000000; certas := certas + 1; end
+						writeln('Correto!'); pontos := pontos + 1000000; certas := certas + 1; 
+					end
         else
         	begin 
+        		textcolor(Red);
 						writeln('Incorreto! A resposta certa e b) Cabo da Roca'); pontos := pontos - 500000; erradas := erradas + 1; end;
       end;
 
@@ -390,14 +431,17 @@ begin
         writeln('d) Arquipelago de Sao Tome e Principe');
         write('Sua resposta (ou "s" para desistir): ');
         readln(r);
-        if (r = 's') or (r = 'S') then exit;
+        if (r = 's') or (r = 'S') then 
+					exit;
 
         respondidas := respondidas + 1;
         if (r = 'b') or (r = 'B') then
         	begin 
-						writeln('Correto!'); pontos := pontos + 1000000; certas := certas + 1; end
+						writeln('Correto!'); pontos := pontos + 1000000; certas := certas + 1; 
+					end
         else
         	begin 
+        		textcolor(Red);
 						writeln('Incorreto! A resposta certa e b) Madeira'); pontos := pontos - 500000; erradas := erradas + 1; end;
       end;
 
@@ -409,14 +453,17 @@ begin
         writeln('d) Vasco da Gama');
         write('Sua resposta (ou "s" para desistir): ');
         readln(r);
-        if (r = 's') or (r = 'S') then exit;
+        if (r = 's') or (r = 'S') then 
+					exit;
 
         respondidas := respondidas + 1;
         if (r = 'd') or (r = 'D') then
        	 begin 
-					writeln('Correto!'); pontos := pontos + 1000000; certas := certas + 1; end
+					writeln('Correto!'); pontos := pontos + 1000000; certas := certas + 1; 
+				 end
         else
          begin 
+         	textcolor(Red);
 				 	writeln('Incorreto! A resposta certa e d) Vasco da Gama'); pontos := pontos - 500000; erradas := erradas + 1; end;
       end;
 
@@ -428,14 +475,17 @@ begin
         writeln('d) Viana do Castelo');
         write('Sua resposta (ou "s" para desistir): ');
         readln(r);
-        if (r = 's') or (r = 'S') then exit;
+        if (r = 's') or (r = 'S') then 
+					exit;
 
         respondidas := respondidas + 1;
         if (r = 'a') or (r = 'A') then
         	begin 
-						writeln('Correto!'); pontos := pontos + 1000000; certas := certas + 1; end
+						writeln('Correto!'); pontos := pontos + 1000000; certas := certas + 1; 
+					end
         else
-        	begin 
+        	begin
+						textcolor(Red); 
 						writeln('Incorreto! A resposta certa e a) Porto'); pontos := pontos - 500000; erradas := erradas + 1; end;
       end;
 
@@ -447,14 +497,17 @@ begin
         writeln('d) Ponte D. Luis');
         write('Sua resposta (ou "s" para desistir): ');
         readln(r);
-        if (r = 's') or (r = 'S') then exit;
-
+        if (r = 's') or (r = 'S') then 
+					exit;
+					
         respondidas := respondidas + 1;
         if (r = 'b') or (r = 'B') then
         	begin 
-						writeln('Correto!'); pontos := pontos + 1000000; certas := certas + 1; end
+						writeln('Correto!'); pontos := pontos + 1000000; certas := certas + 1; 
+					end
         else
         	begin 
+        		textcolor(Red);
 						writeln('Incorreto! A resposta certa e b) Ponte 25 de Abril'); pontos := pontos - 500000; erradas := erradas + 1; end;
       end;
 
@@ -471,9 +524,11 @@ begin
         respondidas := respondidas + 1;
         if (r = 'c') or (r = 'C') then
         	begin 
-						writeln('Correto!'); pontos := pontos + 1000000; certas := certas + 1; end
+						writeln('Correto!'); pontos := pontos + 1000000; certas := certas + 1; 
+					end
         else
         	begin 
+        		textcolor(Red);
 						writeln('Incorreto! A resposta certa e c) Manuel de Arriaga'); pontos := pontos - 500000; erradas := erradas + 1; end;
       end;
 
@@ -490,16 +545,18 @@ begin
         respondidas := respondidas + 1;
         if (r = 'b') or (r = 'B') then
         	begin 
-						writeln('Correto!'); pontos := pontos + 1000000; certas := certas + 1; end
+						writeln('Correto!'); pontos := pontos + 1000000; certas := certas + 1; 
+					end
         else
         	begin 
+        		textcolor(Red);
 						writeln('Incorreto! A resposta certa e b) Douro'); pontos := pontos - 500000; erradas := erradas + 1; end;
       end;
   end; 
 end;
 
 procedure iniciar_jogo;
-begin
+ begin
   pontos := 0;
   certas := 0;
   erradas := 0;

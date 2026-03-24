@@ -1,0 +1,6 @@
+serjao | Pontos: 2000000 | Certas: 20 | Erradas: 0
+Manco | Pontos: 6500000 | Certas: 11 | Erradas: 9
+Nuno | Pontos: -2500000 | Certas: 5 | Erradas: 15
+Martim | Pontos: 11000000 | Certas: 14 | Erradas: 6
+4152tyhwwrs34v  | Pontos: -500000 | Certas: 0 | Erradas: 1
+sergio  | Pontos: -500000 | Certas: 0 | Erradas: 1

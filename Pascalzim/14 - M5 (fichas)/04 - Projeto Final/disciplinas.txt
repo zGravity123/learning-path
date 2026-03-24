@@ -1,0 +1,9 @@
+Disciplina: PSI
+Codigo da Disciplina: 1
+
+Disciplina: RC
+Codigo da Disciplina: 2
+
+Disciplina: PT
+Codigo da Disciplina: 3
+
