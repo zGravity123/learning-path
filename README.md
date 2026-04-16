@@ -18,7 +18,7 @@ Currently, I am focused on strengthening my foundation in **Programming Logic** 
 | Folder | Content | Status |
 | :--- | :--- | :--- |
 | `/Pascalzim` | Algorithm exercises, mathematical logic, and data structures. | Active |
-| `/Python` | Automation scripts and Backend studies. | Coming Soon |
+| `/C` | Automation Scripts & Backend Development | Active |
 
 ---
 
