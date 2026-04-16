@@ -10,7 +10,7 @@ Currently, I am focused on strengthening my foundation in **Programming Logic** 
 
 ### Languages & Tools
 * **Pascal (Pascalzim):** Conditional structures, loops, arrays, and matrices.
-* **Python:** (Coming Soon) Migrating logic to modern scripts and automation.
+* **C:** Migrating logic to performant, low-level programs and automation.
 * **Git:** Learning code versioning in practice.
 
 ## Contents
