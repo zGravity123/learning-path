@@ -5,6 +5,14 @@
 
 main()
 {
-    set_locale(LC_ALL, "Portuguese");
+    setlocale(LC_ALL, "Portuguese");
 
+    int segundos;
+
+    printf("Introduza o valor em segundos \n");
+    scanf("%d", &segundos);
+
+    system("cls");
+
+    printf("O valor em minutos é %.2f", segundos/(float)60);
 }
