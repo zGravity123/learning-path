@@ -1,18 +1,16 @@
 #include <stdio.h>
 #include <locale.h>
+#include <string.h>
 
 main()
 {
     setlocale(LC_ALL, "Portuguese");
 
-    int i,v;
+    int i;
 
-    printf("Introduza um valor! \n");
-    scanf("%d", &v);
-
-    for ( i = 0; i <= 10; i = i + 1)
+    for ( i = 2; i < 51; i= i + 2)
     {
-        printf("%d * %d = %d \n", v, i, v*i);
+        printf("%d \n",i);
     }
 
 
