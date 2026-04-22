@@ -23,11 +23,11 @@
 <table align="center" width="100%">
   <tr>
     <td width="60%">
-      <h3>O Objetivo</h3>
-      <p>Meu foco não é apenas memorizar sintaxe, mas aprender a pensar como um programador. Estou construindo uma base sólida para transitar de algoritmos estruturados até arquiteturas de Backend complexas.</p>
+      <h3>The Goal</h3>
+      <p>My focus is not just about memorizing syntax, but learning how to think like a programmer. I am building a solid foundation to transition from structured algorithms to complex Backend architectures.</p>
       <br>
-      <h3>Foco Atual</h3>
-      <p>Fortalecendo fundamentos com Lógica de Programação e Algoritmos Estruturados utilizando Pascal e C.</p>
+      <h3>Current Focus</h3>
+      <p>Strengthening fundamentals with Programming Logic and Structured Algorithms using Pascal and C.</p>
     </td>
     <td width="40%" align="center">
       <img src="https://media.giphy.com/media/JIX9t2j0ZTN9S/giphy.gif" width="200" style="border-radius: 10px;"/>
@@ -53,11 +53,11 @@
   <img src="https://raw.githubusercontent.com/zGravity123/zGravity123/main/images/livestatus.png" alt="Content and Progress" width="100%">
 </p>
 
-| Modulo | Conteudo | Status |
+| Module | Content | Status |
 | :--- | :--- | :--- |
-| /Pascalzim | Algoritmos, logica matematica e estruturas de dados. | Concluido |
-| /C | Automacao, baixo nivel e performance. | Ativo |
-| /Logic | Desafios de logica e exercicios de raciocinio. | Em Progresso |
+| /Pascalzim | Algorithms, mathematical logic, and data structures. | Finished |
+| /C | Automation, low-level programming, and performance. | Active |
+| /Logic | Logic challenges and reasoning exercises. | In Progress |
 
 <br>
 
@@ -88,5 +88,5 @@
 </p>
 
 <p align="center">
-  <sub>Mantido por <a href="https://github.com/zGravity123">Sergio Almeida</a></sub>
+  <sub>Maintained by <a href="https://github.com/zGravity123">Sergio Almeida</a></sub>
 </p>
