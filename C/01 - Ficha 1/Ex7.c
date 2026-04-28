@@ -1,19 +1,14 @@
 #include <stdio.h>
-#include <locale.h>
 
-main()
+main() 
 {
-    setlocale(LC_ALL, "Portuguese");
+    
+    float n1, n2, n3, media;
 
-    int idd;
+    printf("Introduza trÃªs numeros: ");
+    scanf("%f %f %f", &n1, &n2, &n3);
 
-    printf("Introduza a idade de uma pessoa! \n");
-    scanf("%d", &idd);
-    system("cls");
+    media = (n1 + n2 + n3) / 3;
 
-    if (idd >= 18)
-        printf("A pessoa é Adulta!");
-    else
-        printf("A pessoa é Menor!");
-
+    printf("A media dos tres numeros e: %.2f\n", media);
 }
