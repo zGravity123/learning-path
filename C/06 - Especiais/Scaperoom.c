@@ -2,23 +2,24 @@
 #include <stdlib.h>
 #include <locale.h>
 #include <time.h>
+#include <string.h>
 
 main()
 {
     setlocale(LC_ALL, "Portuguese");
 
     char R[50];
-    int hp = 13, moedasdeouro = 0, acertos = 0;
+    int N; // Respostas numéricas
+    int valor, hp = 13, moedasdeouro = 0, acertos = 0;
 
     srand(time(NULL));
 
- // Pergunta 1
+// Pergunta 1
 
-    printf("Entrada na biblioteca\n");
-    printf("Qual � o n�mero at�mico do ouro?\n");
-    scanf("%d", &R);
+    printf("Para entrar, decifre o código: 'Qual é o número atómico do ouro?' \n");
+    scanf("%d", &N);
 
-    if (R == 79)
+    if (N == 79)
     {
         moedasdeouro++;
         acertos++;
@@ -29,12 +30,15 @@ main()
         acertos--;
     }
 
- // Pergunta 2
+// Pergunta 2
+    printf("Sou o início do conhecimento e o fim da ignorância. Quem sou eu? \n");
+    scanf("%s", R);
 
-    printf("Sou o in�cio do conhecimento e o fim da ignor�ncia. Quem sou eu?\n");
-    scanf("%s", &R);
+    strupr(R);
 
-    if (R == 'A')
+    valor = strcmp(R,"A");
+
+    if (valor == 0)
     {
         moedasdeouro++;
         acertos++;
@@ -45,17 +49,19 @@ main()
         acertos--;
     }
 
- // Pergunta 3
+// Pergunta 3
+    printf("À frente estão dois caminhos. O da direita leva a uma sala iluminada; o da esquerda, a uma escadaria sombria. \n");
+    printf("(Escolha: Direita ou Esquerda)\n");
+    scanf("%s", R);
 
-    printf("Direita ou Esquerda?\n");
-    scanf("%d", &R);
+// Pergunta 4
+    printf("Transforma o número 42 no seu equivalente hexadecimal. \n");
+    scanf("%s", R);
 
- // Pergunta 4
+    strupr(R);
+    valor = strcmp(R,"2A");
 
-    printf("Transforma 42 em hexadecimal\n");
-    scanf("%s", &R);
-
-    if (R == '2A')
+    if (valor == 0)
     {
         moedasdeouro++;
         acertos++;
@@ -66,12 +72,11 @@ main()
         acertos--;
     }
 
- // Pergunta 5
+// Pergunta 5
+    printf("Cada degrau tem um número. Multiplique todos os números ímpares de 1 a 9 para descobrir o próximo passo. \n");
+    scanf("%d", &N);
 
-    printf("Multiplique os �mpares de 1 a 9\n");
-    scanf("%d", &R);
-
-    if (R == 945)
+    if (N == 945)
     {
         moedasdeouro++;
         acertos++;
@@ -82,12 +87,14 @@ main()
         acertos--;
     }
 
- // Pergunta 6
+// Pergunta 6
+    printf("Qual é a letra grega correspondente ao número 3? \n");
+    scanf("%s", R);
 
-    printf("Letra grega do n�mero 3?\n");
-    scanf("%s", &R);
+    strupr(R);
+    valor = strcmp(R,"GAMA");
 
-    if (R == 'Gama')
+    if (valor == 0)
     {
         moedasdeouro++;
         acertos++;
@@ -98,12 +105,14 @@ main()
         acertos--;
     }
 
- // Pergunta 7
+// Pergunta 7
+    printf("Combine Hidrogénio e Oxigénio para formar algo vital. \n");
+    scanf("%s", R);
 
-    printf("Hidrog�nio + Oxig�nio = ?\n");
-    scanf("%s", &R);
+    strupr(R);
+    valor = strcmp(R,"H2O");
 
-    if (R == 'H2O')
+    if (valor == 0)
     {
         moedasdeouro++;
         acertos++;
@@ -114,12 +123,11 @@ main()
         acertos--;
     }
 
- // Pergunta 8
+// Pergunta 8
+    printf("Quatro velas iluminam a sala, mas uma apaga-se. Quantas sobram? \n");
+    scanf("%d", &N);
 
-    printf("4 velas, uma apaga-se. Quantas ficam?\n");
-    scanf("%d", &R);
-
-    if (R == 3)
+    if (N == 3)
     {
         moedasdeouro++;
         acertos++;
@@ -130,12 +138,11 @@ main()
         acertos--;
     }
 
- // Pergunta 9
+// Pergunta 9
+    printf("Quantos bits tem um byte? \n");
+    scanf("%d", &N);
 
-    printf("Quantos bits tem um byte?\n");
-    scanf("%d", &R);
-
-    if (R == 8)
+    if (N == 8)
     {
         moedasdeouro++;
         acertos++;
@@ -146,12 +153,11 @@ main()
         acertos--;
     }
 
- // Pergunta 10
+// Pergunta 10
+    printf("Calcula o fatorial de 5 \n");
+    scanf("%d", &N);
 
-    printf("Fatorial de 5?\n");
-    scanf("%d", &R);
-
-    if (R == 120)
+    if (N == 120)
     {
         moedasdeouro++;
         acertos++;
@@ -162,12 +168,11 @@ main()
         acertos--;
     }
 
- // Pergunta 11
+// Pergunta 11
+    printf("Qual é o 7o número da sequência de Fibonacci? \n");
+    scanf("%d", &N);
 
-    printf("7� n�mero de Fibonacci?\n");
-    scanf("%d", &R);
-
-    if (R == 13)
+    if (N == 13)
     {
         moedasdeouro++;
         acertos++;
@@ -178,12 +183,11 @@ main()
         acertos--;
     }
 
- // Pergunta 12
+// Pergunta 12
+    printf("Quantos planetas existem no Sistema Solar? \n");
+    scanf("%d", &N);
 
-    printf("Quantos planetas existem no Sistema Solar?\n");
-    scanf("%d", &R);
-
-    if (R == 8)
+    if (N == 8)
     {
         moedasdeouro++;
         acertos++;
@@ -194,12 +198,15 @@ main()
         acertos--;
     }
 
- // Pergunta 13
+// Pergunta 13
+    printf("Eu sou algo que cresce quanto mais partilhas, mas não sou um objeto físico. \n");
+    printf("Sou a chave para o progresso e a solução para muitos problemas. O que sou? \n");
+    scanf("%s", R);
 
-    printf("O que cresce quando partilhas?\n");
-    scanf("%s", &R);
+    strupr(R);
+    valor = strcmp(R,"CONHECIMENTO");
 
-    if (R == 'Conhecimento')
+    if (valor == 0)
     {
         moedasdeouro++;
         acertos++;
@@ -210,15 +217,14 @@ main()
         acertos--;
     }
 
- ///////////
+///////////
 
     if (hp <= 0)
     {
-        printf("Tu morrereste! HP: %d | Acertos: %d | Moedas: %d\n", hp, acertos, moedasdeouro);
+        printf("Tu morrereste! HP: %d | Acertos: %d | Moedas: %d \n", hp, acertos, moedasdeouro);
     }
     else
     {
-        printf("Dominaste a Bibloteca com sucesso!\nHP: %d | Acertos: %d | Moedas: %d\n", hp, acertos, moedasdeouro);
+        printf("Dominaste a Biblioteca com sucesso!\nHP: %d | Acertos: %d | Moedas: %d \n", hp, acertos, moedasdeouro);
     }
-
 }
