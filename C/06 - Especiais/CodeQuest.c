@@ -12,7 +12,7 @@ main()
     setlocale(LC_ALL, "Portuguese");
     srand(time(NULL));
 
-    for (i = 0; i <= 4; i++) // gera o código secreto
+    for (i = 0; i <= 4; i++) // gera o cÃ³digo secreto
     {
         num[i] = rand() % 10;
     }
@@ -28,12 +28,12 @@ main()
 
         for (i = 0; i <= 4; i++)
         {
-            printf("Adivinhe o dígito %d do código secreto: ", i + 1);
+            printf("Adivinhe o dÃ­gito %d do cÃ³digo secreto: ", i + 1);
             scanf("%d", &resposta[i]);
 
             if (resposta[i] == 707)
             {
-                printf("\033[31m\n O código é: ");
+                printf("\033[31m\n O cÃ³digo Ã©: ");
                 for (j = 0; j <= 4; j++)
                 {
                     printf("%d", num[j]);
@@ -43,7 +43,7 @@ main()
             }
         }
 
-        // verifica posição correta
+        // verifica posiÃ§Ã£o correta
 
         for (i = 0; i <= 4; i++)
         {
@@ -53,16 +53,16 @@ main()
             }
         }
 
-        // Posição diferente
+        // PosiÃ§Ã£o diferente
 
         for (i = 0; i <= 4; i++)
         {
-            if (resposta[i] != num[i]) // Se o número na posição atual [i] n for igual ao numero secreto na mesma posição
+            if (resposta[i] != num[i]) // Se o nÃºmero na posiÃ§Ã£o atual [i] n for igual ao numero secreto na mesma posiÃ§Ã£o
             {
-                for (int j = 0; j <= 4; j++) // Aqui vê o código secreto dnv p procurar o numero
+                for (int j = 0; j <= 4; j++) // Aqui vÃª o cÃ³digo secreto dnv p procurar o numero
                 {
 
-                    if (resposta[i] == num[j]) // Aq verifica: O numero que eu errei a posição existe em ALGUM outro lugar [j] ?
+                    if (resposta[i] == num[j]) // Aq verifica: O numero que eu errei a posiÃ§Ã£o existe em ALGUM outro lugar [j] ?
                     {
                         correto++; // Se sim: (numero certo, lugar errado)
                         break;
@@ -74,19 +74,19 @@ main()
 
          // Dicas
 
-        printf("\n Dica: %d dígitos estão nas posiçoes corretas \n", posicao_certa);
-        printf("\n Dica: %d dígitos corretos em posição diferentes \n\n", correto);
+        printf("\n Dica: %d dÃ­gitos estÃ£o nas posiÃ§oes corretas \n", posicao_certa);
+        printf("\n Dica: %d dÃ­gitos corretos em posiÃ§Ã£o diferentes \n\n", correto);
 
         if (posicao_certa == 5)
         {
-            printf("Parabéns! Conseguiste acertar o código! \n");
+            printf("ParabÃ©ns! Conseguiste acertar o cÃ³digo! \n");
             break;
         }
     }
 
     if (tentativas == max_tentativas)
     {
-        printf("O código secreto era: ");
+        printf("O cÃ³digo secreto era: ");
         for (i = 0; i <= 4; i++)
             printf("%d \n", num[i]);
     }
