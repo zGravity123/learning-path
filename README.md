@@ -56,8 +56,8 @@
 | Module | Content | Status |
 | :--- | :--- | :--- |
 | /Pascalzim | Algorithms, mathematical logic, and data structures. | Finished |
-| /C | Automation, low-level programming, and performance. | Active |
-| /Logic | Logic challenges and reasoning exercises. | In Progress |
+| /C | Automation, low-level programming, and performance. | Finished |
+| /C++ | Logic challenges and reasoning exercises. | Active |
 
 <br>
 
