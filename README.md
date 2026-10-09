@@ -58,6 +58,7 @@
 | /Pascalzim | Algorithms, mathematical logic, and data structures. | Finished |
 | /C | Automation, low-level programming, and performance. | Finished |
 | /C++ | Logic challenges and reasoning exercises. | Active |
+| /HTML & CSS | Web development and markup structure challenges. | Active |
 
 <br>
 
