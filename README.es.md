@@ -30,6 +30,7 @@
   <img src="https://img.shields.io/github/languages/top/zGravity123/learning-path?style=flat-square&color=2196F3" alt="Top Language">
   <img src="https://img.shields.io/github/repo-size/zGravity123/learning-path?style=flat-square&color=2196F3" alt="Repo Size">
   <img src="https://img.shields.io/github/license/zGravity123/learning-path?style=flat-square&color=2196F3" alt="License">
+  <img src="https://api.visitorbadge.io/api/visitors?path=zGravity123.learning-path&label=Vistas&countColor=%232196f3&style=flat-square" alt="Vistas del Proyecto">
 </p>
 
 <br>
