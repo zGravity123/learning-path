@@ -1,6 +1,4 @@
 <h1 align="center">
-  <img src="https://skillicons.dev/icons?i=pascal&theme=dark" width="48" height="48" alt="Pascal" />
-  <br>
   Pascalzim e Logica de Programacao
 </h1>
 

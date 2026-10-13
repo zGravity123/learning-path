@@ -44,7 +44,7 @@
 
 <p align="center">
   <a href="https://skillicons.dev">
-    <img src="https://skillicons.dev/icons?i=pascal,c,cpp,html,css,git,github,vscode,md&theme=dark" alt="Current Stack" />
+    <img src="https://skillicons.dev/icons?i=c,cpp,html,css,git,github,vscode,powershell,bash,windows,md&theme=dark" alt="Tech Stack and Tools" />
   </a>
 </p>
 
