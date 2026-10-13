@@ -1,3 +1,20 @@
+<p align="right">
+  <a href="./README.md"><img src="https://img.shields.io/badge/EN-English-2196F3?style=flat-square" alt="English" /></a>
+  <a href="./README.pt.md"><img src="https://img.shields.io/badge/PT-Portugu%C3%AAs-gray?style=flat-square" alt="Português" /></a>
+  <a href="./README.es.md"><img src="https://img.shields.io/badge/ES-Espa%C3%B1ol-gray?style=flat-square" alt="Español" /></a>
+</p>
+
+<p align="center">
+  <a href="#about-the-project">About</a> &bull;
+  <a href="#tech-stack">Tech Stack</a> &bull;
+  <a href="#content-and-progress">Modules</a> &bull;
+  <a href="#repository-structure">Structure</a> &bull;
+  <a href="#stats">Stats</a> &bull;
+  <a href="#contact">Contact</a>
+</p>
+
+<br>
+
 <p align="center">
   <img src="https://raw.githubusercontent.com/zGravity123/zGravity123/main/images/learningpath.png" alt="Learning Path Banner" width="100%" />
 </p>
@@ -17,6 +34,7 @@
 
 <br>
 
+<span id="about-the-project"></span>
 <p align="center">
   <img src="https://raw.githubusercontent.com/zGravity123/zGravity123/main/images/abouttheproject.png" alt="About the Project" width="100%">
 </p>
@@ -38,6 +56,7 @@
 
 <br>
 
+<span id="tech-stack"></span>
 <p align="center">
   <img src="https://raw.githubusercontent.com/zGravity123/zGravity123/main/images/tech.png" alt="Tech Stack" width="100%">
 </p>
@@ -50,6 +69,7 @@
 
 <br>
 
+<span id="content-and-progress"></span>
 <p align="center">
   <img src="https://raw.githubusercontent.com/zGravity123/zGravity123/main/images/livestatus.png" alt="Content and Progress" width="100%">
 </p>
@@ -63,6 +83,7 @@
 
 <br>
 
+<span id="repository-structure"></span>
 ### Repository Structure
 
 ```plaintext
@@ -87,6 +108,7 @@ learning-path/
 
 <br>
 
+<span id="stats"></span>
 <p align="center">
   <img src="https://raw.githubusercontent.com/zGravity123/zGravity123/main/images/gitstats.png" alt="Stats" width="100%">
 </p>
@@ -97,6 +119,7 @@ learning-path/
 
 <br>
 
+<span id="contact"></span>
 <p align="center">
   <img src="https://raw.githubusercontent.com/zGravity123/zGravity123/main/images/contact.png" alt="Contact" width="100%">
 </p>
