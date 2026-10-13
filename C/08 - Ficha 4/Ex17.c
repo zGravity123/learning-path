@@ -20,7 +20,7 @@ main()
     {
         fscanf(f, "Produto %d: \n", &i);
         fscanf(f, "Nome: %s\n", lista[i].nome);
-        fscanf(f, "Preço: %f\n", &lista[i].preco);
+        fscanf(f, "PreÃ§o: %f\n", &lista[i].preco);
         fscanf(f, "Quantidade: %d\n\n", &lista[i].quantidade);
     }
 
@@ -30,6 +30,6 @@ main()
 
     for (i = 0; i < 5; i++)
     {
-        printf("Produto %d - Nome: %s | Preço: %.2f | Qtd: %d\n", i, lista[i].nome, lista[i].preco, lista[i].quantidade);
+        printf("Produto %d - Nome: %s | PreÃ§o: %.2f | Qtd: %d\n", i, lista[i].nome, lista[i].preco, lista[i].quantidade);
     }
 }

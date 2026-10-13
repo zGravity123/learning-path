@@ -10,9 +10,9 @@ procedure ler_dados;
 procedure contas;
 	Begin
 		if (vv mod 2 = 0) then
-			writeln('É par')
+			writeln('Ã‰ par')
 		else
-			writeln('É impar');	
+			writeln('Ã‰ impar');	
 	end;
 	
 Begin

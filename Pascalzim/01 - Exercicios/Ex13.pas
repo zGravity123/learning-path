@@ -10,6 +10,6 @@ Begin
 
   resultado := pi * (R * R);
 
-  writeln('A área é: ', resultado:0:2);
+  writeln('A Ã¡rea Ã©: ', resultado:0:2);
   readkey;
 End.

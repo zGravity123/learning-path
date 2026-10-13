@@ -22,7 +22,7 @@ var
  procedure resultado;
   Begin
   	textcolor(cyan);
-    writeln('O nome completo é: ',nome1,' ',nome22);
+    writeln('O nome completo Ã©: ',nome1,' ',nome22);
   end;
 
 Begin

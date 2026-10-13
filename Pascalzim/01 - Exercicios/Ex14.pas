@@ -8,6 +8,6 @@ Begin
   readln(teste, trabalho);  
   med:=teste*0.55+trabalho*0.45;
   
-  writeln('A média é: ', med:0:2);
+  writeln('A mÃ©dia Ã©: ', med:0:2);
   readkey;
 End.

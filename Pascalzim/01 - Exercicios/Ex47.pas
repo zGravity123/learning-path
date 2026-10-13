@@ -27,10 +27,10 @@ Begin
 	
 	a1:=random(13);
 	
-	// Operaçao de escolha
+	// OperaÃ§ao de escolha
 	
 	textcolor(Yellow);
-	writeln('Escolha a opçao " 1 " para obter a chave totoloto ou " 2 " para a de euromilhoes');  
+	writeln('Escolha a opÃ§ao " 1 " para obter a chave totoloto ou " 2 " para a de euromilhoes');  
 	readln(E);
 	clrscr;
 	case E of
@@ -39,7 +39,7 @@ Begin
 		writeln(' ----  Chave Totoloto   ---- ');
 		writeln('');
 		writeln('    Numeros: ', t1 ,' ' , t2 ,' ' , t3 ,' ' , t4 ,' ' , t5,' ');
-		writeln('    Nº Da sorte: ', a1);
+		writeln('    NÂº Da sorte: ', a1);
 		writeln('');
 		writeln(' ----                   ---- ');
 	readkey;
@@ -57,7 +57,7 @@ Begin
 		readkey;
 	end;
 	else
-		writeln('Opçao Invalida');
+		writeln('OpÃ§ao Invalida');
 	readkey;
 	
 

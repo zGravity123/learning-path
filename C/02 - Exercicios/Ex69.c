@@ -17,9 +17,9 @@ main()
         printf("Valor do STRCMP %d\n",valor);
 
         if (valor == 0)
-            printf("São Iguais \n");
+            printf("SÃ£o Iguais \n");
         else
-            printf("São Diferentes \n");
+            printf("SÃ£o Diferentes \n");
 }
 
 

@@ -27,6 +27,6 @@ main()
 
     }
 
-    printf("O valor %d é o maior número e está na posição %d. \n",maior,posmaior);
-    printf("O valor %d é o menor número e está na posição %d. \n",menor,posmenor);
+    printf("O valor %d Ã© o maior nÃºmero e estÃ¡ na posiÃ§Ã£o %d. \n",maior,posmaior);
+    printf("O valor %d Ã© o menor nÃºmero e estÃ¡ na posiÃ§Ã£o %d. \n",menor,posmenor);
 }

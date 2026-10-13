@@ -6,7 +6,7 @@ Begin
 
 	writeln('Introduza do lado');
 	readln(L);
-	writeln('A arêa do quadrado inserido é: ', L*L);
+	writeln('A arÃªa do quadrado inserido Ã©: ', L*L);
 	readkey;
 	
 End.

@@ -2,10 +2,10 @@ Program Ex28 ;
 var N:integer;
 Begin
 
-	writeln('Escreva um número');
+	writeln('Escreva um nÃºmero');
 	readln(n);
 	if (n mod 2 = 0) then
-		writeln('O número é par')
+		writeln('O nÃºmero Ã© par')
 	else
 		writeln('Impar');
 	readkey;

@@ -45,9 +45,9 @@ Begin
     end;
 
     
-  writeln('O maior é: ', max);
-  writeln('O menor é: ', min);
-  writeln('O número do meio é: ', a + b + c - max - min);
+  writeln('O maior Ã©: ', max);
+  writeln('O menor Ã©: ', min);
+  writeln('O nÃºmero do meio Ã©: ', a + b + c - max - min);
   
   readkey;
 End.

@@ -20,7 +20,7 @@ main()
         printf("Produto %d: \n", i);
         printf("Introduza o nome: ");
         scanf("%s", lista[i].nome);
-        printf("Introduza o preço: ");
+        printf("Introduza o preÃ§o: ");
         scanf("%f", &lista[i].preco);
         printf("Introduza a quantidade: ");
         scanf("%d", &lista[i].quantidade);
@@ -31,7 +31,7 @@ main()
     {
         printf("Produto %d:\n", i);
         printf("Nome: %s\n", lista[i].nome);
-        printf("Preço: %.2f\n", lista[i].preco);
+        printf("PreÃ§o: %.2f\n", lista[i].preco);
         printf("Quantidade: %d\n\n", lista[i].quantidade);
     }
 }

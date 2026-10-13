@@ -19,7 +19,7 @@ main()
     {
 
 
-        printf("Os numeros têm que ser diferentes");
+        printf("Os numeros tÃªm que ser diferentes");
         goto home;
     }
 

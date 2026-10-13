@@ -26,5 +26,5 @@ main()
     for (int i = 0; i < 7; i++)
         printf("Dia %d: %.2f\n", i, temperaturas[i]);
 
-    printf("\nA temperatura média da semana é: %.2f\n", media);
+    printf("\nA temperatura mÃ©dia da semana Ã©: %.2f\n", media);
 }

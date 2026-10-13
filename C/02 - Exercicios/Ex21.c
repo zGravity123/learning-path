@@ -14,10 +14,10 @@ main ()
     printf("\n");
 
     if (v == 0)
-        printf("O valor é zero");
+        printf("O valor Ã© zero");
     else if (v > 0)
-        printf("O valor é positivo");
+        printf("O valor Ã© positivo");
     else
-        printf("O valor é negativo");
+        printf("O valor Ã© negativo");
 
 }

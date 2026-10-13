@@ -2,7 +2,7 @@ Program Pzim;
 var 
   n: Integer;
 Begin
-   writeln('Digite uma classificação');
+   writeln('Digite uma classificaÃ§Ã£o');
    readln(n);
    
    case n of

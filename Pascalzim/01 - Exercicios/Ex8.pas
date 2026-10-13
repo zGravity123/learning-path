@@ -6,10 +6,10 @@ Begin
 
 	writeln('Introduza dois valores');
 	readln(num1, num2);
-	writeln('A adição do número inserido é: ', num1+num2);
-	writeln('A subtração do número inserido é: ', num1-num2);
-	writeln('A divisão do número inserido é: ', num1/num2);
-	writeln('A multiplicação do número inserido é: ', num1*num2);
+	writeln('A adiÃ§Ã£o do nÃºmero inserido Ã©: ', num1+num2);
+	writeln('A subtraÃ§Ã£o do nÃºmero inserido Ã©: ', num1-num2);
+	writeln('A divisÃ£o do nÃºmero inserido Ã©: ', num1/num2);
+	writeln('A multiplicaÃ§Ã£o do nÃºmero inserido Ã©: ', num1*num2);
 	readkey;
 	
 End.

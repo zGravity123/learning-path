@@ -10,10 +10,10 @@ main()
 
     for (i = 0; i < 15; i++)
     {
-        printf("Introduza o número %d: ", i);
+        printf("Introduza o nÃºmero %d: ", i);
         scanf("%d", &numeros[i]);
         soma = soma + numeros[i];
     }
 
-    printf("A soma dos números introduzidos é: %d\n", soma);
+    printf("A soma dos nÃºmeros introduzidos Ã©: %d\n", soma);
 }

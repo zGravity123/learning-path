@@ -14,7 +14,7 @@ var teste,trabalho,media:real;
  var media:real;
   Begin
   	media := teste * 0.60 + trabalho * 0.40;
-  	writeln('A media é: ',media:0:2);
+  	writeln('A media Ã©: ',media:0:2);
   end;
 
 Begin

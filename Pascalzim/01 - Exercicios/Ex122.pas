@@ -17,7 +17,7 @@ Begin
 	readln(valor);
 	 
 	if par(valor) = true then
-	 writeln('O valor é Par!')
+	 writeln('O valor Ã© Par!')
 	 	else
-	 		writeln('O valor é impar');
+	 		writeln('O valor Ã© impar');
 End.

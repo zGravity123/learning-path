@@ -32,6 +32,6 @@ Begin
 	if (P1.idade =  P2.idade) then
 		writeln('A pessoas tem a mesma idade! ');
 	
-	writeln('Média da altura é ', (P1.altura+P2.altura)/2:0:2);
+	writeln('MÃ©dia da altura Ã© ', (P1.altura+P2.altura)/2:0:2);
   
 End.

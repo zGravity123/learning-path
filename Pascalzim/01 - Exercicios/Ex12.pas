@@ -1,13 +1,13 @@
 Program Ex12;
 
-Var Resultado, R: real; // DeclaraÁ„o das vari·veis: R para o raio
+Var Resultado, R: real; // Declara√ß√£o das vari√°veis: R para o raio
 
 Begin
   writeln('Introduza o Raio');
   readln(R); 
 
-  resultado := 3.1416 * (R * R); // Calcula a ·rea
+  resultado := 3.1416 * (R * R); // Calcula a √°rea
 
-  writeln('A ·rea È: ', resultado:0:2); 
+  writeln('A √°rea √©: ', resultado:0:2); 
   readkey; 
 End.

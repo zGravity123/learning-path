@@ -1,4 +1,4 @@
-//( aproveitmmos o ex99, informamos qual o valor max e min, e indicamento a posiçao dele
+//( aproveitmmos o ex99, informamos qual o valor max e min, e indicamento a posiÃ§ao dele
 Program Ex100 ;
 var vet:array[1..50] of integer;
 		posicao1,posicao,i,min,max:integer;
@@ -25,7 +25,7 @@ randomize;
 		 end;
 	 end;
 
-	writeln('O min é ',min,' (posição: ', posicao1, ') e o max é ',max,' (posição: ', posicao,')');
+	writeln('O min Ã© ',min,' (posiÃ§Ã£o: ', posicao1, ') e o max Ã© ',max,' (posiÃ§Ã£o: ', posicao,')');
  
   readkey;
  

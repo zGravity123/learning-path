@@ -1,0 +1,23 @@
+table {
+    border-collapse: collapse;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+th {
+    background-color: lightblue;
+}
+
+th,
+td {
+    border: 1.4px solid navy;
+    padding: 8px;
+}
+
+caption,
+th {
+    font-weight: bold;
+}
+
+.avi {
+    background-color: yellow;
+}

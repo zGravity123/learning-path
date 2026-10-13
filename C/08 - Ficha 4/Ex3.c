@@ -7,7 +7,7 @@ main()
 
     for (int i = 0; i < 10; i++)
     {
-        printf("Digite o número %d: ", i + 1);
+        printf("Digite o nÃºmero %d: ", i + 1);
         scanf("%d", &numeros[i]);
     }
 
@@ -22,6 +22,6 @@ main()
             menor = numeros[i];
     }
 
-    printf("O maior número é: %d\n", maior);
-    printf("O menor número é: %d\n", menor);
+    printf("O maior nÃºmero Ã©: %d\n", maior);
+    printf("O menor nÃºmero Ã©: %d\n", menor);
 }

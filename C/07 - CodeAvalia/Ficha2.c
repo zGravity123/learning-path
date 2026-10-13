@@ -9,7 +9,7 @@ main()
 
     for (i=1; i<=5; i++)
     {
-    printf("Introduza o %dº número: \n",i);
+    printf("Introduza o %dÂº nÃºmero: \n",i);
     scanf("%d",&num);
     soma = num + soma;
     if (num>0)
@@ -18,6 +18,6 @@ main()
 
     system("cls");
     printf("Soma: %d\n",soma);
-    printf("Quantidade de números positivos: %d",posi);
+    printf("Quantidade de nÃºmeros positivos: %d",posi);
 
 }

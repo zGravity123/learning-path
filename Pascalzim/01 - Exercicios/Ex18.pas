@@ -13,7 +13,7 @@ Begin
 	writeln('Quanto custa o produto?');
 	readln(P);
 	P:= p*0.23+p;
-	writeln('O preço do produto com iva é: ', P:0:2);
+	writeln('O preÃ§o do produto com iva Ã©: ', P:0:2);
 	readkey;
 		
   

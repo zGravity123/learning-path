@@ -10,7 +10,7 @@ Begin
   clrscr;
   textcolor(Cyan);
 	
-	writeln('Digite dois n˙meros');
+	writeln('Digite dois n√∫meros');
 	readln(a,b);
 	
 	
@@ -35,7 +35,7 @@ Begin
   	end;
 	
 	if a = b then
-		writeln('Ambos os n˙meros s„o iguais, n„o foi possivel fazer o c·lculo');
+		writeln('Ambos os n√∫meros s√£o iguais, n√£o foi possivel fazer o c√°lculo');
 		writeln('Minimo: ', min);
 		writeln('Maximo: ', max);
 		writeln('Soma: ',soma);
@@ -49,7 +49,7 @@ Begin
 	
 	
 	
-	writeln('Pressione "A" se quiser reniciar o progama, caso n„o pressine "B"');
+	writeln('Pressione "A" se quiser reniciar o progama, caso n√£o pressine "B"');
 	readln(op);
 	
 	if (op = 'A') then

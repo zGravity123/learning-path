@@ -27,7 +27,7 @@ main()
     fclose(fp);
     printf("Vai entrar o sleep \n");
     sleep(2);
-    printf("Soma dos valores é %d \n",soma);
-    printf("Média dos valores é %.2f \n",soma/(float)100);
+    printf("Soma dos valores Ã© %d \n",soma);
+    printf("MÃ©dia dos valores Ã© %.2f \n",soma/(float)100);
 
 }

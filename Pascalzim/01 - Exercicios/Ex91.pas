@@ -10,7 +10,7 @@ Begin
   clrscr;
   textcolor(Cyan);
 	
-	writeln('Digite quantas pessoas s„o');
+	writeln('Digite quantas pessoas s√£o');
 	readln(pps);
 	
 	casados:= 0;
@@ -50,7 +50,7 @@ Begin
 	
 	 clrscr;		
 	 writeln('Existem ',casados,' casados, ', viuvos, ' viuvos, ',divorciados, ' divorciados e ',solteiros, ' solteiros');
-	 writeln('A media das idade È: ', med/pps:2:0);
+	 writeln('A media das idade √©: ', med/pps:2:0);
 	 readkey;
 	
 	
@@ -59,7 +59,7 @@ Begin
 	
 	
 	clrscr;
-	writeln('Pressione "A" se quiser reniciar o progama, caso n„o pressine "B"');
+	writeln('Pressione "A" se quiser reniciar o progama, caso n√£o pressine "B"');
 	readln(op);
 	
 	if (op = 'A') then

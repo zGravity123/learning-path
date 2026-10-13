@@ -9,7 +9,7 @@ void pedirnome()
 {
     system("cls");
     printf("\n");
-    printf("BOT: Ol·! Como eu posso te chamar? \n");
+    printf("BOT: Ol√°! Como eu posso te chamar? \n");
     printf("\nIntroduza o seu nome: ");
     scanf("%s",&nome);
     system("pause");
@@ -20,7 +20,7 @@ void mostrarBoasVindas()
     cont++;
     system("cls");
     printf("\n");
-    printf("BOT: Ol·,%s. Eu sou o assistente virtual do Curso de TGPSI.\n",nome);
+    printf("BOT: Ol√°,%s. Eu sou o assistente virtual do Curso de TGPSI.\n",nome);
     printf("BOT: Estou aqui para ajudar a conhecer melhor o curso.\n");
     system("pause");
 }
@@ -29,8 +29,8 @@ void falarSobreCurso()
 {
     cont++;
     system("cls");
-    printf("\n === O QUE … O CURSO TGPSI? === \n\n");
-    printf("O curso de TÈcnico de Gest„o e ProgramaÁ„o de Sistemas Inform·ticos (TGPSI) È um curso de dupla certificaÁ„o, equivalente ao 12.∫ ano, focado no ambiente digital. O objetivo principal È formar profissionais capazes de criar soluÁıes de software, gerir bases de dados, configurar redes de computadores e garantir a seguranÁa de sistemas inform·ticos.\n");
+    printf("\n === O QUE √â O CURSO TGPSI? === \n\n");
+    printf("O curso de T√©cnico de Gest√£o e Programa√ß√£o de Sistemas Inform√°ticos (TGPSI) √© um curso de dupla certifica√ß√£o, equivalente ao 12.¬∫ ano, focado no ambiente digital. O objetivo principal √© formar profissionais capazes de criar solu√ß√µes de software, gerir bases de dados, configurar redes de computadores e garantir a seguran√ßa de sistemas inform√°ticos.\n");
     system("pause");
 }
 
@@ -41,13 +41,13 @@ void falarSobreConteudos()
     while (opSub != 5)
     {
         system("cls");
-        printf("\nBOT: Queres saber mais sobre que ·rea?\n\n");
-        printf("  1 - ProgramaÁ„o\n");
+        printf("\nBOT: Queres saber mais sobre que √°rea?\n\n");
+        printf("  1 - Programa√ß√£o\n");
         printf("  2 - Bases de Dados\n");
         printf("  3 - Desenvolvimento Web\n");
         printf("  4 - Redes\n");
         printf("  5 - Voltar ao menu principal\n");
-        printf("\nEscolhe uma opÁ„o: ");
+        printf("\nEscolhe uma op√ß√£o: ");
         scanf("%d", &opSub);
         printf("\n");
 
@@ -56,29 +56,29 @@ void falarSobreConteudos()
         {
             case 1:
                 cont++;
-                printf("BOT: Na ·rea de ProgramaÁ„o vais aprender a criar algoritmos, utilizar linguagens de programaÁ„o (como C, C++ ou Python) e resolver problemas do dia a dia atravÈs de cÛdigo estruturado. \n\n");
+                printf("BOT: Na √°rea de Programa√ß√£o vais aprender a criar algoritmos, utilizar linguagens de programa√ß√£o (como C, C++ ou Python) e resolver problemas do dia a dia atrav√©s de c√≥digo estruturado. \n\n");
                 system("pause");
                 break;
             case 2:
                 cont++;
-                printf("BOT: Na ·rea de Bases de Dados vais aprender a estruturar, organizar e armazenar informaÁ„o de forma segura. Vais dominar a linguagem SQL para criar e gerir tabelas de dados que servem de suporte a aplicaÁıes e sites. \n\n");
+                printf("BOT: Na √°rea de Bases de Dados vais aprender a estruturar, organizar e armazenar informa√ß√£o de forma segura. Vais dominar a linguagem SQL para criar e gerir tabelas de dados que servem de suporte a aplica√ß√µes e sites. \n\n");
                 system("pause");
                 break;
             case 3:
                 cont++;
-                printf("BOT: Na ·rea de Desenvolvimento Web vais aprender a construir sites e aplicaÁıes para a internet. Vais trabalhar o visual com HTML e CSS, a interatividade com JavaScript e a lÛgica do servidor com linguagens como PHP. \n\n");
+                printf("BOT: Na √°rea de Desenvolvimento Web vais aprender a construir sites e aplica√ß√µes para a internet. Vais trabalhar o visual com HTML e CSS, a interatividade com JavaScript e a l√≥gica do servidor com linguagens como PHP. \n\n");
                 system("pause");
                 break;
             case 4:
                 cont++;
-                printf("BOT: Na ·rea de Redes vais perceber como os computadores e dispositivos comunicam entre si. Vais aprender a configurar redes locais, gerir routers e switches, e garantir a seguranÁa na partilha de dados. \n\n");
+                printf("BOT: Na √°rea de Redes vais perceber como os computadores e dispositivos comunicam entre si. Vais aprender a configurar redes locais, gerir routers e switches, e garantir a seguran√ßa na partilha de dados. \n\n");
                 system("pause");
                 break;
             case 5:
                 printf("BOT: A voltar ao menu principal...\n");
                 break;
             default:
-                printf("OpÁ„o inv·lida!\n\n");
+                printf("Op√ß√£o inv√°lida!\n\n");
                 system("pause");
         }
     }
@@ -88,10 +88,10 @@ void falarSobreProjetos()
 {
     system("cls");
     printf("\n === PROJETOS QUE PODES DESENVOLVER === \n\n");
-    printf("Ao longo do curso, s„o desenvolvidos projetos pr·ticos aplicados a cen·rios reais, tais como:\n\n");
-    printf("  - AplicaÁıes de Gest„o: Softwares para controlo de stock, faturaÁ„o ou registo de utilizadores.\n");
+    printf("Ao longo do curso, s√£o desenvolvidos projetos pr√°ticos aplicados a cen√°rios reais, tais como:\n\n");
+    printf("  - Aplica√ß√µes de Gest√£o: Softwares para controlo de stock, fatura√ß√£o ou registo de utilizadores.\n");
     printf("  - Jogos Interativos: Desenvolvimento de jogos digitais em 2D ou 3D.\n");
-    printf("  - Projeto de Aptid„o Profissional (PAP): No ˙ltimo ano, o aluno desenvolve um arquivo de projeto final individual e inovador para apresentaÁ„o a um j˙ri de especialistas.\n");
+    printf("  - Projeto de Aptid√£o Profissional (PAP): No √∫ltimo ano, o aluno desenvolve um arquivo de projeto final individual e inovador para apresenta√ß√£o a um j√∫ri de especialistas.\n");
     system("pause");
 }
 
@@ -99,14 +99,14 @@ void falarSobreSaidasProfissionais()
 {
     cont++;
     system("cls");
-    printf("\n === SAÕDAS PROFISSIONAIS === \n\n");
-    printf("O setor tecnolÛgico apresenta uma elevada taxa de empregabilidade. ApÛs a conclus„o do curso, È possÌvel atuar como:\n\n");
+    printf("\n === SA√çDAS PROFISSIONAIS === \n\n");
+    printf("O setor tecnol√≥gico apresenta uma elevada taxa de empregabilidade. Ap√≥s a conclus√£o do curso, √© poss√≠vel atuar como:\n\n");
     printf("  - Programador / Desenvolvedor de Software (Desktop e Mobile)\n");
-    printf("  - Web Developer (CriaÁ„o e manutenÁ„o de plataformas web)\n");
-    printf("  - TÈcnico de Suporte Inform·tico (Helpdesk e manutenÁ„o de hardware)\n");
+    printf("  - Web Developer (Cria√ß√£o e manuten√ß√£o de plataformas web)\n");
+    printf("  - T√©cnico de Suporte Inform√°tico (Helpdesk e manuten√ß√£o de hardware)\n");
     printf("  - Administrador de Bases de Dados\n");
-    printf("  - TÈcnico de Gest„o e ConfiguraÁ„o de Redes Inform·ticas\n\n");
-    printf("Nota: O curso tambÈm garante a preparaÁ„o necess·ria para prosseguir estudos no Ensino Superior, nomeadamente em Engenharia Inform·tica.\n");
+    printf("  - T√©cnico de Gest√£o e Configura√ß√£o de Redes Inform√°ticas\n\n");
+    printf("Nota: O curso tamb√©m garante a prepara√ß√£o necess√°ria para prosseguir estudos no Ensino Superior, nomeadamente em Engenharia Inform√°tica.\n");
     system("pause");
 }
 
@@ -114,11 +114,11 @@ void falarSobreMatriculas()
 {
     cont++;
     system("cls");
-    printf("\n=== MATRÕCULAS E INFORMA«’ES ===\n\n");
-    printf("As inscriÁıes para o curso de TGPSI obedecem ‡s seguintes condiÁıes gerais:\n\n");
-    printf("  - Requisitos: Conclus„o do 9.∫ ano de escolaridade e idade inferior a 20 anos.\n");
-    printf("  - Procedimento: A matrÌcula pode ser realizada presencialmente na secretaria da instituiÁ„o ou atravÈs do portal online oficial de matrÌculas.\n");
-    printf("  - Apoios: Por se tratar de um curso profissional, os alunos elegÌveis tÍm direito a subsÌdio de transporte e subsÌdio de alimentaÁ„o.\n");
+    printf("\n=== MATR√çCULAS E INFORMA√á√ïES ===\n\n");
+    printf("As inscri√ß√µes para o curso de TGPSI obedecem √†s seguintes condi√ß√µes gerais:\n\n");
+    printf("  - Requisitos: Conclus√£o do 9.¬∫ ano de escolaridade e idade inferior a 20 anos.\n");
+    printf("  - Procedimento: A matr√≠cula pode ser realizada presencialmente na secretaria da institui√ß√£o ou atrav√©s do portal online oficial de matr√≠culas.\n");
+    printf("  - Apoios: Por se tratar de um curso profissional, os alunos eleg√≠veis t√™m direito a subs√≠dio de transporte e subs√≠dio de alimenta√ß√£o.\n");
     system("pause");
 }
 
@@ -132,16 +132,16 @@ void mostrarDespedida()
 
     if (nota <=2)
     {
-        printf("BOT: PeÁo desculpas por n„o ter gostado da experiencia e agradeÁomos o interesse no curso de TGPSI\n");
-        printf("O assistente virtual est· disponÌvel para esclarecer novas d˙vidas. AtÈ depois %s!\n",nome);
+        printf("BOT: Pe√ßo desculpas por n√£o ter gostado da experiencia e agrade√ßomos o interesse no curso de TGPSI\n");
+        printf("O assistente virtual est√° dispon√≠vel para esclarecer novas d√∫vidas. At√© depois %s!\n",nome);
     }
     else if (nota >= 3)
     {
-        printf("BOT: AgradeÁomos o interesse no curso de TGPSI\n");
-        printf("O assistente virtual est· disponÌvel para esclarecer novas d˙vidas. AtÈ depois %s!\n",nome);
+        printf("BOT: Agrade√ßomos o interesse no curso de TGPSI\n");
+        printf("O assistente virtual est√° dispon√≠vel para esclarecer novas d√∫vidas. At√© depois %s!\n",nome);
     }
     else
-        printf("Nota invalida! N„o pode ser 0 ou superior a 5.");
+        printf("Nota invalida! N√£o pode ser 0 ou superior a 5.");
 
 }
 
@@ -151,14 +151,14 @@ void mostrarMenuPrincipal()
     printf("\n=========================================\n");
     printf("        CHATBOT DO CURSO TGPSI \n");
     printf("=========================================\n");
-    printf("\nEscolha uma opÁ„o abaixo:\n");
-    printf("  1 - O que È o curso TGPSI?\n");
-    printf("  2 - Que conte˙dos s„o ministrados no curso?\n");
+    printf("\nEscolha uma op√ß√£o abaixo:\n");
+    printf("  1 - O que √© o curso TGPSI?\n");
+    printf("  2 - Que conte√∫dos s√£o ministrados no curso?\n");
     printf("  3 - Que projetos podem ser desenvolvidos?\n");
-    printf("  4 - SaÌdas Profissionais\n");
-    printf("  5 - MatrÌculas e informaÁıes\n");
+    printf("  4 - Sa√≠das Profissionais\n");
+    printf("  5 - Matr√≠culas e informa√ß√µes\n");
     printf("  6 - Sair\n");
-    printf("\n OpÁ„o: ");
+    printf("\n Op√ß√£o: ");
     scanf("%d", &op);
 
     switch (op)
@@ -169,7 +169,7 @@ void mostrarMenuPrincipal()
         case 4: falarSobreSaidasProfissionais(); break;
         case 5: falarSobreMatriculas(); break;
         case 6: mostrarDespedida(); break;
-        default: printf("\n OpÁ„o inv·lida!");
+        default: printf("\n Op√ß√£o inv√°lida!");
     }
 }
 

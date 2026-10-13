@@ -11,12 +11,12 @@ main()
 
     for (i = 0; i < 12; i++)
     {
-        printf("Introduza o número %d: ", i);
+        printf("Introduza o nÃºmero %d: ", i);
         scanf("%f", &numeros[i]);
         soma = soma + numeros[i];
     }
 
     med = soma / 12;
 
-    printf("A méed dos números introduzidos é: %.2f\n", med);
+    printf("A mÃ©ed dos nÃºmeros introduzidos Ã©: %.2f\n", med);
 }

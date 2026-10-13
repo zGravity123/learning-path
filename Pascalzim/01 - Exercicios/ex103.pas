@@ -68,9 +68,9 @@ Begin
   writeln('');
   writeln(m, ' Pessoas do genero Masculino');
   writeln(f, ' Pessoas do genero Feminino');
-  writeln('A pessoa mais velha é ', maxn);
-  writeln('A pessoa mais nova é ', minn);
-  writeln('A media das idades é ', media:2:0);
+  writeln('A pessoa mais velha Ã© ', maxn);
+  writeln('A pessoa mais nova Ã© ', minn);
+  writeln('A media das idades Ã© ', media:2:0);
   writeln('');
   writeln('--------- INFOS -----------');
 

@@ -1,7 +1,7 @@
 Program Ex3 ;
 Begin
 
-  write('Sérgio Almeida');
+  write('SÃ©rgio Almeida');
   readkey;
   
 End.

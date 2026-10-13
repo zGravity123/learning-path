@@ -13,7 +13,7 @@ main()
 
    for (i = 0; i < 5; i++)
    {
-       printf("Introduza o salário do funcionario #%d: ", i);
+       printf("Introduza o salÃ¡rio do funcionario #%d: ", i);
        scanf("%d", &salario[i]);
 
        novosalario[i] = salario[i] - (salario[i] * 0.15);

@@ -10,13 +10,13 @@ main()
 
    setlocale(LC_ALL, "Portuguese");
 
-   printf("Introduza um número inteiro não positivo: ");
+   printf("Introduza um nÃºmero inteiro nÃ£o positivo: ");
    scanf("%d",&num);
 
    for (i = 1; i <= num; i++)
    {
         fatorial *= i;
 
-        printf("Fatorial de %d é: %d\n", num, fatorial);
+        printf("Fatorial de %d Ã©: %d\n", num, fatorial);
    }
 }

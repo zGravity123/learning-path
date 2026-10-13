@@ -26,9 +26,9 @@ begin
   volume := 3.14 * (base * base) * altura;
 
   clrscr;
-  writeln('O volume È: ', volume:2:0); 
+  writeln('O volume √©: ', volume:2:0); 
 
-  writeln('Pressione "A" se quiser reiniciar o programa, caso n„o, pressione "B"');
+  writeln('Pressione "A" se quiser reiniciar o programa, caso n√£o, pressione "B"');
   readln(op);
 
   if (op = 'A') then

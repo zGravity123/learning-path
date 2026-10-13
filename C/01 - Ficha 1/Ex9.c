@@ -8,9 +8,9 @@ main()
 
     int v;
 
-    printf("Introduza um número! \n");
+    printf("Introduza um nÃºmero! \n");
     scanf("%d",&v);
     system("cls");
-    printf("O quadrado do número inserido é: %d",v*v);
+    printf("O quadrado do nÃºmero inserido Ã©: %d",v*v);
 
 }

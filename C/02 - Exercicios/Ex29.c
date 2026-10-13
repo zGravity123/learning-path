@@ -15,6 +15,6 @@ main()
 
     system("cls");
 
-    printf("A frase em maisculas é %s \n",strupr(frase));
+    printf("A frase em maisculas Ã© %s \n",strupr(frase));
 
 }

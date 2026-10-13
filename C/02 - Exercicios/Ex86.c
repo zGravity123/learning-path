@@ -13,7 +13,7 @@ main()
     for (i = 0; i < 3; i++) {
         for (j = 0; j < 3; j++) {
             system("cls");
-            printf("Posição [%d][%d]: \n", i, j);
+            printf("PosiÃ§Ã£o [%d][%d]: \n", i, j);
             scanf("%d", &matriz[i][j]);
         }
     }

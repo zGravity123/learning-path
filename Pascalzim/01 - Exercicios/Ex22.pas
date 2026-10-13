@@ -16,7 +16,7 @@ Begin
 	
 	euros:= v*0.8613560;
 	
-	writeln('São ', euros:0:2, ' euros');
+	writeln('SÃ£o ', euros:0:2, ' euros');
 	readkey;
 		
   

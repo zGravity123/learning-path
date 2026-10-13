@@ -5,7 +5,7 @@ Begin
  for n:=1 to m do
 	begin
 		m:=4;
-	writeln(m);     // Escreve o número '4' quatro vezes
+	writeln(m);     // Escreve o nÃºmero '4' quatro vezes
 	end;
 	readkey;
 End.

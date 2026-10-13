@@ -16,8 +16,8 @@ Begin
 				contaimpar:= contaimpar + 1 
   	end;
   	
-  		writeln(contapar, ' Números pares');
-  		writeln(contaimpar, ' Números impares');
+  		writeln(contapar, ' NÃºmeros pares');
+  		writeln(contaimpar, ' NÃºmeros impares');
   		readkey;
   
   

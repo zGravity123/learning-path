@@ -10,7 +10,7 @@ main()
 
     for (int i = 0; i < 10; i++)
     {
-        printf("Número %d: \n", i);
+        printf("NÃºmero %d: \n", i);
         printf("Introduza o valor: ");
         scanf("%d", &numeros[i]);
         printf("\n");
@@ -19,5 +19,5 @@ main()
     for (int i = 0; i < 10; i++)
         soma = soma + numeros[i];
 
-    printf("A soma dos números é: %d\n", soma);
+    printf("A soma dos nÃºmeros Ã©: %d\n", soma);
 }

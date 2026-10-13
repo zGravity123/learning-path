@@ -35,5 +35,5 @@ Begin
 	
 	med := (J1.Pontos + J2.Pontos + J3.Pontos)/3;
 		
-	writeln('A media dos pontos marcado é ',med:0:2);
+	writeln('A media dos pontos marcado Ã© ',med:0:2);
 End.

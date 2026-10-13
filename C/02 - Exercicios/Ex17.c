@@ -15,5 +15,5 @@ main ()
     scanf("%d",&h);
     system("cls");
 
-    printf("A area do triangulo é: %.2f", (b*h)/(float)2);
+    printf("A area do triangulo Ã©: %.2f", (b*h)/(float)2);
 }

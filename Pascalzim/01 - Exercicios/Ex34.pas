@@ -44,8 +44,8 @@ Begin
         min := a;
     end;
     
-  writeln('O maior é: ', max);
-  writeln('O menor é: ', min);
+  writeln('O maior Ã©: ', max);
+  writeln('O menor Ã©: ', min);
   
   readkey;
 End.

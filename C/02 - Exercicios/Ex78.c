@@ -4,7 +4,7 @@
 
 main()
 {
-    char s[100], s1[100] = "Sérgio Almeida";
+    char s[100], s1[100] = "SÃ©rgio Almeida";
     FILE *fp;
 
     setlocale(LC_ALL, "Portuguese");

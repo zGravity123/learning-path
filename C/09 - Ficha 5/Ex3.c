@@ -12,7 +12,7 @@ main()
 
     for (i = 0; i < 10; i++)
     {
-        printf("Introduza o número %d: ", i);
+        printf("Introduza o nÃºmero %d: ", i);
         scanf("%d", &numeros[i]);
 
         if (numeros[i] > maior)
@@ -34,6 +34,6 @@ main()
             segundo_menor = numeros[i];
     }
 
-    printf("O segundo menor valor é: %d\n", segundo_menor);
-    printf("O segundo maior valor é: %d\n", segundo_maior);
+    printf("O segundo menor valor Ã©: %d\n", segundo_menor);
+    printf("O segundo maior valor Ã©: %d\n", segundo_maior);
 }

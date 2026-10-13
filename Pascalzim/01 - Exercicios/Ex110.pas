@@ -11,10 +11,10 @@ Begin
 	
 	lerdados;
 	
-	writeln('O número introduzido pelo procedimento foi ',num);
+	writeln('O nÃºmero introduzido pelo procedimento foi ',num);
 	
 	num := num * 2;
 	
-	writeln('O número introduzido e manipulado é ',num);
+	writeln('O nÃºmero introduzido e manipulado Ã© ',num);
   
 End.

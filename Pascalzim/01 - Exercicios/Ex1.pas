@@ -1,6 +1,6 @@
 Program Ex1 ;
 Begin
 
-  write('Ol· Mundo!');
+  write('Ol√° Mundo!');
   
 End.

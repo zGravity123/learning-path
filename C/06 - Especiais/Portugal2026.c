@@ -395,7 +395,7 @@ void verResumoPortugal(void)
         else if (p->pontos == 6 && p->jogados == 2)
             printf("  Portugal ja esta matematicamente apurado para os oitavos de final!\n");
         else if (p->pontos >= 6 && p->jogados == 3)
-            printf("  Portugal apurado para os oitavos de final com distinção!\n");
+            printf("  Portugal apurado para os oitavos de final com distinÃ§Ã£o!\n");
         else if (p->pontos >= 4 && p->jogados == 3)
             printf("  Portugal apurado para os oitavos de final!\n");
         else if (p->pontos < 4 && p->jogados == 3)

@@ -8,7 +8,7 @@ Begin
 	
 	a:=random(5);
 
-	writeln('Introduza um número de 0 - 5');
+	writeln('Introduza um nÃºmero de 0 - 5');
 	readln(n);
 	
 		if (a = n) then

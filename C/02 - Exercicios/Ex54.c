@@ -11,9 +11,9 @@ main()
     printf("Introduza uma String \n");
     scanf("%s",&origem);
 
-    printf("O resultado da função de Strlen é %d \n",strlen(origem)); // Conta os números
-    printf("O resultado da função de Strlwr é %s \n",strlwr(origem)); // Deixa em minusculas
-    printf("O resultado da função de Strupr é %s \n",strupr(origem)); // Deixa em maisuculas
+    printf("O resultado da funÃ§Ã£o de Strlen Ã© %d \n",strlen(origem)); // Conta os nÃºmeros
+    printf("O resultado da funÃ§Ã£o de Strlwr Ã© %s \n",strlwr(origem)); // Deixa em minusculas
+    printf("O resultado da funÃ§Ã£o de Strupr Ã© %s \n",strupr(origem)); // Deixa em maisuculas
 
     printf("\n");
 

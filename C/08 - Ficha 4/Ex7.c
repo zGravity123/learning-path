@@ -33,7 +33,7 @@ main()
     {
         med = (alunos[i].nota1 + alunos[i].nota2) / 2;
         printf("Aluno: %s\n", alunos[i].nome);
-        printf("Média: %.2f\n", med);
+        printf("MÃ©dia: %.2f\n", med);
         printf("---------------------\n");
     }
 

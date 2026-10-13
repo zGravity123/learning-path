@@ -12,19 +12,19 @@ TextColor(Yellow);
   TextColor(White);
   
   ////////////////////////////////////////////////////////////////////////////////////////////
-	writeln('Escreva um número');
+	writeln('Escreva um nÃºmero');
 	readln(n);
 	if (n mod 5 = 0) then
 	
 	
 		Begin
 	textcolor(Green);
-		writeln('É multiplo de 5')
+		writeln('Ã‰ multiplo de 5')
 	End
 		else
 	Begin 
 		textcolor(Red);
-		writeln('Nao é multiplo de 5');
+		writeln('Nao Ã© multiplo de 5');
 	End;
 	readkey;
 

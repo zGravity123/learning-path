@@ -26,9 +26,9 @@ Begin
   	media:= (T * 0.4) + (Tr * 0.4) + (O * 0.2);
   	
   	if (media >= 9.5) then
-  		writeln('Aprovado! A sua media é: ', media:0:1);
+  		writeln('Aprovado! A sua media Ã©: ', media:0:1);
   	if (media <= 9.5) then
-  		writeln('Reprovado! A sua media é: ', media:0:1);
+  		writeln('Reprovado! A sua media Ã©: ', media:0:1);
 				
   	
   readkey;	

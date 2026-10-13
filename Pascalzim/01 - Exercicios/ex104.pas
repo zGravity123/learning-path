@@ -20,15 +20,15 @@ Begin
         readln(nome[i]);
         clrscr;
         
-        writeln('Digite a quantidade disponÌvel (#',i,')');
+        writeln('Digite a quantidade dispon√≠vel (#',i,')');
         readln(qtd[i]);
         clrscr;
 
-        writeln('Digite a quantidade mÌnima necess·ria no estoque (#',i,')');
+        writeln('Digite a quantidade m√≠nima necess√°ria no estoque (#',i,')');
         readln(qtm[i]);
         clrscr;
 
-        writeln('Digite o preÁo unit·rio (#',i,')');
+        writeln('Digite o pre√ßo unit√°rio (#',i,')');
         readln(pcu[i]);
         clrscr;
     end;
@@ -53,12 +53,12 @@ Begin
 
         if produtoIndex = -1 then
         begin
-            writeln('Produto n„o encontrado!');
+            writeln('Produto n√£o encontrado!');
             clrscr;
         end;
         
         if qtd[produtoIndex] <= qtm[produtoIndex] then
-            writeln('… necess·rio realizar uma nova encomenda para garantir a quantidade mÌnima de estoque')
+            writeln('√â necess√°rio realizar uma nova encomenda para garantir a quantidade m√≠nima de estoque')
         else
         begin
         		clrscr;
@@ -67,24 +67,24 @@ Begin
 
 
             if qtd[produtoIndex] < qntpedido then
-                writeln('Quantidade insuficiente no estoque. O m·ximo disponÌvel È ', qtd[produtoIndex])
+                writeln('Quantidade insuficiente no estoque. O m√°ximo dispon√≠vel √© ', qtd[produtoIndex])
                 
             else
             begin
                 
                 total := pcu[produtoIndex] * qntpedido;
                 clrscr;
-                writeln('O preÁo do produto È de $$ ', total:0:2);
+                writeln('O pre√ßo do produto √© de $$ ', total:0:2);
 								writeln('');
                 writeln('Deseja prosseguir?');
-                writeln('[S]im ou [N]„o');
+                writeln('[S]im ou [N]√£o');
                 readln(prosseguir);
 
                 if (prosseguir = 'S') or (prosseguir = 's') then
                 begin
                     qtd[produtoIndex] := qtd[produtoIndex] - qntpedido;
                     clrscr;
-                    writeln('Produto comprado! O ID dele È: ', random(10743));
+                    writeln('Produto comprado! O ID dele √©: ', random(10743));
                     writeln('Estoque atualizado: ', qtd[produtoIndex], ' unidades restantes.');
                 end
                 else
@@ -92,7 +92,7 @@ Begin
             end;
         end;
 
-        writeln('Deseja realizar outra compra? [S]im / [N]„o');
+        writeln('Deseja realizar outra compra? [S]im / [N]√£o');
         readln(prosseguir);
 
     until (prosseguir = 'N') or (prosseguir = 'n');

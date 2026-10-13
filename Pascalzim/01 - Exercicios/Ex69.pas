@@ -9,19 +9,19 @@ begin
     writeln(' --- Menu Interativo --- ');
     writeln('1 - Valores em ordem Crescente');
     writeln('2 - Valores em ordem Decrescente');
-    writeln('3 - Maior dos Três valores');
-    writeln('4 - Menor dos Três valores');
-    writeln('5 - Média dos Três valores');
-    writeln('6 - Valores existentes acima da média');
+    writeln('3 - Maior dos TrÃªs valores');
+    writeln('4 - Menor dos TrÃªs valores');
+    writeln('5 - MÃ©dia dos TrÃªs valores');
+    writeln('6 - Valores existentes acima da mÃ©dia');
     writeln('7 - Sair');
     writeln('');
-    writeln('Introduza uma opção');
+    writeln('Introduza uma opÃ§Ã£o');
     readln(op);
     
     case op of
       1: begin
         clrscr;
-        writeln('Introduza três valores');
+        writeln('Introduza trÃªs valores');
         readln(num1, num2, num3);
     
         if (num1 > num2) then
@@ -49,7 +49,7 @@ begin
       
       2: begin
         clrscr;
-        writeln('Introduza três valores');
+        writeln('Introduza trÃªs valores');
         readln(num1, num2, num3);
     
         if (num1 < num2) then
@@ -77,7 +77,7 @@ begin
       
       3: begin
         clrscr;
-        writeln('Introduza três valores');
+        writeln('Introduza trÃªs valores');
         readln(num1, num2, num3);
         
         maior := num1;
@@ -89,13 +89,13 @@ begin
           maior := num3;
           
         clrscr;
-        writeln('O maior número é: ', maior:0:2);
+        writeln('O maior nÃºmero Ã©: ', maior:0:2);
         readkey;
       end;
       
       4: begin
         clrscr;
-        writeln('Introduza três valores');
+        writeln('Introduza trÃªs valores');
         readln(num1, num2, num3);
         
         menor := num1;
@@ -107,31 +107,31 @@ begin
           menor := num3;
           
         clrscr;
-        writeln('O menor número é: ', menor:0:2);
+        writeln('O menor nÃºmero Ã©: ', menor:0:2);
         readkey;
       end;
       
       5: begin
         clrscr;
-        writeln('Introduza três valores');
+        writeln('Introduza trÃªs valores');
         readln(num1, num2, num3);
         
         media := (num1 + num2 + num3) / 3;
         
         clrscr;
-        writeln('A média dos três valores é: ', media:0:2);
+        writeln('A mÃ©dia dos trÃªs valores Ã©: ', media:0:2);
         readkey;
       end;
       
       6: begin
         clrscr;
-        writeln('Introduza três valores');
+        writeln('Introduza trÃªs valores');
         readln(num1, num2, num3);
         
         media := (num1 + num2 + num3) / 3;
         
         clrscr;
-        writeln('Valores acima da média: ');
+        writeln('Valores acima da mÃ©dia: ');
         if num1 > media then
           writeln('num1: ', num1:0:2);
         if num2 > media then
@@ -149,7 +149,7 @@ begin
     else
       begin
         textcolor(Red);
-        writeln('Opção inválida!');
+        writeln('OpÃ§Ã£o invÃ¡lida!');
         readkey;
       end;
     end;

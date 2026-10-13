@@ -7,7 +7,7 @@ main()
 
     int v;
 
-    printf("Introduza um número! \n");
+    printf("Introduza um nÃºmero! \n");
     scanf("%d",&v);
     system("cls");
     printf("%d",v);

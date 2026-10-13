@@ -60,12 +60,12 @@ Begin
   close(texto2);
 
   if cont > cont2 then
-    writeln('O arquivo "aleatorio1.txt" é maior!')
+    writeln('O arquivo "aleatorio1.txt" Ã© maior!')
   else
   if cont2 > cont then
-    writeln('O arquivo "aleatorio2.txt" é maior!')
+    writeln('O arquivo "aleatorio2.txt" Ã© maior!')
   else
-    writeln('Os arquivos têm o mesmo tamanho!');
+    writeln('Os arquivos tÃªm o mesmo tamanho!');
 end;
 
 		

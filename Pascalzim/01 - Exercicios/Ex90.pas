@@ -31,7 +31,7 @@ Begin
 	
 	
 	
-	writeln('Pressione "A" se quiser reniciar o progama, caso n„o pressine "B"');
+	writeln('Pressione "A" se quiser reniciar o progama, caso n√£o pressine "B"');
 	readln(op);
 	
 	if (op = 'A') then

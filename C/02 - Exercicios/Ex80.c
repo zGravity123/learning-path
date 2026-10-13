@@ -14,7 +14,7 @@ main()
 
     system("cls");
 
-    printf("Introduza um número: ");
+    printf("Introduza um nÃºmero: ");
     scanf("%d", &num);
 
     fp = fopen(s,"w");

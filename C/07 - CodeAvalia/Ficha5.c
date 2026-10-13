@@ -8,7 +8,7 @@ main()
 
     setlocale(LC_ALL, "Portuguese");
 
-    printf("Introduza o número de horas em que esteve estacionado: ");
+    printf("Introduza o nÃºmero de horas em que esteve estacionado: ");
     scanf("%d", &h);
 
     if (h <= 2)

@@ -9,12 +9,12 @@ main()
     int op;
 
         printf("--------------\n");
-        printf("Número da Sorte - Escolha o Concurso\n");
+        printf("NÃºmero da Sorte - Escolha o Concurso\n");
         printf("1 - Totoloto \n");
-        printf("2 - EuroMilhões \n");
+        printf("2 - EuroMilhÃµes \n");
         printf("3 - Sair \n");
         printf("--------------\n");
-        printf("Opção: ");
+        printf("OpÃ§Ã£o: ");
         scanf("%d", &op);
 
         switch(op)
@@ -43,7 +43,7 @@ main()
                     numeros[i] = temp;
                 }
 
-                printf("Números sorteados: ");
+                printf("NÃºmeros sorteados: ");
                 for(i = 0; i < 5; i++) printf("%d ", numeros[i]);
                 printf("\n\n");
 
@@ -53,13 +53,13 @@ main()
 
             case 2:
             {
-                printf("\n----- EUROMILHÕES -----\n");
+                printf("\n----- EUROMILHÃ•ES -----\n");
                 int numeros[5], estrelas[2];
                 int i, j, temp;
 
                 srand(time(NULL));
 
-                // Números
+                // NÃºmeros
 
                 for(i = 0; i < 5; i++)
                 {
@@ -92,7 +92,7 @@ main()
                     else estrelas[i] = temp;
                 }
 
-                printf("Números sorteados: ");
+                printf("NÃºmeros sorteados: ");
 
                 for(i = 0; i < 5; i++)
                     printf("%d ", numeros[i]);
@@ -106,6 +106,6 @@ main()
                 break;
             }
             case 3: printf("A sair do programa...\n"); break;
-            default: printf("Opção inválida! \n");
+            default: printf("OpÃ§Ã£o invÃ¡lida! \n");
         }
 }

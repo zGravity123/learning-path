@@ -32,9 +32,9 @@ main()
     }
 
     if (cont1 > cont2)
-        printf("A palavra que tem mais vogais é: %s\n",palavra1);
+        printf("A palavra que tem mais vogais Ã©: %s\n",palavra1);
     else
-        printf("A palavra que tem mais vogais é: %s\n",palavra2);
+        printf("A palavra que tem mais vogais Ã©: %s\n",palavra2);
 
 }
 

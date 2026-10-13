@@ -5,12 +5,12 @@ var
 begin
 
   textcolor(Cyan);
-  writeln('Digite um valor bin·rio com 8 bits');
+  writeln('Digite um valor bin√°rio com 8 bits');
   readln(b);
 
   if Length(b) <> 8 then
   begin
-    writeln('ERRO! O valor bin·rio deve ter exatamente 8 bits');
+    writeln('ERRO! O valor bin√°rio deve ter exatamente 8 bits');
     exit;
   end;
 
@@ -27,12 +27,12 @@ begin
   
 	if (decimal >= 1) and (decimal <= 10) then
 		begin
-  		writeln('O valor decimal È: ', decimal);
+  		writeln('O valor decimal √©: ', decimal);
   		writeln(b, ' -> ',decimal);
   		readkey;
 	end
 	
 	else
-  	writeln('O valor decimal est· fora do intervalo de 1 a 10');
+  	writeln('O valor decimal est√° fora do intervalo de 1 a 10');
 
 end.

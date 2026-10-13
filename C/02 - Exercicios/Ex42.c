@@ -7,7 +7,7 @@ int main()
 
     int t1, t2, t3, meio, maior, menor;
 
-    printf("Introduza três temperatura (valores inteiros) \n");
+    printf("Introduza trÃªs temperatura (valores inteiros) \n");
     scanf("%d %d %d", &t1, &t2, &t3);
 
     maior = t1;

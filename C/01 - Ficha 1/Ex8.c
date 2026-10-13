@@ -12,8 +12,8 @@ main()
     system("cls");
 
     if (idd >= 18)
-        printf("A pessoa é Adulta!");
+        printf("A pessoa Ã© Adulta!");
     else
-        printf("A pessoa é Menor!");
+        printf("A pessoa Ã© Menor!");
 
 }

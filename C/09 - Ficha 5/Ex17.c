@@ -23,7 +23,7 @@ main()
 
         printf("Produto %d: \n", i);
         printf("Nome: %s\n", lista[i].nome);
-        printf("Preço: %.2f\n", lista[i].preco);
+        printf("PreÃ§o: %.2f\n", lista[i].preco);
         printf("Quantidade: %d\n", lista[i].quantidade);
         printf("\n");
     }

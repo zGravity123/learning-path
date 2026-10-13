@@ -7,7 +7,7 @@ Begin
   num:=1;
   
   repeat
-  	writeln('Sérgio');
+  	writeln('SÃ©rgio');
   	num:=num+ 1;
   until (num>10);
 

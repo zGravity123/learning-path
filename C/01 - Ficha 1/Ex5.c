@@ -7,14 +7,14 @@ main()
 
     int a,b;
 
-    printf("Introduza dois números! \n");
+    printf("Introduza dois nÃºmeros! \n");
     scanf("%d %d", &a, &b);
     system("cls");
 
     if (a > b)
-        printf("O maior número é: %d",a);
+        printf("O maior nÃºmero Ã©: %d",a);
     else if (b > a)
-        printf("O maior número é: %d",b);
+        printf("O maior nÃºmero Ã©: %d",b);
 
     else
         printf("ERRO!");

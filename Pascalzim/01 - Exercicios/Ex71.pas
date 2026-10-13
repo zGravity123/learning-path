@@ -3,7 +3,7 @@ var
     n: real;
 Begin
     textcolor(Cyan);
-    writeln('Escreva um número de 1 a 5');
+    writeln('Escreva um nÃºmero de 1 a 5');
     readln(n);
     
     if (n <= 1.2) then

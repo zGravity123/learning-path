@@ -1,6 +1,6 @@
 Program Pzim;
 
-	// O cÛdigo copia um arquivo que j· existe - zGravityy
+	// O c√≥digo copia um arquivo que j√° existe - zGravityy
 
 var
   nm: string;   

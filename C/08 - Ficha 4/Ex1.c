@@ -10,5 +10,5 @@ main() {
         soma = soma + numeros[i];
     }
 
-    printf("A soma dos números é: %d\n", soma);
+    printf("A soma dos nÃºmeros Ã©: %d\n", soma);
 }

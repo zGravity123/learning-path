@@ -242,7 +242,7 @@ void menu()
         case 6: CarregarLivro(); break;
         case 7: RelatorioBibloteca(); break;
         case 0: system("cls"); break;
-        default: printf("\n OpÁ„o inv·lida!");
+        default: printf("\n Op√ß√£o inv√°lida!");
     }
 }
 

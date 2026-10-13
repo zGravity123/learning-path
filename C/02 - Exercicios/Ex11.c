@@ -15,8 +15,8 @@ main()
     scanf("%d",&b);
 
     printf("\n");
-    printf("A soma dos valores È: %d \n", a + b);
-    printf("A divis„o dos valores È: %f \n", a/(float)b);
-    printf("A multiplicaÁ„o dos valores È: %d", a*b);
+    printf("A soma dos valores √©: %d \n", a + b);
+    printf("A divis√£o dos valores √©: %f \n", a/(float)b);
+    printf("A multiplica√ß√£o dos valores √©: %d", a*b);
 }
 

@@ -21,7 +21,7 @@ main()
         printf("Funcionario %d: \n", i+1o);
         printf("Introduza o nome: ");
         scanf("%s", lista[i].nome);
-        printf("Introduza o sal·rio: ");
+        printf("Introduza o sal√°rio: ");
         scanf("%f", &lista[i].salario);
         printf("Introduza o departamento: ");
         scanf("%s", lista[i].departamento);

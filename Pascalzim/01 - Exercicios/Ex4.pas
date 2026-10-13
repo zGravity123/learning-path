@@ -1,7 +1,7 @@
 Program Ex4 ;
 Begin
 
-  writeln('Sérgio Almeida');
+  writeln('SÃ©rgio Almeida');
   readkey;
   
 End.

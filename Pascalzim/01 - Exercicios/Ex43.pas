@@ -1,6 +1,6 @@
 Program Ex43 ;
 var b1,b2,b3,b4,b5,e1,e2:integer;
-					             //5 bolas com os numeros até 50 e duas estrelas até 12
+					             //5 bolas com os numeros atÃ© 50 e duas estrelas atÃ© 12
 					
 Begin
 

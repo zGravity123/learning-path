@@ -10,6 +10,6 @@ main()
     printf("Introduza a altura e base! \n");
     scanf("%d &d",&h, &b);
     system("cls");
-    printf("A area do retangulo é: %d",b*h);
+    printf("A area do retangulo Ã©: %d",b*h);
 
 }

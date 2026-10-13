@@ -21,15 +21,15 @@ main()
         printf("Introduza o ano do carro: ");
         scanf("%d", &carro[i].ano);
 
-        printf("Introduza o tipo de combustível do carro:\n");
-        printf("G - Gásolio \nD - Diesel \nE - Elétrico \nH - Híbrido\n");
+        printf("Introduza o tipo de combustÃ­vel do carro:\n");
+        printf("G - GÃ¡solio \nD - Diesel \nE - ElÃ©trico \nH - HÃ­brido\n");
         scanf(" %c", &carro[i].combustivel);
 
         carro[i].combustivel = toupper(carro[i].combustivel);
 
         if (carro[i].combustivel == 'G')
         {
-            printf("Carro %d: Gásolio\n");
+            printf("Carro %d: GÃ¡solio\n");
             g ++;
         }
 
@@ -41,13 +41,13 @@ main()
 
         else if (carro[i].combustivel == 'E')
         {
-            printf("Carro %d: Elétrico\n");
+            printf("Carro %d: ElÃ©trico\n");
             e ++;
         }
 
         else if (carro[i].combustivel =='H')
         {
-            printf("Carro %d: Híbrido\n");
+            printf("Carro %d: HÃ­brido\n");
             h ++;
         }
 
@@ -56,10 +56,10 @@ main()
     }
 
     printf(" ----- RESUMO ---- \n \n");
-    printf("Gásolio: %d \n",g);
+    printf("GÃ¡solio: %d \n",g);
     printf("Diesel: %d \n",d);
-    printf("Elétrico: %d \n",e);
-    printf("Híbrido: %d \n \n",h);
+    printf("ElÃ©trico: %d \n",e);
+    printf("HÃ­brido: %d \n \n",h);
     printf("Anos dos carros: ");
 
     for (int i = 0; i < 10; i++)

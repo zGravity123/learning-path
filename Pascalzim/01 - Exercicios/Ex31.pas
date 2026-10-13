@@ -20,13 +20,13 @@ TextColor(Yellow);
 	if (med > 9.5) then
 	Begin
 		textcolor(Green);
-		writeln('Aprovado, a sua media é: ', med:2:0);
+		writeln('Aprovado, a sua media Ã©: ', med:2:0);
 	End
 	
 	else
 	Begin
 		textcolor(Red);
-		writeln('Reprovado, a sua media é: ', med:2:0);
+		writeln('Reprovado, a sua media Ã©: ', med:2:0);
 		readkey;
 	End
 

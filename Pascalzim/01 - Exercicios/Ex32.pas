@@ -24,11 +24,11 @@ TextColor(Yellow);
 	readln(A,B);
 	
 	if (A > B) then 
-		writeln('A pessoa, ', pessoa1,' é mais velha(o)');
+		writeln('A pessoa, ', pessoa1,' Ã© mais velha(o)');
 	If (A = B) then
 		writeln('Ambos(as) tem a mesma idade')
 	else
-		writeln('A pessoa, ', pessoa2,' é mais velha(o)');
+		writeln('A pessoa, ', pessoa2,' Ã© mais velha(o)');
 	readkey;
 	
 End.
