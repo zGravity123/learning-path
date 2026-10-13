@@ -59,7 +59,7 @@
 | [Pascalzim](./Pascalzim) | Algorithms, mathematical logic, arrays, matrices, file I/O, and projects | 150+ | Completed |
 | [C](./C) | Structured programming, low-level I/O, pointers, memory, and interactive simulations | 180+ | Completed |
 | [C++](./C%2B%2B) | Logic challenges, modern C++, modular architecture (.h / .cpp) | 60+ | Active |
-| [HTML & CSS](./HTML%20%26%20CSS) | Semantic markup, responsive tables, forms with custom UI icons | 2 Projects | Active |
+| [HTML & CSS](./HTML%20%26%20CSS) | Semantic markup, responsive tables, forms with custom UI icons | 2 Projects | In Progress |
 
 <br>
 

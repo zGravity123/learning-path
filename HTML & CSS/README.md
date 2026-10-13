@@ -9,7 +9,7 @@
 </p>
 
 <p align="center">
-  <img src="https://img.shields.io/badge/Status-Active-2ea44f?style=for-the-badge&logo=checkmarx&logoColor=white" alt="Status">
+  <img src="https://img.shields.io/badge/Status-In_Progress-yellow?style=for-the-badge&logo=html5&logoColor=white" alt="Status">
   <img src="https://img.shields.io/badge/Technologies-HTML5_%7C_CSS3-E34F26?style=for-the-badge" alt="Technologies">
   <img src="https://img.shields.io/badge/Focus-UI_%2F_Semantics-1572B6?style=for-the-badge" alt="Focus">
 </p>
