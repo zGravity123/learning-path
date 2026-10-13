@@ -54,35 +54,35 @@
   <img src="https://raw.githubusercontent.com/zGravity123/zGravity123/main/images/livestatus.png" alt="Content and Progress" width="100%">
 </p>
 
-| Modulo | Conteudo | Exercicios | Estado |
+| Module | Content & Focus | Exercises | Status |
 | :--- | :--- | :---: | :---: |
-| [Pascalzim](./Pascalzim) | Algoritmos, logica matematica, vetores, matrizes, ficheiros e projetos | 150+ | Concluido |
-| [C](./C) | Programacao estruturada, I/O, controlo de fluxo, apontadores e simuladores | 180+ | Concluido |
-| [C++](./C%2B%2B) | Desafios de logica, modern C++, modularizacao (.h / .cpp) | 60+ | Ativo |
-| [HTML & CSS](./HTML%20%26%20CSS) | Estruturacao semantica, tabelas, formularios com icones e UI | 2 Projetos | Ativo |
+| [Pascalzim](./Pascalzim) | Algorithms, mathematical logic, arrays, matrices, file I/O, and projects | 150+ | Completed |
+| [C](./C) | Structured programming, low-level I/O, pointers, memory, and interactive simulations | 180+ | Completed |
+| [C++](./C%2B%2B) | Logic challenges, modern C++, modular architecture (.h / .cpp) | 60+ | Active |
+| [HTML & CSS](./HTML%20%26%20CSS) | Semantic markup, responsive tables, forms with custom UI icons | 2 Projects | Active |
 
 <br>
 
-### Estrutura do Repositorio
+### Repository Structure
 
 ```plaintext
 learning-path/
-|-- Pascalzim/             # Algoritmia, Matrizes, Ficheiros e Projetos
-|   |-- 01 a 06 - Fichas   # Fichas sequenciais e logica matematica
-|   |-- 08 a 11 - M2 a M5  # Modulos curriculares (Estruturas, Funcoes, Matrizes, Ficheiros)
-|   |-- 12 - Revisoes      # Exercicios integradores de revisao
-|   `-- 13 - Especiais     # Jogo do Galo e Escape Room
-|-- C/                     # Baixo nivel, Desempenho e Automacao
-|   |-- 01 a 10 - Fichas   # Fichas tematicas de sintaxe e logica
-|   |-- 02 - Exercicios    # +90 exercicios continuos
-|   |-- 06 - Especiais     # Chatbot, Portugal 2026, CodeQuest e Escape Room
-|   `-- 07 - CodeAvalia    # Fichas de avaliacao e testes
-|-- C++/                   # C++ Moderno e Programacao Modular
-|   |-- 01 - Exercicios    # Pratica continua + Modulos Matematica e Geometria
-|   `-- 02 - Fichas        # Fichas de trabalho laboratoriais
-`-- HTML & CSS/            # Desenvolvimento Web e Interfaces
-    |-- 01 - Ex1-2         # Horario escolar em tabela semantica estilizada
-    `-- 02 - Ex3           # Formulario completo com icones personalizados
+|-- Pascalzim/             # Algorithmic logic, data structures, files, and projects
+|   |-- 01 to 06 - Fichas  # Sequential problem sets and mathematical logic
+|   |-- 08 to 11 - M2 to M5# Curriculum modules (Control structures, Functions, Matrices, Files)
+|   |-- 12 - Revisoes      # Comprehensive review problem sets
+|   `-- 13 - Especiais     # Tic-Tac-Toe and Escape Room
+|-- C/                     # Low-level systems, performance, and automation
+|   |-- 01 to 10 - Fichas  # Thematic syntax and logic worksheets
+|   |-- 02 - Exercicios    # +90 sequential exercises
+|   |-- 06 - Especiais     # Chatbot, Portugal 2026, CodeQuest, and Escape Room
+|   `-- 07 - CodeAvalia    # Graded practical evaluations
+|-- C++/                   # Modern C++ and modular software design
+|   |-- 01 - Exercicios    # Continuous practice + Math and Geometry modules
+|   `-- 02 - Fichas        # Laboratory worksheets
+`-- HTML & CSS/            # Web development and interfaces
+    |-- 01 - Ex1-2         # Styled semantic school schedule table
+    `-- 02 - Ex3           # Complete registration form with custom icons
 ```
 
 <br>

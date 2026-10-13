@@ -1,79 +1,79 @@
 <h1 align="center">
   <img src="https://skillicons.dev/icons?i=c&theme=dark" width="48" height="48" alt="C Language" />
   <br>
-  Linguagem C e Programacao de Baixo Nivel
+  C Programming & Low-Level Foundations
 </h1>
 
 <p align="center">
-  <b>Automacao, Estruturas de Dados, Algoritmos e Otimizacao em C</b>
+  <b>Structured Programming, Memory Concepts, Algorithms, and Automation in C</b>
 </p>
 
 <p align="center">
-  <img src="https://img.shields.io/badge/Status-Concluido-2ea44f?style=for-the-badge&logo=checkmarx&logoColor=white" alt="Status">
-  <img src="https://img.shields.io/badge/Compilador-GCC-00599C?style=for-the-badge&logo=gnu" alt="Compilador">
-  <img src="https://img.shields.io/badge/Exercicios-180+-blue?style=for-the-badge" alt="Exercicios">
+  <img src="https://img.shields.io/badge/Status-Completed-2ea44f?style=for-the-badge&logo=checkmarx&logoColor=white" alt="Status">
+  <img src="https://img.shields.io/badge/Compiler-GCC-00599C?style=for-the-badge&logo=gnu" alt="Compiler">
+  <img src="https://img.shields.io/badge/Exercises-180+-blue?style=for-the-badge" alt="Exercises">
 </p>
 
 ---
 
-## Sobre o Modulo
+## About the Module
 
-Este diretorio contem todo o progresso no ecossistema da **linguagem C**. O foco desta etapa foi aprofundar os conhecimentos em manipulacao direta de memoria, estruturas de controlo de alta performance, manipulacao de arrays e apontadores, alem do desenvolvimento de aplicacoes em consola interativas.
+This directory tracks the progression through the **C programming language**. The primary objective was to master low-level memory interactions, high-performance control flow, array and pointer operations, and console-based software development.
 
-Topicos centrais desenvolvidos:
-- **Fundamentos**: Entrada/saida formatada (`printf`, `scanf`), tipagem estatica e operadores binarios/logicos.
-- **Estruturas de Controlo**: Tomadas de decisao (`if/else`, `switch/case`) e lacos de iteracao (`for`, `while`, `do-while`).
-- **Colecoes**: Vetores unidimensionais, matrizes bidimensionais e strings (`char[]`).
-- **Modularizacao**: Assinatura de funcoes, prototipos, passagem de parametros e escopo.
-- **Projetos**: Jogos de consola interativos, chatbots e simuladores.
+Core concepts covered:
+- **Fundamentals**: Formatted input/output (`printf`, `scanf`), static types, and arithmetic/logical operators.
+- **Control Flow**: Decision-making (`if/else`, `switch/case`) and iterative loops (`for`, `while`, `do-while`).
+- **Collections & Strings**: 1D arrays, 2D matrices, and null-terminated character strings (`char[]`).
+- **Modularization**: Function declarations, signatures, parameter passing mechanisms, and variable scope.
+- **Applied Projects**: Interactive terminal games, conversational bots, and simulations.
 
 ---
 
-## Estrutura das Pastas
+## Directory Structure
 
-| Pasta | Descricao | Destaques |
+| Directory | Description | Highlights |
 | :--- | :--- | :--- |
-| [`01 - Ficha 1`](./01%20-%20Ficha%201) | Fundamentos de sintaxe e I/O formatado | 15 exercicios introdutorios |
-| [`02 - Exercicios`](./02%20-%20Exercicios) | Ampla colecao de pratica continua (Ex1 a Ex92) | 92 programas com desafios de raciocinio |
-| [`03 - Self-Study`](./03%20-%20Self-Study) | Estudos autonomos e aprofundamento independente | 8 desafios praticos adicionais |
-| [`04 - Ficha 2`](./04%20-%20Ficha%202) | Estruturas condicionais e lacos de repeticao | 20 exercicios de fixacao |
-| [`05 - Ficha 3`](./05%20-%20Ficha%203) | Funcoes e manipulacao de vetores | 10 exercicios de modularizacao |
-| [`06 - Especiais`](./06%20-%20Especiais) | Projetos completos e simuladores | Chatbot, Portugal 2026, CodeQuest e Escape Room |
-| [`07 - CodeAvalia`](./07%20-%20CodeAvalia) | Fichas de avaliacao e provas praticas | 7 fichas completas avaliadas |
-| [`08 - Ficha 4`](./08%20-%20Ficha%204) | Vetores, matrizes e cadeias de caracteres | 20 exercicios com matrizes e strings |
-| [`09 - Ficha 5`](./09%20-%20Ficha%205) | Funcoes avancadas e estruturas algoritmicas | 20 exercicios de nivel intermedio/avancado |
-| [`10 - Ficha 6`](./10%20-%20Ficha%206) | Topicos avancados e consolidacao | 4 desafios de finalizacao de modulo |
+| [`01 - Ficha 1`](./01%20-%20Ficha%201) | Syntax foundations and formatted I/O | 15 introductory problems |
+| [`02 - Exercicios`](./02%20-%20Exercicios) | Continuous algorithmic practice (Ex1 to Ex92) | 92 programs focusing on problem-solving |
+| [`03 - Self-Study`](./03%20-%20Self-Study) | Independent research and extra challenges | 8 autonomous practice problems |
+| [`04 - Ficha 2`](./04%20-%20Ficha%202) | Conditional logic and repetitive control flow | 20 consolidation exercises |
+| [`05 - Ficha 3`](./05%20-%20Ficha%203) | Functions and vector manipulation | 10 modularized exercises |
+| [`06 - Especiais`](./06%20-%20Especiais) | Full projects and interactive simulations | Chatbot, Portugal 2026, CodeQuest, and Escape Room |
+| [`07 - CodeAvalia`](./07%20-%20CodeAvalia) | Practical assessments and evaluated tasks | 7 complete graded worksheets |
+| [`08 - Ficha 4`](./08%20-%20Ficha%204) | Vectors, matrices, and string processing | 20 array and string manipulation programs |
+| [`09 - Ficha 5`](./09%20-%20Ficha%205) | Advanced functions and algorithmic logic | 20 intermediate-to-advanced tasks |
+| [`10 - Ficha 6`](./10%20-%20Ficha%206) | Advanced topics and module consolidation | 4 capstone module challenges |
 
 ---
 
-## Projetos em Destaque ([`06 - Especiais`](./06%20-%20Especiais))
+## Featured Projects ([`06 - Especiais`](./06%20-%20Especiais))
 
-### Chatbot de Consola ([`Chatbot.c`](./06%20-%20Especiais/Chatbot.c))
-Sistema conversacional em terminal que processa comandos do utilizador, simula respostas contextuais e oferece opcoes utilitarias.
+### Console Chatbot ([`Chatbot.c`](./06%20-%20Especiais/Chatbot.c))
+A terminal conversational agent that parses user commands, simulates context-aware responses, and provides utility tools.
 
 ### Portugal 2026 ([`Portugal2026.c`](./06%20-%20Especiais/Portugal2026.c))
-Simulador completo com logica de pontuacao, gestao de selecoes, partidas e estatisticas com mais de 500 linhas de codigo estruturado.
+A tournament simulator managing national football teams, matches, point tables, and statistical ranking over 500+ lines of structured C code.
 
 ### CodeQuest ([`CodeQuest.c`](./06%20-%20Especiais/CodeQuest.c))
-Jogo de aventura interativo em formato RPG com desafios de programacao e tomada de decisoes em tempo real.
+An interactive RPG adventure game featuring programming puzzles and decision-based branching paths.
 
 ### Escape Room ([`Scaperoom.c`](./06%20-%20Especiais/Scaperoom.c))
-Portabilidade e evolucao do classico Escape Room para C, utilizando logica avancada de estados e puzzles interativos.
+C port and evolution of the classic Escape Room, employing state machines and riddle solving.
 
 ---
 
-## Como Compilar e Executar
+## How to Compile and Run
 
-Utilizando o compilador **GCC** (via terminal ou MSYS2/MinGW):
+Using the **GCC** compiler:
 
 ```bash
-# Compilar um exercicio individual
+# Compile a single exercise
 gcc "01 - Ficha 1/Ex1.c" -o Ex1
 
-# Executar no Windows
+# Run on Windows
 ./Ex1.exe
 
-# Compilar um projeto com otimizacao
+# Compile a project with optimization
 gcc -O2 "06 - Especiais/Chatbot.c" -o Chatbot
 ./Chatbot.exe
 ```
@@ -81,5 +81,5 @@ gcc -O2 "06 - Especiais/Chatbot.c" -o Chatbot
 ---
 
 <p align="center">
-  <a href="../README.md">Voltar ao README Principal</a>
+  <a href="../README.md">Back to Main README</a>
 </p>
