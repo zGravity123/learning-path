@@ -24,11 +24,11 @@
 <table align="center" width="100%">
   <tr>
     <td width="60%">
-      <h3>🎯 The Goal</h3>
+      <h3>The Goal</h3>
       <p>My focus is not just about memorizing syntax, but learning how to think like a programmer. I am building a solid foundation to transition from structured algorithms to complex backend architectures and modern software engineering.</p>
       <br>
-      <h3>🚀 Current Focus</h3>
-      <p>Strengthening fundamentals with Structured Algorithms, Memory Management, Modular Programming, and Web Development (Pascal &bull; C &bull; C++ &bull; HTML & CSS).</p>
+      <h3>Current Focus</h3>
+      <p>Strengthening fundamentals with Structured Algorithms, Memory Management, Modular Programming, and Web Development (Pascal, C, C++, HTML and CSS).</p>
     </td>
     <td width="40%" align="center">
       <img src="https://media.giphy.com/media/JIX9t2j0ZTN9S/giphy.gif" width="200" style="border-radius: 10px;"/>
@@ -54,35 +54,35 @@
   <img src="https://raw.githubusercontent.com/zGravity123/zGravity123/main/images/livestatus.png" alt="Content and Progress" width="100%">
 </p>
 
-| Módulo | Descrição & Conteúdos | Exercícios | Estado |
+| Modulo | Conteudo | Exercicios | Estado |
 | :--- | :--- | :---: | :---: |
-| [📁 **Pascalzim**](./Pascalzim) | Algoritmos, lógica matemática, vetores, matrizes, ficheiros e projetos | 150+ | `Concluído` |
-| [📁 **C**](./C) | Programação estruturada, I/O, controlo de fluxo, apontadores e jogos | 180+ | `Concluído` |
-| [📁 **C++**](./C%2B%2B) | Desafios de lógica, modern C++, modularização (`.h` / `.cpp`) | 60+ | `Ativo` |
-| [📁 **HTML & CSS**](./HTML%20%26%20CSS) | Estruturação semântica, tabelas, formulários avançados com ícones e UI | 2 Projetos | `Ativo` |
+| [Pascalzim](./Pascalzim) | Algoritmos, logica matematica, vetores, matrizes, ficheiros e projetos | 150+ | Concluido |
+| [C](./C) | Programacao estruturada, I/O, controlo de fluxo, apontadores e simuladores | 180+ | Concluido |
+| [C++](./C%2B%2B) | Desafios de logica, modern C++, modularizacao (.h / .cpp) | 60+ | Ativo |
+| [HTML & CSS](./HTML%20%26%20CSS) | Estruturacao semantica, tabelas, formularios com icones e UI | 2 Projetos | Ativo |
 
 <br>
 
-### 🗺️ Estrutura do Repositório
+### Estrutura do Repositorio
 
 ```plaintext
 learning-path/
-├── 📂 Pascalzim/             # Algoritmia, Matrizes, Ficheiros e Projetos
-│   ├── 01 a 06 - Fichas     # Fichas sequenciais e lógica matemática
-│   ├── 08 a 11 - M2 a M5    # Módulos curriculares (Estruturas, Funções, Matrizes, Ficheiros)
-│   ├── 12 - Revisoes        # Exercícios integradores de revisão
-│   └── 13 - Especiais       # Jogo do Galo & Escape Room
-├── 📂 C/                     # Baixo nível, Desempenho e Automação
-│   ├── 01 a 10 - Fichas     # Fichas temáticas de sintaxe e lógica
-│   ├── 02 - Exercicios      # +90 exercícios contínuos
-│   ├── 06 - Especiais       # Chatbot, Portugal 2026, CodeQuest e Escape Room
-│   └── 07 - CodeAvalia      # Fichas de avaliação e testes
-├── 📂 C++/                   # C++ Moderno e Programação Modular
-│   ├── 01 - Exercicios      # Prática contínua + Módulos Matematica e Geometria
-│   └── 02 - Fichas          # Fichas de trabalho laboratoriais
-└── 📂 HTML & CSS/            # Desenvolvimento Web e Interfaces
-    ├── 01 - Ex1-2           # Horário escolar em tabela semântica estilizada
-    └── 02 - Ex3             # Formulário completo com ícones personalizados
+|-- Pascalzim/             # Algoritmia, Matrizes, Ficheiros e Projetos
+|   |-- 01 a 06 - Fichas   # Fichas sequenciais e logica matematica
+|   |-- 08 a 11 - M2 a M5  # Modulos curriculares (Estruturas, Funcoes, Matrizes, Ficheiros)
+|   |-- 12 - Revisoes      # Exercicios integradores de revisao
+|   `-- 13 - Especiais     # Jogo do Galo e Escape Room
+|-- C/                     # Baixo nivel, Desempenho e Automacao
+|   |-- 01 a 10 - Fichas   # Fichas tematicas de sintaxe e logica
+|   |-- 02 - Exercicios    # +90 exercicios continuos
+|   |-- 06 - Especiais     # Chatbot, Portugal 2026, CodeQuest e Escape Room
+|   `-- 07 - CodeAvalia    # Fichas de avaliacao e testes
+|-- C++/                   # C++ Moderno e Programacao Modular
+|   |-- 01 - Exercicios    # Pratica continua + Modulos Matematica e Geometria
+|   `-- 02 - Fichas        # Fichas de trabalho laboratoriais
+`-- HTML & CSS/            # Desenvolvimento Web e Interfaces
+    |-- 01 - Ex1-2         # Horario escolar em tabela semantica estilizada
+    `-- 02 - Ex3           # Formulario completo com icones personalizados
 ```
 
 <br>
@@ -114,5 +114,5 @@ learning-path/
 </p>
 
 <p align="center">
-  <sub>Maintained with ❤️ by <a href="https://github.com/zGravity123">Sergio Almeida</a></sub>
+  <sub>Maintained by <a href="https://github.com/zGravity123">Sergio Almeida</a></sub>
 </p>

@@ -1,58 +1,58 @@
 <h1 align="center">
   <img src="https://skillicons.dev/icons?i=html,css&theme=dark" alt="HTML5 & CSS3" />
   <br>
-  Desenvolvimento Web & Interfaces (HTML5 & CSS3)
+  Desenvolvimento Web e Interfaces (HTML5 e CSS3)
 </h1>
 
 <p align="center">
-  <b>Estruturação Semântica, Estilização Moderna, Formulários e Acessibilidade</b>
+  <b>Estruturacao Semantica, Estilizacao Moderna, Formularios e Acessibilidade</b>
 </p>
 
 <p align="center">
   <img src="https://img.shields.io/badge/Status-Ativo-2ea44f?style=for-the-badge&logo=checkmarx&logoColor=white" alt="Status">
   <img src="https://img.shields.io/badge/Tecnologias-HTML5_%7C_CSS3-E34F26?style=for-the-badge" alt="Tecnologias">
-  <img src="https://img.shields.io/badge/Foco-UI_%2F_Semântica-1572B6?style=for-the-badge" alt="Foco">
+  <img src="https://img.shields.io/badge/Foco-UI_%2F_Semantica-1572B6?style=for-the-badge" alt="Foco">
 </p>
 
 ---
 
-## 📌 Sobre o Módulo
+## Sobre o Modulo
 
-Este diretório documenta a introdução e o desenvolvimento de competências em **tecnologias Web fundamentais (HTML5 & CSS3)**, focando na criação de interfaces semânticas, acessíveis e com visual profissional.
+Este diretorio documenta a introducao e o desenvolvimento de competencias em **tecnologias Web fundamentais (HTML5 e CSS3)**, focando na criacao de interfaces semanticas, acessiveis e com visual profissional.
 
-Competências desenvolvidas:
-- **HTML Semântico**: Uso correto de tags estruturais (`<form>`, `<fieldset>`, `<legend>`, `<table>`, `<thead>`, `<tbody>`).
-- **Formulários Interativos**: Validação nativa, campos de texto, inputs de rádio, seleções e áreas de texto.
-- **Design de Interface (UI)**: Estilização moderna com CSS (tipografia, espaçamento, sombras suaves, inputs estilizados com ícones).
-- **Acessibilidade e Boas Práticas**: Labels associados, atributos `alt`, responsividade e foco visual.
+Competencias desenvolvidas:
+- **HTML Semantico**: Uso correto de tags estruturais (`<form>`, `<fieldset>`, `<legend>`, `<table>`, `<thead>`, `<tbody>`).
+- **Formularios Interativos**: Validacao nativa, campos de texto, inputs de radio, selecoes e areas de texto.
+- **Design de Interface (UI)**: Estilizacao moderna com CSS (tipografia, espacamento, sombras suaves, inputs estilizados com icones).
+- **Acessibilidade e Boas Praticas**: Labels associados, atributos `alt`, responsividade e foco visual.
 
 ---
 
-## 📂 Projetos e Exercícios
+## Projetos e Exercicios
 
-| Projeto | Ficheiros | Descrição |
+| Projeto | Ficheiros | Descricao |
 | :--- | :--- | :--- |
-| [📁 `01 - Ex1-2`](./01%20-%20Ex1-2) | [`Ex1-2.html`](./01%20-%20Ex1-2/Ex1-2.html)<br>[`Ex1-2.css`](./01%20-%20Ex1-2/Ex1-2.css) | **Tabela de Horário Escolar**: Estruturação semântica de tabelas, cabeçalhos estilizados, linhas alternadas e formatação tipográfica. |
-| [📁 `02 - Ex3`](./02%20-%20Ex3) | [`Ex3.html`](./02%20-%20Ex3/Ex3.html)<br>[`Ex3.css`](./02%20-%20Ex3/Ex3.css)<br>[`icones/`](./02%20-%20Ex3/icones) | **Formulário de Inscrição Completo**: Interface rica com inputs com ícones personalizados, seleção de modalidades, campo de observações e botões estilizados. |
+| [`01 - Ex1-2`](./01%20-%20Ex1-2) | [`Ex1-2.html`](./01%20-%20Ex1-2/Ex1-2.html)<br>[`Ex1-2.css`](./01%20-%20Ex1-2/Ex1-2.css) | **Tabela de Horario Escolar**: Estruturacao semantica de tabelas, cabecalhos estilizados, linhas alternadas e formatacao tipografica. |
+| [`02 - Ex3`](./02%20-%20Ex3) | [`Ex3.html`](./02%20-%20Ex3/Ex3.html)<br>[`Ex3.css`](./02%20-%20Ex3/Ex3.css)<br>[`icones/`](./02%20-%20Ex3/icones) | **Formulario de Inscricao Completo**: Interface com inputs com icones personalizados, selecao de modalidades, campo de observacoes e botoes estilizados. |
 
 ---
 
-## 🎨 Destaques Visuais
+## Destaques Visuais
 
-### 📋 Formulário de Inscrição ([`02 - Ex3`](./02%20-%20Ex3))
-- **Campos de identificação com ícones**: Nome, Email, Telefone, Cidade, Clube e Morada.
-- **Componentes modernos de seleção**: Rádios estilizados para opções rápidas.
-- **Validação visual**: Destaque em campos obrigatórios e foco suave via CSS.
+### Formulario de Inscricao ([`02 - Ex3`](./02%20-%20Ex3))
+- **Campos de identificacao com icones**: Nome, Email, Telefone, Cidade, Clube e Morada.
+- **Componentes modernos de selecao**: Radios estilizados para opcoes rapidas.
+- **Validacao visual**: Destaque em campos obrigatorios e foco suave via CSS.
 
 ---
 
-## 🌐 Como Visualizar
+## Como Visualizar
 
-1. Navegue até a pasta do exercício desejado.
-2. Abra o ficheiro `.html` correspondente em qualquer navegador moderno (Chrome, Firefox, Edge, etc.) ou utilize a extensão **Live Server** no VS Code.
+1. Navegue ate a pasta do exercicio desejado.
+2. Abra o ficheiro `.html` correspondente em qualquer navegador moderno (Chrome, Firefox, Edge) ou utilize a extensao **Live Server** no VS Code.
 
 ---
 
 <p align="center">
-  <a href="../README.md">⬅️ Voltar ao README Principal</a>
+  <a href="../README.md">Voltar ao README Principal</a>
 </p>
