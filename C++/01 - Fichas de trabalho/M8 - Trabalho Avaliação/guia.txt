@@ -1,0 +1,19 @@
+Requisitos obrigatórios
+ [V] Crie uma struct Produto com nome, preço e quantidade em stock.
+ [V] Crie pelo menos três produtos no main() e guarde-os numa pequena coleção/array para os poder percorrer.
+ [V] Crie funções para validar preços, procurar produtos, mostrar dados e alterar stock por referência.
+ [V] Utilize uma função com parâmetro por omissão para calcular um preço com desconto.
+ [V] Utilize sobrecarga de funções para apresentar uma versão simples e uma versão detalhada de um
+produto.
+ [V] Utilize string e pelo menos uma operação simples, como length(), durante uma validação ou análise
+do nome.
+ [V] Coloque as funções relacionadas com a loja num namespace Loja e utilize using namespace Loja
+no main().
+
+ [V] Crie uma classe Caixa com atributos private para total de vendas e número de vendas, e métodos
+public para inicializar, registar venda e consultar os totais.
+
+ [V] Ao realizar uma venda, atualize o stock. Se a quantidade for inválida ou superior ao stock, lance
+uma exceção com throw e trate-a no main() com try/catch.
+
+ [V] Utilize condições, pelo menos um ciclo e um switch em alguma parte lógica do programa.

@@ -1,0 +1,293 @@
+// MAIN.CPP
+
+#include <iostream>
+#include <string>
+#include <windows.h>
+#include "Loja.h"
+
+using namespace std;
+using namespace Loja;
+
+int main()
+{
+    Produto pd[3];
+    
+    SetConsoleCP(1252);
+    SetConsoleOutputCP(1252);
+    
+    pd[0].nome = "Tosta Mista";
+    pd[0].preco = 0.90;
+    pd[0].qnt_stock = 31;
+    pd[0].qnt_vendas = 0;
+
+    pd[1].nome = "Sumo de Laranja";
+    pd[1].preco = 1.20;
+    pd[1].qnt_stock = 25;
+    pd[1].qnt_vendas = 0;
+    
+    pd[2].nome = "Croissant";
+    pd[2].preco = 1.10;
+    pd[2].qnt_stock = 18;
+    pd[2].qnt_vendas = 0;
+    
+    string produto = "";
+
+    cout << "===== MENU DA LOJA =====" << endl;
+    cout << endl;
+
+    try 
+    {
+        cout << "--- Validar Produtos ---" << endl;
+        for (int i = 0; i < 3; i++) 
+        {
+            ValidarNomeEPreco(pd[i].nome, pd[i].preco);
+        }
+        cout << "Produtos validados!" << endl;
+        cout << endl;
+    } 
+    catch (string mensagem) 
+    {
+        cout << "Erro: " << mensagem << endl;
+    }
+
+    cout << "--- Procurar Produto ---" << endl;
+    produto = "Sumo de Laranja";
+    try
+    {
+        ProcurarProduto(pd, produto);
+        cout << endl;
+    }
+    catch (string mensagem)
+    {
+        cout << "Erro: " << mensagem << endl;
+    }
+
+    cout << "--- Alterar Stock ---" << endl;
+    produto = "Tosta Mista";
+    try 
+    {
+        AlterarStock(pd, produto, 40);
+        cout << "Stock do produto " << produto << " alterado com sucesso!" << endl;
+        cout << endl;
+    }
+    catch (string mensagem)
+    {
+        cout << "Erro: " << mensagem << endl;
+    }
+
+    cout << "--- Efetuar Vendas ---" << endl;
+    try 
+    {
+        EfetuarVendas(pd, "Tosta Mista", 10);
+        EfetuarVendas(pd, "Croissant", 5);
+        cout << "Vendas efetuadas com sucesso!" << endl;
+        cout << endl;
+    }
+    catch (string mensagem)
+    {
+        cout << "Erro: " << mensagem << endl;
+    }
+
+    cout << "--- Mostrar Dados (Simples) ---" << endl;
+    MostrarDados(pd);
+    cout << endl;
+
+    cout << "--- Mostrar Dados (Detalhado) ---" << endl;
+    MostrarDados(pd, true);
+
+    cout << endl;
+    
+	Caixa cx;
+	    cx.Iniciar();
+	    
+	    cx.RegistrarVenda(9.00);
+	    cx.RegistrarVenda(5.50);
+	    
+	    cout << endl;
+	    cx.ConsultarTotais();
+    
+    return 0;
+}
+
+// LOJA.H
+
+#ifndef LOJA_H
+#define LOJA_H
+
+#include <string>
+using namespace std;
+
+namespace Loja 
+{
+    struct Produto 
+    {
+        string nome;
+        double preco;
+        int qnt_stock;
+        int qnt_vendas;
+    };
+    
+    class Caixa 
+	{
+	private:
+	    double total_vendas;
+	    int num_vendas;
+	
+	public:
+	    void Iniciar();
+	    void RegistrarVenda(double valor);
+	    void ConsultarTotais();
+	};
+
+    void ValidarNomeEPreco(string nome, double preco);
+    void ProcurarProduto(Produto pd[], string procurar);
+    void MostrarDados(Produto pd[]);
+    void MostrarDados(Produto pd[], bool detalhado);
+    void AlterarStock(Produto pd[], string procurar, int novoStock);
+    void EfetuarVendas(Produto pd[], string procurar, int vendas);
+    double CalcularComDesconto(double preco, double desconto = 0.10);
+}
+
+#endif
+
+// LOJA.CPP
+
+#include <iostream>
+#include <string>
+#include "Loja.h"
+
+using namespace std;
+
+namespace Loja 
+{
+    void ValidarNomeEPreco(string nome, double preco) 
+    {
+        if (nome.length() < 3)
+        {
+            throw string("O nome do produto e demasiado curto!");
+        }
+        if (preco <= 0)
+        {
+            throw string("O preco e invalido!");
+        }
+    }
+    
+    void ProcurarProduto(Produto pd[], string procurar)
+    {
+        int encontrado = false;
+
+        for (int i = 0; i < 3; i++)
+        {
+            if (procurar == pd[i].nome)
+            {
+                cout << "Produto encontrado: " << pd[i].nome << endl;
+                double precoDesconto = CalcularComDesconto(pd[i].preco);
+                cout << " - Preco: " << pd[i].preco << " EUR" << endl;
+                cout << " - Preco c/ Desconto: " << precoDesconto << " EUR" << endl;
+                cout << " - Stock: " << pd[i].qnt_stock << endl;
+                encontrado = true;
+                break;
+            }
+        }
+
+        if (encontrado == false)
+        {
+            throw string("Produto nao encontrado");
+        }
+    }
+    
+    void MostrarDados(Produto pd[])
+    {
+        for (int i = 0; i < 3; i++)
+        {
+            cout << "Nome: " << pd[i].nome << " | Preco: " << pd[i].preco << " EUR" << endl;
+        }
+    }
+
+    void MostrarDados(Produto pd[], bool detalhado)
+    {
+        for (int i = 0; i < 3; i++)
+        {
+            if (detalhado == true) 
+            {
+                cout << "Nome: " << pd[i].nome 
+                     << " | Preco: " << pd[i].preco << " EUR"
+                     << " | Vendas: " << pd[i].qnt_vendas
+                     << " | Stock: " << pd[i].qnt_stock << endl;
+            } 
+        }
+    }
+    
+    void AlterarStock(Produto pd[], string procurar, int novoStock)
+    {
+        int encontrado = false;
+    
+        for (int i = 0; i < 3; i++)
+        {
+            if (procurar == pd[i].nome)
+            {
+                pd[i].qnt_stock = novoStock;
+                encontrado = true;
+                break;
+            }
+        }
+    
+        if (encontrado == false)
+        {
+            throw string("Produto nao encontrado para alterar o stock!");
+        }
+    }
+    
+    void EfetuarVendas(Produto pd[], string procurar, int vendas)
+    {
+        int encontrado = false;
+    
+        for (int i = 0; i < 3; i++)
+        {
+            if (procurar == pd[i].nome)
+            {
+                if (vendas <= pd[i].qnt_stock) 
+                {
+                    pd[i].qnt_vendas = pd[i].qnt_vendas + vendas;
+                    pd[i].qnt_stock = pd[i].qnt_stock - vendas;
+                }  
+                else 
+                {
+                    throw string("Stock insuficiente para vender!");
+                }
+                encontrado = true;
+                break;
+            }
+        }
+    
+        if (encontrado == false)
+        {
+            throw string("Produto nao encontrado para efetuar a venda!");
+        }
+    }
+
+    double CalcularComDesconto(double preco, double desconto)
+    {
+        return preco - (preco * desconto);
+    }
+    
+	void Caixa::Iniciar() 
+	{
+	    total_vendas = 0;
+	    num_vendas = 0;
+	}
+	
+	void Caixa::RegistrarVenda(double valor) 
+	{
+	    total_vendas = total_vendas + valor;
+	    num_vendas= num_vendas + 1;
+	}
+	
+	void Caixa::ConsultarTotais() 
+	{
+	   cout << "--- Consultar Totais ---" << endl;
+	   cout << "Total Vendas: " << total_vendas << endl;
+	   cout << "Numero Vendas: " << num_vendas << " EUR" << endl;
+	}
+    
+}
