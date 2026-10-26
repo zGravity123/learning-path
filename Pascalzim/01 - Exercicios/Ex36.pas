@@ -9,7 +9,7 @@ Begin
 	case op of
 		1: writeln('Janeiro');
 		2: writeln('Fevereiro');
-		3: writeln('Março');
+		3: writeln('MarÃ§o');
 		4: writeln('Abril');
 		5: writeln('Maio');
 		6: writeln('Junho');

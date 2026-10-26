@@ -17,7 +17,7 @@ main()
 
     for (i = 0; i < 5; i++)
     {
-        printf("Veículo %d: \n", i);
+        printf("VeÃ­culo %d: \n", i);
 
         printf("Introduza a marca: ");
         scanf("%s", lista[i].marca);
@@ -35,7 +35,7 @@ main()
     printf("--- Lista de veiculos ---\n\n");
     for (i = 0; i < 5; i++)
     {
-        printf("Veículo %d:\n", i);
+        printf("VeÃ­culo %d:\n", i);
         printf("Marca: %s\n", lista[i].marca);
         printf("Modelo: %s\n", lista[i].modelo);
         printf("Ano: %d\n", lista[i].ano);

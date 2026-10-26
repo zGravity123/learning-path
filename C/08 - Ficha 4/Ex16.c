@@ -26,9 +26,9 @@ main()
         scanf("%s", lista[i].nome);
         fprintf(f, "Nome: %s\n", lista[i].nome);
 
-        printf("Introduza o preço: ");
+        printf("Introduza o preÃ§o: ");
         scanf("%f", &lista[i].preco);
-        fprintf(f, "Preço: %f\n", lista[i].preco);
+        fprintf(f, "PreÃ§o: %f\n", lista[i].preco);
 
         printf("Introduza a quantidade: ");
         scanf("%d", &lista[i].quantidade);
@@ -43,8 +43,8 @@ main()
 
     for (i = 0; i < 5; i++)
     {
-        printf("Produto %d - Nome: %s | Preço: %.2f | Qtd: %d\n", i, lista[i].nome, lista[i].preco, lista[i].quantidade);
-        fprintf(f, "Produto %d - Nome: %s | Preço: %.2f | Qtd: %d\n", i, lista[i].nome, lista[i].preco, lista[i].quantidade);
+        printf("Produto %d - Nome: %s | PreÃ§o: %.2f | Qtd: %d\n", i, lista[i].nome, lista[i].preco, lista[i].quantidade);
+        fprintf(f, "Produto %d - Nome: %s | PreÃ§o: %.2f | Qtd: %d\n", i, lista[i].nome, lista[i].preco, lista[i].quantidade);
     }
 
     fclose(f);

@@ -25,7 +25,7 @@ Begin
    End;
      	 
   writeln('A palavra introduzida possui ',cont,' vogais!');
-	writeln('Pressione "A" se quiser reniciar o progama, caso n„o pressino "B"');
+	writeln('Pressione "A" se quiser reniciar o progama, caso n√£o pressino "B"');
 	readln(op);
 	
 	if (op = 'A') then

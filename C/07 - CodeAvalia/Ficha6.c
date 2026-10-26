@@ -12,7 +12,7 @@ main()
 
     for (i = 1; i <= 7; i++)
     {
-        printf("Introduza o consumo de água (L) do dia %d: ",i);
+        printf("Introduza o consumo de Ã¡gua (L) do dia %d: ",i);
         scanf("%d", &consumo[i]);
 
         ctotal = ctotal + consumo[i];
@@ -37,7 +37,7 @@ main()
     }
 
     printf("\nConsumo total: %d L\n", ctotal);
-    printf("Media diária: %.2f L\n", med);
+    printf("Media diÃ¡ria: %.2f L\n", med);
     printf("Maior consumo: %d L\n", maior);
     printf("Dia do maior consumo: %d\n", dmaior);
     printf("Dias acima da media: %d\n", acdias);

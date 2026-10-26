@@ -15,6 +15,6 @@ main()
     scanf("%d",&b);
     system("cls");
 
-    printf("A area é: %d", a * b );
+    printf("A area Ã©: %d", a * b );
 
 }

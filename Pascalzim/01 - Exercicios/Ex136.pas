@@ -9,7 +9,7 @@ Begin
 	
 	rewrite(texto); // Faz a abertura do ficheiro + modo de abertura
 	
-	writeln(texto, 'Sérgio'); // Escrever para o ficheiro tgpsi.txt
+	writeln(texto, 'SÃ©rgio'); // Escrever para o ficheiro tgpsi.txt
 	writeln(texto, 'Almeida');
 	
 	close(texto); // Fecho o ficheiro -> grava

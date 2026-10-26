@@ -10,7 +10,7 @@ main()
 
     for (i = 0; i < 10; i++)
     {
-        printf("Digite o %d∫ n˙mero: ", i + 1);
+        printf("Digite o %d¬∫ n√∫mero: ", i + 1);
         scanf("%d", &numeros[i]);
     }
 
@@ -18,11 +18,11 @@ main()
     {
         for (j = 0; j < 9 - i; j++)
         {
-            if (numeros[j] > numeros[j + 1]) /// se o n˙mero da esquerda for maior que o da direita, troca-os
+            if (numeros[j] > numeros[j + 1]) /// se o n√∫mero da esquerda for maior que o da direita, troca-os
             {
                 temp = numeros[j]; /// guarda o valor de numeros[j]
-                numeros[j] = numeros[j + 1]; /// coloca o valor maior (ou menor) na posiÁ„o j
-                numeros[j + 1] = temp; /// coloca o valor original de numeros[j] na posiÁ„o j+1
+                numeros[j] = numeros[j + 1]; /// coloca o valor maior (ou menor) na posi√ß√£o j
+                numeros[j + 1] = temp; /// coloca o valor original de numeros[j] na posi√ß√£o j+1
             }
         }
     }

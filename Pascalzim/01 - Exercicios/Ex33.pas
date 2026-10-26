@@ -25,7 +25,7 @@ TextColor(Yellow);
   if C > maior then
     maior := C; 
 
-  writeln('O número ', maior, ' é o maior número'); 
+  writeln('O nÃºmero ', maior, ' Ã© o maior nÃºmero'); 
   
   
   menor := A;
@@ -36,7 +36,7 @@ TextColor(Yellow);
   if C < maior then
     menor := C; 
 
-  writeln('O número ', menor, ' é o menor número'); 
+  writeln('O nÃºmero ', menor, ' Ã© o menor nÃºmero'); 
 
   readkey;
 	

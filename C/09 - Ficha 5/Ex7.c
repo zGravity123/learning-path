@@ -21,7 +21,7 @@ main()
         printf("Funcionario %d: \n", i);
         printf("Introduza o nome: ");
         scanf("%s", lista[i].nome);
-        printf("Introduza o sal·rio: ");
+        printf("Introduza o sal√°rio: ");
         scanf("%f", &lista[i].salario);
         printf("Introduza o departamento: ");
         scanf("%s", lista[i].departamento);
@@ -32,5 +32,5 @@ main()
 
     media = soma /(float)3;
 
-    printf("Sal·rio mÈdio: %.2f\n", media);
+    printf("Sal√°rio m√©dio: %.2f\n", media);
 }

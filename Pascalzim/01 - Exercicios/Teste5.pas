@@ -16,6 +16,6 @@ Begin
   med := soma / 10; 
 
   writeln('Soma: ', soma:2:0); 
-  writeln('Média: ', med:2:2); 
+  writeln('MÃ©dia: ', med:2:2); 
   readkey;
 End.

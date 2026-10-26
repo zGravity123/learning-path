@@ -3,7 +3,7 @@ var
   s, v, aumento: real;
 begin
   textcolor(Cyan);
-  writeln('Digite o salário atual:');
+  writeln('Digite o salÃ¡rio atual:');
   readln(s);
   clrscr;
   
@@ -14,19 +14,19 @@ begin
   if (s <= 1000) then
   begin
     aumento := v * 0.05; 
-    writeln('O seu salário foi atualizado para: ', (s + aumento):0:2);
+    writeln('O seu salÃ¡rio foi atualizado para: ', (s + aumento):0:2);
   end
   
   else if (s > 1000) and (s <= 1500) then
   begin
     aumento := v * 0.10;  
-    writeln('O seu salário foi atualizado para: ', (s + aumento):0:2);
+    writeln('O seu salÃ¡rio foi atualizado para: ', (s + aumento):0:2);
   end
   
   else if (s > 1500) then
   begin
     aumento := v * 0.15; 
-    writeln('O seu salário foi atualizado para: ', (s + aumento):0:2);
+    writeln('O seu salÃ¡rio foi atualizado para: ', (s + aumento):0:2);
   end
   
   

@@ -8,13 +8,13 @@ Begin
 
   repeat
   	textcolor(Yellow);
-    writeln('Introduza um número');
+    writeln('Introduza um nÃºmero');
     readln(num);
     clrscr;
 
     if (num = N) then
     begin
-      writeln('Ganhou! O número era ', N);
+      writeln('Ganhou! O nÃºmero era ', N);
       break;  
     end
     else
@@ -28,6 +28,6 @@ Begin
   if (num <> N) then
     clrscr;
 		textcolor(Red);
-    writeln('Esgotou as tentativas! O número era ', N);
+    writeln('Esgotou as tentativas! O nÃºmero era ', N);
  readkey;
 End.

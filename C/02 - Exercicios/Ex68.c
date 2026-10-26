@@ -14,9 +14,9 @@ main()
         scanf("%s",&s2);
 
         if (s1 == s2)
-            printf("São Iguais \n");
+            printf("SÃ£o Iguais \n");
         else
-            printf("São Diferentes \n");
+            printf("SÃ£o Diferentes \n");
 }
 
 

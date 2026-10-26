@@ -9,7 +9,7 @@ Begin
 			begin
 				for j :=1 to 4 do
 					begin
-						writeln('Introduza um valor inteiro (Coluna #',i,' Posição #',j,')');
+						writeln('Introduza um valor inteiro (Coluna #',i,' PosiÃ§Ã£o #',j,')');
 						readln(Dados[i,j]);
 						clrscr;
 					end;

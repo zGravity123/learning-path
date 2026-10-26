@@ -8,7 +8,7 @@ Begin
   home:
   clrscr;
   textcolor(Cyan);
-  writeln('Digite o n˙mero de lados polÌgono (valor inteiro)');
+  writeln('Digite o n√∫mero de lados pol√≠gono (valor inteiro)');
   readln(nl);
   if (nl < 3) or (nl > 5) then
   	writeln('ERRO! Tente novamente')
@@ -26,9 +26,9 @@ Begin
  	if (nl = 4) then
  		writeln('O quadrado introduzido  tem o perimetro de ', perimetro);
  	if (nl = 5) then
- 		writeln('O pent·gono introduzido  tem o perimetro de ', perimetro);
+ 		writeln('O pent√°gono introduzido  tem o perimetro de ', perimetro);
  	
-	writeln('Pressione "A" se quiser reniciar o progama, caso n„o pressine "B"');
+	writeln('Pressione "A" se quiser reniciar o progama, caso n√£o pressine "B"');
 	readln(op);
 	
 	if (op = 'A') then

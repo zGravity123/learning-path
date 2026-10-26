@@ -8,10 +8,10 @@ var
 
 Begin
 	textcolor(lightcyan);
-  writeln('Aqui comeÁa o programa');
+  writeln('Aqui come√ßa o programa');
 
 localx:
-  writeln('Aqui comeÁa a parte que pode ser repetida');
+  writeln('Aqui come√ßa a parte que pode ser repetida');
   
   writeln('Introduza uma palavra');
   readln(p);
@@ -31,7 +31,7 @@ localx:
   else if (resp = 't') or (resp = 'T') then
     writeln('Aqui termina o programa')
   else
-    writeln('OpÁ„o inv·lida, por favor pressione "c" ou "t".');
+    writeln('Op√ß√£o inv√°lida, por favor pressione "c" ou "t".');
 
   readkey;
 End.

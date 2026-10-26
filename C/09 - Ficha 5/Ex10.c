@@ -18,7 +18,7 @@ main()
     for (i = 0; i < 5; i++)
     {
         printf("Filme %d: \n", i);
-        printf("Introduza o título: ");
+        printf("Introduza o tÃ­tulo: ");
         scanf("%s", lista[i].titulo);
         printf("Introduza o diretor: ");
         scanf("%s", lista[i].diretor);
@@ -30,7 +30,7 @@ main()
     for (i = 0; i < 5; i++)
     {
         printf("Filme %d:\n", i);
-        printf("Título: %s\n", lista[i].titulo);
+        printf("TÃ­tulo: %s\n", lista[i].titulo);
         printf("Diretor: %s\n", lista[i].diretor);
         printf("Ano: %d\n\n", lista[i].ano);
     }

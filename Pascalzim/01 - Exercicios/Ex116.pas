@@ -5,11 +5,11 @@ var m:integer;
 procedure contas;
 	Begin
 	if (m = 0) then
-			writeln('É zero');
+			writeln('Ã‰ zero');
 	if (m mod 2 <> 0) then
-			writeln('É impar');
+			writeln('Ã‰ impar');
 	if (m mod 2 = 0) then
-			writeln('É par');	
+			writeln('Ã‰ par');	
 	end;
 	
 procedure ler_dados;

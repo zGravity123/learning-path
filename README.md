@@ -1,3 +1,20 @@
+<p align="right">
+  <a href="./README.md"><img src="https://img.shields.io/badge/EN-English-2196F3?style=flat-square" alt="English" /></a>
+  <a href="./README.pt.md"><img src="https://img.shields.io/badge/PT-Portugu%C3%AAs-gray?style=flat-square" alt="Português" /></a>
+  <a href="./README.es.md"><img src="https://img.shields.io/badge/ES-Espa%C3%B1ol-gray?style=flat-square" alt="Español" /></a>
+</p>
+
+<p align="center">
+  <a href="#about-the-project">About</a> &bull;
+  <a href="#tech-stack">Tech Stack</a> &bull;
+  <a href="#content-and-progress">Modules</a> &bull;
+  <a href="#repository-structure">Structure</a> &bull;
+  <a href="#stats">Stats</a> &bull;
+  <a href="#contact">Contact</a>
+</p>
+
+<br>
+
 <p align="center">
   <img src="https://raw.githubusercontent.com/zGravity123/zGravity123/main/images/learningpath.png" alt="Learning Path Banner" width="100%" />
 </p>
@@ -12,10 +29,13 @@
   <img src="https://img.shields.io/github/last-commit/zGravity123/learning-path?style=flat-square&color=2196F3" alt="Last Commit">
   <img src="https://img.shields.io/github/languages/top/zGravity123/learning-path?style=flat-square&color=2196F3" alt="Top Language">
   <img src="https://img.shields.io/github/repo-size/zGravity123/learning-path?style=flat-square&color=2196F3" alt="Repo Size">
+  <img src="https://img.shields.io/github/license/zGravity123/learning-path?style=flat-square&color=2196F3" alt="License">
+  <img src="https://api.visitorbadge.io/api/visitors?path=zGravity123.learning-path&label=Project%20Views&countColor=%232196f3&style=flat-square" alt="Project Views">
 </p>
 
 <br>
 
+<span id="about-the-project"></span>
 <p align="center">
   <img src="https://raw.githubusercontent.com/zGravity123/zGravity123/main/images/abouttheproject.png" alt="About the Project" width="100%">
 </p>
@@ -24,10 +44,10 @@
   <tr>
     <td width="60%">
       <h3>The Goal</h3>
-      <p>My focus is not just about memorizing syntax, but learning how to think like a programmer. I am building a solid foundation to transition from structured algorithms to complex Backend architectures.</p>
+      <p>My focus is not just about memorizing syntax, but learning how to think like a programmer. I am building a solid foundation to transition from structured algorithms to complex backend architectures and modern software engineering.</p>
       <br>
       <h3>Current Focus</h3>
-      <p>Strengthening fundamentals with Programming Logic and Structured Algorithms using Pascal and C.</p>
+      <p>Strengthening fundamentals with Structured Algorithms, Memory Management, Modular Programming, and Web Development (Pascal, C, C++, HTML and CSS).</p>
     </td>
     <td width="40%" align="center">
       <img src="https://media.giphy.com/media/JIX9t2j0ZTN9S/giphy.gif" width="200" style="border-radius: 10px;"/>
@@ -37,31 +57,68 @@
 
 <br>
 
+<span id="tech-stack"></span>
 <p align="center">
   <img src="https://raw.githubusercontent.com/zGravity123/zGravity123/main/images/tech.png" alt="Tech Stack" width="100%">
 </p>
 
 <p align="center">
   <a href="https://skillicons.dev">
-    <img src="https://skillicons.dev/icons?i=pascal,c,git,github,md,vscode&theme=dark" alt="Current Stack" />
+    <img src="https://skillicons.dev/icons?i=c,cpp,html,css,git,github,vscode,powershell,bash,windows,md&theme=dark" alt="Tech Stack and Tools" />
   </a>
 </p>
 
 <br>
 
+<span id="content-and-progress"></span>
 <p align="center">
   <img src="https://raw.githubusercontent.com/zGravity123/zGravity123/main/images/livestatus.png" alt="Content and Progress" width="100%">
 </p>
 
+<<<<<<< HEAD
 | Module | Content | Status |
 | :--- | :--- | :--- |
 | /Pascalzim | Algorithms, mathematical logic, and data structures. | Finished |
 | /C | Automation, low-level programming, and performance. | Finished |
 | /C++ | Logic challenges and reasoning exercises. | Active |
 | /HTML & CSS | Web development and markup structure challenges. | Active |
+=======
+| Module | Content & Focus | Exercises | Status |
+| :--- | :--- | :---: | :---: |
+| [Pascalzim](./Pascalzim) | Algorithms, mathematical logic, arrays, matrices, file I/O, and projects | 150+ | Completed |
+| [C](./C) | Structured programming, low-level I/O, pointers, memory, and interactive simulations | 180+ | Completed |
+| [C++](./C%2B%2B) | Logic challenges, modern C++, modular architecture (.h / .cpp) | 60+ | Active |
+| [HTML & CSS](./HTML%20%26%20CSS) | Semantic markup, responsive tables, forms with custom UI icons | 2 Projects | In Progress |
+>>>>>>> ad02386f7c7662507810018ca0f471d9c202ef8f
 
 <br>
 
+<span id="repository-structure"></span>
+### Repository Structure
+
+```plaintext
+learning-path/
+|-- Pascalzim/             # Algorithmic logic, data structures, files, and projects
+|   |-- 01 to 06 - Fichas  # Sequential problem sets and mathematical logic
+|   |-- 08 to 11 - M2 to M5# Curriculum modules (Control structures, Functions, Matrices, Files)
+|   |-- 12 - Revisoes      # Comprehensive review problem sets
+|   `-- 13 - Especiais     # Tic-Tac-Toe and Escape Room
+|-- C/                     # Low-level systems, performance, and automation
+|   |-- 01 to 10 - Fichas  # Thematic syntax and logic worksheets
+|   |-- 02 - Exercicios    # +90 sequential exercises
+|   |-- 06 - Especiais     # Chatbot, Portugal 2026, CodeQuest, and Escape Room
+|   `-- 07 - CodeAvalia    # Graded practical evaluations
+|-- C++/                   # Modern C++ and modular software design
+|   |-- 01 - Exercicios    # Continuous practice + Math and Geometry modules
+|   `-- 02 - Fichas        # Laboratory worksheets
+`-- HTML & CSS/            # Web development and interfaces
+    |-- 01 - Ex1-2         # Styled semantic school schedule table
+    `-- 02 - Ex3           # Complete registration form with custom icons
+```
+
+<br>
+
+<span id="stats"></span>
 <p align="center">
   <img src="https://raw.githubusercontent.com/zGravity123/zGravity123/main/images/gitstats.png" alt="Stats" width="100%">
 </p>
@@ -72,6 +129,7 @@
 
 <br>
 
+<span id="contact"></span>
 <p align="center">
   <img src="https://raw.githubusercontent.com/zGravity123/zGravity123/main/images/contact.png" alt="Contact" width="100%">
 </p>

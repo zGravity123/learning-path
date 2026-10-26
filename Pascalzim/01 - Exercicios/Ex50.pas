@@ -8,7 +8,7 @@ Begin
   
   while (num <=10) do
   	begin
-  	writeln('Sérgio');
+  	writeln('SÃ©rgio');
   	num:=num+ 1;
   end;
 

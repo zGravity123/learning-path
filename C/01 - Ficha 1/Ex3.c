@@ -7,9 +7,9 @@ main()
 
     int a,b;
 
-    printf("Introduza dois números! \n");
+    printf("Introduza dois nÃºmeros! \n");
     scanf("%d %d", &a, &b);
     system("cls");
-    printf("A soma é: %d",a+b);
+    printf("A soma Ã©: %d",a+b);
 
 }

@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="pt-PT">
+
+<head>
+  <meta charset="UTF-8">
+  <link rel="stylesheet" href="Ex3.css">
+  <title>Inscrição</title>
+</head>
+
+<body>
+  <form action="/inscricao" method="post">
+
+    <fieldset>
+      <legend>Informações Pessoais</legend>
+
+      <label class="label-com-icone">
+        <img src="icones/user.png" alt="" class="icone">
+        Nome Completo
+      </label>
+      <input type="text" id="nome" name="nome" placeholder="Introduza seu nome completo*" required>
+
+      <label class="label-com-icone">
+        <img src="icones/gmail.png" alt="" class="icone">
+        Email
+      </label>
+      <input type="email" id="email" name="email" placeholder="Introduza seu email*">
+      
+      <label class="label-com-icone">
+        <img src="icones/telefone.png" alt="" class="icone">
+        Telefone
+      </label>
+      <input type="text" id="Telefone" name="Telefone" placeholder="Introduza seu numero de telefone*" required>
+
+      <label class="label-com-icone">
+        <img src="icones/morada.png" alt="" class="icone">
+        Morada
+      </label>
+      <input type="text" id="Morada" name="Morada" placeholder="Introduza sua morada*" required>
+
+      <label class="label-com-icone">
+        <img src="icones/cidade.png" alt="" class="icone">
+        Cidade
+      </label>
+      <input type="text" id="Cidade" name="Cidade" placeholder="Introduza sua cidade*" required>
+
+      <label class="label-com-icone">
+        <img src="icones/clube.png" alt="" class="icone">
+        Clube
+      </label>
+      <input type="text" id="Clube" name="Clube" placeholder="Introduza seu clube*" required>
+
+      <fieldset>
+        <legend>Ano</legend>
+        
+        <div>
+          <input type="radio" id="ano1" name="ano" value="1º Ano" required>
+          <label>1º Ano</label>
+        </div>
+        
+        <div>
+          <input type="radio" id="ano2" name="ano" value="2º Ano">
+          <label>2º Ano</label>
+        </div>
+        
+        <div>
+          <input type="radio" id="ano3" name="ano" value="3º Ano">
+          <label>3º Ano</label>
+        </div>
+      </fieldset>
+
+        <button>Enviar</button>
+      
+    </fieldset>
+
+    <!--
+    // cada campo tem uma etiqueta ligada ao campo
+    // os campos obrigatorio nao deixam enviar o formulario sem preencher
+    // os campos estao agrupado em dois blocos, cada um com um titlo
+    // os dados sao enviados sem aparecer no endereco da pagina
+    // o syles esta no arquivo css a parte, as etiquetas por cima dos campos e os campos com o mesmo tamanho, alinhados
+    e o botao de envio em destaque
+    // A pasta do projeto tem o ficheiro da pagina e do estilo
+
+    falta o campo de telefone, o campo de morada e o campo de cidade, todos obrigatorios
+
+
+    <button type="submit">Enviar</button>
+    -->
+    
+  </form>
+</body>
+
+</html>

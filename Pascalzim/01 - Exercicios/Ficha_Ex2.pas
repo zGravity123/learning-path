@@ -4,11 +4,11 @@ var
 begin
   writeln('Introduza Dois valores inteiros');
   readln(A, B);
-  writeln('Escolha uma das opÁoes:');
-  writeln('1: AdiÁ„o');
-  writeln('2: SubtraÁ„o');
-  writeln('3: Divis„o');
-  writeln('4: MultiplicaÁ„o');
+  writeln('Escolha uma das op√ßoes:');
+  writeln('1: Adi√ß√£o');
+  writeln('2: Subtra√ß√£o');
+  writeln('3: Divis√£o');
+  writeln('4: Multiplica√ß√£o');
   readln(P);
 
   if (P = 1) then
@@ -22,7 +22,7 @@ begin
     writeln('Resultado: ', A * B);
   
   if (P < 1) or (P > 4) then
-    writeln('OperaÁ„o Inv·lida');
+    writeln('Opera√ß√£o Inv√°lida');
   
   readkey;
 end.

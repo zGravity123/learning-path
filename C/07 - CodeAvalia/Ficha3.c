@@ -9,17 +9,17 @@ main()
 
     setlocale(LC_ALL, "Portuguese");
 
-    printf("Introduza um número positivo: ");
+    printf("Introduza um nÃºmero positivo: ");
     scanf("%d", &v);
 
     if (v % 2 == 0)
-      printf("O número introduzido é par \n");
+      printf("O nÃºmero introduzido Ã© par \n");
     else
-      printf("O valor introduzido é impar \n");
+      printf("O valor introduzido Ã© impar \n");
 
 
     if (v % 3 == 0)
-      printf("O número introduzido é multiplo de 3 \n");
+      printf("O nÃºmero introduzido Ã© multiplo de 3 \n");
 
 
     for (i = 1; i <= v; i++)

@@ -30,5 +30,5 @@ main()
 
     media = soma / (float)10;
 
-    printf("A idade média dos clientes é: %.2f\n", media);
+    printf("A idade mÃ©dia dos clientes Ã©: %.2f\n", media);
 }

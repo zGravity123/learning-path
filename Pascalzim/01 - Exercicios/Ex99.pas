@@ -16,7 +16,7 @@ randomize;
 		min := vet[i];
 	 end;
 
-	writeln('O min é ',min,' e o max é ',max);
+	writeln('O min Ã© ',min,' e o max Ã© ',max);
  
   readkey;
  

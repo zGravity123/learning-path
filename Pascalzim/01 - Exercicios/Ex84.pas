@@ -21,7 +21,7 @@ begin
 	 readkey; 
 
 	clrscr;
-  writeln('Pressione "A" se quiser reiniciar o programa, caso n„o, pressione "B"');
+  writeln('Pressione "A" se quiser reiniciar o programa, caso n√£o, pressione "B"');
   readln(op);
 
   if (op = 'A') then

@@ -8,7 +8,7 @@ Begin
 	textcolor(Cyan);
 	for i:= 1 to 3 do
 	 Begin
-		writeln('Digite a posição #',i);
+		writeln('Digite a posiÃ§Ã£o #',i);
 		readln(vet[i]);
 		clrscr;
 	 end;

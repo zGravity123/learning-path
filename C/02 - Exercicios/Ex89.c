@@ -33,13 +33,13 @@ main()
         printf("Quantidade: ");
         scanf("%d", &artigos[i].quant);
 
-        printf("Preço: ");
+        printf("PreÃ§o: ");
         scanf("%f", &artigos[i].preco);
 
         artigos[i].total = artigos[i].quant * artigos[i].preco;
         totalcompras += artigos[i].total;
 
-        fprintf(fp, "\n Nome: %s\nQuantidade: %d\nPreço: %.2f\nTotal: %.2f\n",
+        fprintf(fp, "\n Nome: %s\nQuantidade: %d\nPreÃ§o: %.2f\nTotal: %.2f\n",
                 artigos[i].nome, artigos[i].quant, artigos[i].preco, artigos[i].total);
     }
 

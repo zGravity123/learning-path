@@ -6,8 +6,8 @@
 main()
 {
 
-    // 10 valores aleatorios atÈ 100 mostramos os valores, mostramos o mais alto
-    // e em qual posiÁ„o ele t·, o player pd repetir o progamma
+    // 10 valores aleatorios at√© 100 mostramos os valores, mostramos o mais alto
+    // e em qual posi√ß√£o ele t√°, o player pd repetir o progamma
 
     home:
 
@@ -30,9 +30,9 @@ main()
         printf("%d \n",vet[i]);
     }
 
-    printf("O maior valor È %d na posiÁ„o %d \n",maior,pos);
+    printf("O maior valor √© %d na posi√ß√£o %d \n",maior,pos);
 
-    printf("Digite '0' se quiser reniciar o cÛdigo, pressione qualquer tecla pra fechar: ");
+    printf("Digite '0' se quiser reniciar o c√≥digo, pressione qualquer tecla pra fechar: ");
     scanf("%d",&op);
     system("cls");
 

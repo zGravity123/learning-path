@@ -15,6 +15,6 @@ Begin
    readln(altura);
    clrscr;
 
-   writeln('A area é: ', area);
+   writeln('A area Ã©: ', area);
    readkey;
 End.

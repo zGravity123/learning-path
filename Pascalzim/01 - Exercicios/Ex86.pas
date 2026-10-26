@@ -9,7 +9,7 @@ Begin
 	
 	home:
 	clrscr;
-	writeln('Escolha uma opÁ„o');
+	writeln('Escolha uma op√ß√£o');
 	writeln('A - Escrita na horizontal');
 	writeln('B - Escrita na vertical');
 	writeln('C - Escrita na diagonal');
@@ -54,7 +54,7 @@ Begin
  end;	
 
  
- 	writeln('Pressione "A" se quiser reniciar o progama, caso n„o pressine "B"');
+ 	writeln('Pressione "A" se quiser reniciar o progama, caso n√£o pressine "B"');
 	readln(oc);
  
  	if (oc = 'A') then

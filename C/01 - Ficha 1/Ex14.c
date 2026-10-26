@@ -12,9 +12,9 @@ main()
     system("cls");
 
     if (v > 0)
-        printf("O valor inserido é positivo!");
+        printf("O valor inserido Ã© positivo!");
     if (v == 0)
-        printf("O valor inserido é Zero!");
+        printf("O valor inserido Ã© Zero!");
     if (v < 0)
-        printf("O valor inserido é negativo!");
+        printf("O valor inserido Ã© negativo!");
 }

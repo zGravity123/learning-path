@@ -14,7 +14,7 @@ main()
    setlocale(LC_ALL, "Portuguese");
 
    home:
-       printf("Introduza o sal·rio do(a) funcionario(a): ");
+       printf("Introduza o sal√°rio do(a) funcionario(a): ");
        scanf("%d", &salario);
 
        printf("Introduza o sexo do(a) funcionario(a): \nM - Masculino\nF - Feminino\n");
@@ -32,6 +32,6 @@ main()
         goto home;
     }
 
-    printf("Novo sal·rio: %d\n", novosalario);
+    printf("Novo sal√°rio: %d\n", novosalario);
 }
 

@@ -4,7 +4,7 @@ var Nome: string;
 begin
   writeln('Qual o seu nome?');
   readln(Nome);
-  writeln('Qual o seu sal·rio?');
+  writeln('Qual o seu sal√°rio?');
   readln(S);
   
   salario:= S * 0.85;

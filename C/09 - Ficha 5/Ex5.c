@@ -11,7 +11,7 @@ main()
 
     for (i = 0; i < 8; i++)
     {
-        printf("Introduza o número %d: ", i);
+        printf("Introduza o nÃºmero %d: ", i);
         scanf("%d", &numeros[i]);
         soma = soma + numeros[i];
     }
@@ -24,6 +24,6 @@ main()
             acima = acima + 1;
     }
 
-    printf("Média: %.2f\n", media);
-    printf("Quantidade de valores acima da média: %d\n", acima);
+    printf("MÃ©dia: %.2f\n", media);
+    printf("Quantidade de valores acima da mÃ©dia: %d\n", acima);
 }

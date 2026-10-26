@@ -17,7 +17,7 @@ Begin
 	readln(N);
 	if(N > 0) or (N < 20) then
 	
-	  Writeln('Nota Inválida')
+	  Writeln('Nota InvÃ¡lida')
 	
 	else
 	begin

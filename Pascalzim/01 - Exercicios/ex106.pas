@@ -5,7 +5,7 @@ var vetor:array[1..10] of integer;
 label home;
 Begin
 home:
-   // um vetor com 10 posiçoes, o vetor deve ser preenchido automaticamente com uma sequenciaa de 1 e 0
+   // um vetor com 10 posiÃ§oes, o vetor deve ser preenchido automaticamente com uma sequenciaa de 1 e 0
    
    textcolor(Cyan);
    for i := 1 to 10  do
@@ -24,7 +24,7 @@ home:
   clrscr;
   
   writeln('Deseja reniciar o Progama?');
-  writeln('      [S]im ou [N]ão      ');
+  writeln('      [S]im ou [N]Ã£o      ');
   readln(op);
   
   op := upcase(op);

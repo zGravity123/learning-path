@@ -3,7 +3,7 @@ var vet:array[1..8] of integer;
 		i, cont: Integer;
 		v:real;
 Begin
-   // introduzimos 1 numero binario de 8 bits e convertemos pra número
+   // introduzimos 1 numero binario de 8 bits e convertemos pra nÃºmero
    
    
 	cont := 0;
@@ -41,6 +41,6 @@ Begin
   	cont := cont + 1;
 		  
   clrscr;   
-  writeln('O valor convertido pra decimal é: ',cont);
+  writeln('O valor convertido pra decimal Ã©: ',cont);
    		
 End.

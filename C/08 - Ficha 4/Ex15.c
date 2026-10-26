@@ -19,5 +19,5 @@ main()
     fclose(A);
     fclose(B);
 
-    printf("Conteúdo copiado com sucesso \n");
+    printf("ConteÃºdo copiado com sucesso \n");
 }

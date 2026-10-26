@@ -10,7 +10,7 @@ main()
 
     for (i = 0; i < 20; i++)
     {
-        printf("Introduza o número %d: ", i);
+        printf("Introduza o nÃºmero %d: ", i);
         scanf("%d", &numeros[i]);
 
         if (numeros[i] % 3 == 0)
@@ -20,6 +20,6 @@ main()
     }
 
     system("cls");
-    printf("Quantidade de números múltiplos de 3: %d\n", multiplos);
-    printf("Quantidade de números não múltiplos de 3: %d\n", nao_multiplos);
+    printf("Quantidade de nÃºmeros mÃºltiplos de 3: %d\n", multiplos);
+    printf("Quantidade de nÃºmeros nÃ£o mÃºltiplos de 3: %d\n", nao_multiplos);
 }

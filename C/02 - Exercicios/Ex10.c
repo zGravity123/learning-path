@@ -16,6 +16,6 @@ main()
     scanf("%d",&b);
 
     printf("\n");
-    printf("A soma doi dois é: %d \n", a + b);
+    printf("A soma doi dois Ã©: %d \n", a + b);
 }
 

@@ -4,25 +4,25 @@ var	hr:integer;
 label home;
 Begin
 home:
-   // informa o user dependendo da hora que for introduzida, se È de madrugada,manha,tarde ou noite
+   // informa o user dependendo da hora que for introduzida, se √© de madrugada,manha,tarde ou noite
    
-   // madrugada È entre 5 e 7 da manha
-   // manha È entre 8 e 12
-   // tarde È entre as 13 e 19
+   // madrugada √© entre 5 e 7 da manha
+   // manha √© entre 8 e 12
+   // tarde √© entre as 13 e 19
    // noite entre as 20 e 24 e tb das 1 as 4
    
    writeln('Digite as horas');
    readln(hr);
    
    case hr of
-		 	1..4,13..19: writeln('No horario introduzido È de Noite');
-			5..7: writeln('No horario introduzido È madrugada'); 
-			8..12: writeln('No horario introduzido È manh„');
+		 	1..4,13..19: writeln('No horario introduzido √© de Noite');
+			5..7: writeln('No horario introduzido √© madrugada'); 
+			8..12: writeln('No horario introduzido √© manh√£');
 	  end;
 	 
 	readkey;
   writeln('Deseja reniciar o Progama?');
-  writeln('      [S]im ou [N]„o      ');
+  writeln('      [S]im ou [N]√£o      ');
   readln(op);
   
   op := upcase(op);

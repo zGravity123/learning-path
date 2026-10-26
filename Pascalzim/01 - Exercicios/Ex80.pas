@@ -18,12 +18,12 @@ Begin
 	
 	diff := ord(L1) - ord(L2);
 	
-	writeln('A diferençã númerica é: ',diff,'. Pressione qualquer tecla pra continuar');
+	writeln('A diferenÃ§Ã£ nÃºmerica Ã©: ',diff,'. Pressione qualquer tecla pra continuar');
 	readkey;
 	
 	
  	clrscr;
-	writeln('Pressione "A" se quiser reniciar o progama, caso não pressine "B"');
+	writeln('Pressione "A" se quiser reniciar o progama, caso nÃ£o pressine "B"');
 	readln(op);
 	
 	if (op = 'A') then

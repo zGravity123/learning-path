@@ -4,8 +4,8 @@
 main()
 {
     setlocale(LC_ALL, "Portuguese");
-    printf("\tOl· Mundo!\n");
+    printf("\tOl√° Mundo!\n");
 
-    printf("Ol· \\ Mundo!\n");
+    printf("Ol√° \\ Mundo!\n");
 }
 

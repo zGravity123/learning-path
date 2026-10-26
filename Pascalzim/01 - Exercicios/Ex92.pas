@@ -10,7 +10,7 @@ Begin
   clrscr;
   textcolor(Cyan);
 	
-	writeln('Digite um número');
+	writeln('Digite um nÃºmero');
 	readln(numero);
 	
   primo := 1;  
@@ -23,7 +23,7 @@ Begin
 	if divisores = 2 then
 		writeln('Primo')
 	else
-		writeln('Não é primo');
+		writeln('NÃ£o Ã© primo');
 	readkey;
 
 	
@@ -36,7 +36,7 @@ Begin
 		
 	
 	clrscr;
-	writeln('Pressione "A" se quiser reniciar o progama, caso não pressine "B"');
+	writeln('Pressione "A" se quiser reniciar o progama, caso nÃ£o pressine "B"');
 	readln(op);
 	
 	if (op = 'A') then

@@ -18,7 +18,7 @@ main()
     for (i = 0; i < 5; i++)
     {
         printf("Livro %d: \n", i);
-        printf("Introduza o título: ");
+        printf("Introduza o tÃ­tulo: ");
         scanf("%s", lista[i].titulo);
         printf("Introduza o autor: ");
         scanf("%s", lista[i].autor);
@@ -30,7 +30,7 @@ main()
     for (i = 0; i < 5; i++)
     {
         printf("Livro %d: \n", i);
-        printf("Título: %s\n", lista[i].titulo);
+        printf("TÃ­tulo: %s\n", lista[i].titulo);
         printf("Autor: %s\n", lista[i].autor);
         printf("Ano: %d\n", lista[i].ano);
         printf("\n");

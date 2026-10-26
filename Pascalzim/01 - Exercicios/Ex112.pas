@@ -5,7 +5,7 @@ var
  procedure lerdados;
 	Begin
 		textcolor(cyan);
-		writeln('Digite um número inteiro');
+		writeln('Digite um nÃºmero inteiro');
 		readln(num);
 		clrscr;
 	end;
@@ -13,14 +13,14 @@ var
  procedure conta;
   Begin 	
   	textcolor(cyan);
-  	writeln('A raiz quadrada é ',sqrt(num):0:2);
+  	writeln('A raiz quadrada Ã© ',sqrt(num):0:2);
   end;
 
 
  procedure dobro;
   Begin
   	textcolor(cyan);
-    writeln('O dobro do número digitado: ',num * 2);
+    writeln('O dobro do nÃºmero digitado: ',num * 2);
   end;
 
 Begin

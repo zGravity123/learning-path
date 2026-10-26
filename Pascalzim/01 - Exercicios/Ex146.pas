@@ -62,10 +62,10 @@ Begin
 
 	clrscr;
   if cont > cont2 then
-    writeln('O arquivo "caracteres1.txt" é maior')
+    writeln('O arquivo "caracteres1.txt" Ã© maior')
   else
   if cont2 > cont then
-    writeln('O arquivo "caracteres2.txt" é maior')
+    writeln('O arquivo "caracteres2.txt" Ã© maior')
   else
     writeln('Os arquivos tem o mesmo tamanho');
   readkey;

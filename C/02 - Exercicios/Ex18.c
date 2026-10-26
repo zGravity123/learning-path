@@ -20,8 +20,8 @@ main ()
     printf("\n");
 
     if (med >= 9.5)
-        printf("Aprovado, a média é %.1f", med);
+        printf("Aprovado, a mÃ©dia Ã© %.1f", med);
     else
-        printf("Reprovado a média é %.1f", med);
+        printf("Reprovado a mÃ©dia Ã© %.1f", med);
 
 }

@@ -6,12 +6,12 @@ main() {
     float media;
 
     for (int i = 0; i < 10; i++) {
-        printf("Digite o %dº número: ", i + 1);
+        printf("Digite o %dÂº nÃºmero: ", i + 1);
         scanf("%lf", &numeros[i]);
         soma = soma + numeros[i];
     }
 
     media = soma /(float) 10.0;
 
-    printf("A média dos números é: %.2lf\n", media);
+    printf("A mÃ©dia dos nÃºmeros Ã©: %.2lf\n", media);
 }

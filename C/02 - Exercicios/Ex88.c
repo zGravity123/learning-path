@@ -27,13 +27,13 @@ main()
         printf("Nome: ");
         scanf("%s", &clientes[i].nome);
 
-        printf("Número da Conta: ");
+        printf("NÃºmero da Conta: ");
         scanf("%d", &clientes[i].numconta);
 
         printf("Saldo: ");
         scanf("%d", &clientes[i].saldo);
 
-        fprintf(fp, " Cliente %d; \nNome: %d\nNúmero da Conta: %d\nSaldo: %d\n", i + 1, clientes[i].nome, clientes[i].numconta, clientes[i].saldo);
+        fprintf(fp, " Cliente %d; \nNome: %d\nNÃºmero da Conta: %d\nSaldo: %d\n", i + 1, clientes[i].nome, clientes[i].numconta, clientes[i].saldo);
     }
 
 
@@ -41,7 +41,7 @@ main()
     {
      fprintf(fp, "\n=== Cliente %d ===\n", i + 1);
      fprintf(fp, "Nome: %s\n", clientes[i].nome);
-     fprintf(fp, "Número da Conta: %d\n", clientes[i].numconta);
+     fprintf(fp, "NÃºmero da Conta: %d\n", clientes[i].numconta);
      fprintf(fp, "Saldo: %d\n", clientes[i].saldo);
     }
     fclose(fp);
@@ -55,7 +55,7 @@ main()
     {
         printf("\n=== Cliente %d ===\n", i + 1);
         printf("Nome: %s\n", clientes[i].nome);
-        printf("Número da Conta: %d\n", clientes[i].numconta);
+        printf("NÃºmero da Conta: %d\n", clientes[i].numconta);
         printf("Saldo: %d\n", clientes[i].saldo);
     }
 }

@@ -7,10 +7,10 @@ Begin
 	readln(num);
 	
 	if (num = 0) then
-	 writeln('O valor inteiro é zero')
+	 writeln('O valor inteiro Ã© zero')
 	 
 	else
-	  writeln('O valor é Diferente de Zero');
+	  writeln('O valor Ã© Diferente de Zero');
 	  
 	  readkey;                                																					
   

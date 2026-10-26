@@ -10,7 +10,7 @@ main()
 
     for (int i = 0; i < 15; i++)
     {
-        printf("Digite o %dº número: ", i + 1);
+        printf("Digite o %dÂº nÃºmero: ", i + 1);
         scanf("%d", &numeros[i]);
     }
 
@@ -22,6 +22,6 @@ main()
             impares++;
     }
 
-    printf("Quantidade de números pares: %d\n", pares);
-    printf("Quantidade de números ímpares: %d\n", impares);
+    printf("Quantidade de nÃºmeros pares: %d\n", pares);
+    printf("Quantidade de nÃºmeros Ã­mpares: %d\n", impares);
 }

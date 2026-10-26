@@ -21,7 +21,7 @@ main()
         printf("Introduza o nome: ");
         scanf("%s", lista[i].nome);
 
-        printf("Introduza o preço: ");
+        printf("Introduza o preÃ§o: ");
         scanf("%f", &lista[i].preco);
 
         printf("Introduza a quantidade: ");

@@ -1,0 +1,24 @@
+# Compilação e Binários
+*.exe
+*.o
+*.obj
+*.out
+*.dll
+*.so
+*.dylib
+
+# Dev-C++ / IDEs / Editores
+*.layout
+*.orig
+.vscode/
+.idea/
+
+# Sistema Operativo
+[Dd]esktop.ini
+[Tt]humbs.db
+$RECYCLE.BIN/
+.DS_Store
+
+# Ficheiros duplicados / cópias temporárias
+* - Copia.*
+* - Copy.*

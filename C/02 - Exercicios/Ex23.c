@@ -1,4 +1,4 @@
-// Verificamos se é par ou impar
+// Verificamos se Ã© par ou impar
 
 #include <stdio.h>
 #include <locale.h>
@@ -9,13 +9,13 @@ main()
 
     int v;
 
-    printf("Insira um número");
+    printf("Insira um nÃºmero");
     scanf("&d", &v);
 
     system("cls");
 
     if (v%2==0)
-        printf("O valor inserido é Par \n");
+        printf("O valor inserido Ã© Par \n");
     else
-        printf("O valor inserio é impar");
+        printf("O valor inserio Ã© impar");
 }

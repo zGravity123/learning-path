@@ -26,7 +26,7 @@ main()
 
         if (op == tamanho)
         {
-         printf("Parabéns! Conseguiste adivinhar com sucesso.");
+         printf("ParabÃ©ns! Conseguiste adivinhar com sucesso.");
          break;
         }
 

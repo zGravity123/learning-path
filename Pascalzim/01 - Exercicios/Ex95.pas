@@ -5,13 +5,13 @@ Program Pzim ;
 
 Begin
 
-	writeln('Digite a posição 1');
+	writeln('Digite a posiÃ§Ã£o 1');
 	readln(vet[1]);
   
-  writeln('Digite a posição 2');
+  writeln('Digite a posiÃ§Ã£o 2');
 	readln(vet[2]);
 	
-	writeln('Digite a posição 3');
+	writeln('Digite a posiÃ§Ã£o 3');
 	readln(vet[3]);
 
 	clrscr;

@@ -13,7 +13,7 @@ Begin
 	writeln('Introduza o valor dos catetos');
 	readln(C1,C2);
 	H:=sqrt(C1*C1+C2*C2);
-	writeln('A hipotonusa é: ', H:0:2);
+	writeln('A hipotonusa Ã©: ', H:0:2);
 	readkey;
 		
   

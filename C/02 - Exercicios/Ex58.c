@@ -10,15 +10,15 @@ main()
     int op;
     float n1, n2;
 
-    printf("\n===== Menu de operações =====\n");
-    printf("1: Somar dois números\n");
-    printf("2: Subtrair dois números\n");
-    printf("3: Multiplicar dois números\n");
-    printf("4: Dividir dois números\n");
+    printf("\n===== Menu de operaÃ§Ãµes =====\n");
+    printf("1: Somar dois nÃºmeros\n");
+    printf("2: Subtrair dois nÃºmeros\n");
+    printf("3: Multiplicar dois nÃºmeros\n");
+    printf("4: Dividir dois nÃºmeros\n");
     printf("\n");
     printf("0 - Sair\n");
     printf("\n");
-    printf("Selecione uma opção: ");
+    printf("Selecione uma opÃ§Ã£o: ");
     scanf("%d", &op);
 
     switch(op)
@@ -26,7 +26,7 @@ main()
 
         case 1:
 
-            printf("Digite dois números para somar: ");
+            printf("Digite dois nÃºmeros para somar: ");
             scanf("%f %f", &n1, &n2);
 
             printf("Soma: %.2f\n", n1 + n2);
@@ -34,27 +34,27 @@ main()
 
         case 2:
 
-            printf("Digite dois números para subtrair: ");
+            printf("Digite dois nÃºmeros para subtrair: ");
             scanf("%f %f", &n1, &n2);
 
-            printf("Subtração: %.2f\n", n1 - n2); break;
+            printf("SubtraÃ§Ã£o: %.2f\n", n1 - n2); break;
 
         case 3:
 
-            printf("Digite dois números para multiplicar: ");
+            printf("Digite dois nÃºmeros para multiplicar: ");
             scanf("%f %f", &n1, &n2);
 
-            printf("Multiplicação: %.2f\n", n1 * n2); break;
+            printf("MultiplicaÃ§Ã£o: %.2f\n", n1 * n2); break;
 
         case 4:
 
-            printf("Digite dois números para dividir: ");
+            printf("Digite dois nÃºmeros para dividir: ");
             scanf("%f %f", &n1, &n2);
 
             if (n2 != 0)
-                printf("Divisão: %.2f\n", n1 / n2);
+                printf("DivisÃ£o: %.2f\n", n1 / n2);
             else
-                printf("Erro: divisão por zero!\n"); break;
+                printf("Erro: divisÃ£o por zero!\n"); break;
     }
 
     goto home;

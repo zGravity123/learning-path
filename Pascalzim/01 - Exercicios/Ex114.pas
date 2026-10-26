@@ -21,7 +21,7 @@ Begin
   soma := vet[i] + vet[i];
   med := soma / 50;
   
-  writeln('Existem ',pares,' números pares e ',impares,' impares, a media é ',med:0:2);
+  writeln('Existem ',pares,' nÃºmeros pares e ',impares,' impares, a media Ã© ',med:0:2);
   readkey;
     
    

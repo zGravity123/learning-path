@@ -9,7 +9,7 @@ main()
 
     int mes;
 
-    printf("\033[36mIntroduza o mes em número \n");
+    printf("\033[36mIntroduza o mes em nÃºmero \n");
     scanf("%d", &mes);
 
     system("cls");
@@ -18,7 +18,7 @@ main()
     {
         case 1: printf("Janeiro\n"); break;
         case 2: printf("Fevereiro\n"); break;
-        case 3: printf("Março\n"); break;
+        case 3: printf("MarÃ§o\n"); break;
         case 4: printf("Abril\n"); break;
         case 5: printf("Maio\n"); break;
         case 6: printf("Junho\n"); break;
@@ -28,6 +28,6 @@ main()
         case 10: printf("Outubro\n"); break;
         case 11: printf("Novembro\n"); break;
         case 12: printf("Dezembro\n"); break;
-        default: printf("\033[31m Mês Invalido! \033[0m \n");
+        default: printf("\033[31m MÃªs Invalido! \033[0m \n");
     }
 }

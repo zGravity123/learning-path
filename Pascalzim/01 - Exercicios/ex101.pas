@@ -38,7 +38,7 @@ home:
   clrscr;
   
   writeln('Deseja reniciar o Progama?');
-  writeln('      [S]im ou [N]ão      ');
+  writeln('      [S]im ou [N]Ã£o      ');
   readln(op);
   
   op := upcase(op);

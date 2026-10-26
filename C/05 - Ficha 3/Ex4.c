@@ -11,7 +11,7 @@ main()
     int vet[10],pares = 0,impares = 0,i,soma = 0;
     float med;
 
-    srand(time(NULL)); //faz não ser smp os mesmos números no random
+    srand(time(NULL)); //faz nÃ£o ser smp os mesmos nÃºmeros no random
 
     setlocale(LC_ALL, "Portuguese");
 
@@ -30,7 +30,7 @@ main()
     med = soma /(float) 10;
 
     printf("Existem %d valores pares e %d impares \n", pares, impares);
-    printf("A media dos 10 valores é: %0.2f", med);
+    printf("A media dos 10 valores Ã©: %0.2f", med);
 
 
 }

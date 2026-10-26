@@ -33,14 +33,14 @@ Begin
   
 
   textcolor(Yellow);
-  writeln(' /-----------/ INFORMAÇÕES /-----------/ ');
+  writeln(' /-----------/ INFORMAÃ‡Ã•ES /-----------/ ');
   writeln;
   writeln('	', A1.nome, '|', A1.piva:0:2);
   writeln('	', A2.nome, '|', A2.piva:0:2);
   writeln('	', A3.nome, '|', A3.piva);
   writeln;
   writeln('	Total: ', total:0:2);
-  writeln('	Média: ', media:0:2);
+  writeln('	MÃ©dia: ', media:0:2);
   writeln(' /-----------/ ------------ /-----------/ ');
   readkey;
 End.

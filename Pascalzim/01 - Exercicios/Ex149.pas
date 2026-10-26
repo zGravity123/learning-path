@@ -18,7 +18,7 @@ Begin
 			writeln('Introduza a data de nascimento:');
 			write('Dia: ');
 			read(dia);
-			write('Mês: ');
+			write('MÃªs: ');
 			read(mes);
 			write('Ano: ');
 			read(ano);

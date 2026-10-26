@@ -33,5 +33,5 @@ main()
     med = soma_idades / (float) 10;
 
     system("cls");
-    printf("Idade média da turma: %.2f anos\n", med);
+    printf("Idade mÃ©dia da turma: %.2f anos\n", med);
 }

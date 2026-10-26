@@ -3,7 +3,7 @@ var
     n, i, soma: integer;
 Begin
 		textcolor(Cyan);
-    writeln('Digite um número');
+    writeln('Digite um nÃºmero');
     readln(n);
     clrscr;
     
@@ -12,7 +12,7 @@ Begin
     for i := 1 to n do
         soma := soma + i;
     
-    writeln('A soma dos números de 1 até ', n, ' é: ', soma);
+    writeln('A soma dos nÃºmeros de 1 atÃ© ', n, ' Ã©: ', soma);
     
     readkey; 
 End.

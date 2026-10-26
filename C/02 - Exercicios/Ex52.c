@@ -16,7 +16,7 @@ main()
         if (i <= 4)
             goto loop;
 
-    printf("Soma dos primeiros 4 quadrados é %d\n", soma);
+    printf("Soma dos primeiros 4 quadrados Ã© %d\n", soma);
     printf("\n");
 
 

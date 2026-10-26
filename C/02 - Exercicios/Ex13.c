@@ -20,6 +20,6 @@ main()
     system("cls");
 
     printf("\n");
-    printf("A media dos 3 valores é: %.2f", (a+b+c)/(float)3);
+    printf("A media dos 3 valores Ã©: %.2f", (a+b+c)/(float)3);
 
 }

@@ -5,12 +5,12 @@ var A, B:integer;
   
 Begin
 
-	writeln('Introduza o dois números');
+	writeln('Introduza o dois nÃºmeros');
 	readln(A, B);
 	med:=(A+B)/2;
 	
-	writeln('A media é: ', med);
-	writeln('A media é: ', med:0:2); // Casas decimais: o valor '2' exibe duas casas após a vírgula (ex.: 5.00), enquanto o padrão original mostra seis (ex.: 5.000000)
+	writeln('A media Ã©: ', med);
+	writeln('A media Ã©: ', med:0:2); // Casas decimais: o valor '2' exibe duas casas apÃ³s a vÃ­rgula (ex.: 5.00), enquanto o padrÃ£o original mostra seis (ex.: 5.000000)
 	readkey;
 	                               
 End.

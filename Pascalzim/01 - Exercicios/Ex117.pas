@@ -4,7 +4,7 @@ var num, quant:integer;
 procedure obterdados;
  Begin
  	writeln('Calculos multiplos');
- 	writeln('Introduza um número');
+ 	writeln('Introduza um nÃºmero');
  	readln(num);
  	writeln('Quantos multiplos quer?');
  	readln(quant);
@@ -23,7 +23,7 @@ end;
 Begin
 	obterdados;
 	calcular;
-	writeln('Introduza um número');
+	writeln('Introduza um nÃºmero');
 	readln(num);
 	calcular;
 	readkey;

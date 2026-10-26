@@ -30,6 +30,6 @@ main()
     med = soma /(float) 20;
 
     printf("Existem %d pessoas aprovadas e %d reprovadas \n", positivas, negativas);
-    printf("A media da turma é: %0.2f\n", med);
+    printf("A media da turma Ã©: %0.2f\n", med);
 
 }

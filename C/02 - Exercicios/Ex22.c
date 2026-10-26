@@ -31,6 +31,6 @@ main()
     if (t3 < min)
         min = t3;
 
-    printf("A amplitude termica dos valores inseridos é: %0.2d", max - min);
+    printf("A amplitude termica dos valores inseridos Ã©: %0.2d", max - min);
 
 }

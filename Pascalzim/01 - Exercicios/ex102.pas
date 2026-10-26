@@ -22,13 +22,13 @@ home:
 	 end;
 
 	clrscr;
-	writeln('Você encontrou o valor "',vl,'" ',iguais,' vezes!');
+	writeln('VocÃª encontrou o valor "',vl,'" ',iguais,' vezes!');
  
   readkey;
   clrscr;
   
   writeln('Deseja reniciar o Progama?');
-  writeln('      [S]im ou [N]ão      ');
+  writeln('      [S]im ou [N]Ã£o      ');
   readln(op);
   
   op := upcase(op);

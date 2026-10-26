@@ -7,9 +7,9 @@ main()
 
     int v, v2;
 
-    printf("Introduza dois números! \n");
+    printf("Introduza dois nÃºmeros! \n");
     scanf("%d &d", &v, &v2);
     system("cls");
-    printf("O quadrado do número inserido é: %d",v*v2);
+    printf("O quadrado do nÃºmero inserido Ã©: %d",v*v2);
 
 }

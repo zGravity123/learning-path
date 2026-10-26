@@ -7,7 +7,7 @@ main()
 
     printf("------------------------\n");
     printf("|                      |\n");
-    printf("|  Sérgio Almeida      |\n");
+    printf("|  SÃ©rgio Almeida      |\n");
     printf("|                      |\n");
     printf("------------------------\n");
 }

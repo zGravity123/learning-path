@@ -4,5 +4,5 @@
 main()
 {
     setlocale(LC_ALL, "Portuguese");
-    printf("Sérgio Almeida!");
+    printf("SÃ©rgio Almeida!");
 }

@@ -9,7 +9,7 @@ main()
     int i = 0;
     int v;
 
-    printf("Introdzua o número que deseja ver a tabuada \n");
+    printf("Introdzua o nÃºmero que deseja ver a tabuada \n");
     scanf("%d",&v);
 
     system("cls");

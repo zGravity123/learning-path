@@ -20,8 +20,8 @@ Begin
 	volume := 3.14 * (base * base) * altura;
 		
  	clrscr;
- 	writeln('O volume È:',volume:2:0);
-	writeln('Pressione "A" se quiser reniciar o progama, caso n„o pressine "B"');
+ 	writeln('O volume √©:',volume:2:0);
+	writeln('Pressione "A" se quiser reniciar o progama, caso n√£o pressine "B"');
 	readln(op);
 	
 	if (op = 'A') then

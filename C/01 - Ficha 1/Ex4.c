@@ -13,6 +13,6 @@ main()
 
     system("cls");
 
-    printf("Ol·, %s \n",frase);
+    printf("Ol√°, %s \n",frase);
 
 }

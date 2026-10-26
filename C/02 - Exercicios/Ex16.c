@@ -19,5 +19,5 @@ main ()
     scanf("%d",&h);
     system("cls");
 
-    printf("A area do trapezio é: %.2f", ((B * b) *h)/(float)2);
+    printf("A area do trapezio Ã©: %.2f", ((B * b) *h)/(float)2);
 }

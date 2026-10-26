@@ -45,12 +45,12 @@ void ex1()
 
     for (i = 0; i < 10; i++)
     {
-        printf("Introduza o número %d: ", i);
+        printf("Introduza o nÃºmero %d: ", i);
         scanf("%d", &numeros[i]);
         soma = soma + numeros[i];
     }
 
-    printf("A soma dos números introduzidos é: %d\n", soma);
+    printf("A soma dos nÃºmeros introduzidos Ã©: %d\n", soma);
 }
 
 void ex2()
@@ -62,14 +62,14 @@ void ex2()
 
     for (i = 0; i < 10; i++)
     {
-        printf("Introduza o número %d: ", i);
+        printf("Introduza o nÃºmero %d: ", i);
         scanf("%f", &numeros[i]);
         soma = soma + numeros[i];
     }
 
     media = soma / (float)10;
 
-    printf("A média dos números introduzidos é: %.2f\n", media);
+    printf("A mÃ©dia dos nÃºmeros introduzidos Ã©: %.2f\n", media);
 }
 
 void ex3()
@@ -80,7 +80,7 @@ void ex3()
 
     for (i = 0; i < 10; i++)
     {
-        printf("Introduza o número %d: ", i);
+        printf("Introduza o nÃºmero %d: ", i);
         scanf("%d", &numeros[i]);
     }
 
@@ -95,8 +95,8 @@ void ex3()
             menor = numeros[i];
     }
 
-    printf("O maior número é: %d\n", maior);
-    printf("O menor número é: %d\n", menor);
+    printf("O maior nÃºmero Ã©: %d\n", maior);
+    printf("O menor nÃºmero Ã©: %d\n", menor);
 }
 
 void ex4()
@@ -107,7 +107,7 @@ void ex4()
 
     for (i = 0; i < 15; i++)
     {
-        printf("Introduza o número %d: ", i);
+        printf("Introduza o nÃºmero %d: ", i);
         scanf("%d", &numeros[i]);
     }
 
@@ -119,8 +119,8 @@ void ex4()
             impares++;
     }
 
-    printf("Quantidade de números pares: %d\n", pares);
-    printf("Quantidade de números ímpares: %d\n", impares);
+    printf("Quantidade de nÃºmeros pares: %d\n", pares);
+    printf("Quantidade de nÃºmeros Ã­mpares: %d\n", impares);
 }
 
 void ex5()
@@ -130,7 +130,7 @@ void ex5()
 
     for (i = 0; i < 10; i++)
     {
-        printf("Introduza o número %d: ", i);
+        printf("Introduza o nÃºmero %d: ", i);
         scanf("%d", &numeros[i]);
     }
 
@@ -208,7 +208,7 @@ void ex7()
         med = (alunos[i].nota1 + alunos[i].nota2) / 2;
         printf("Aluno %d:\n", i);
         printf("Nome: %s\n", alunos[i].nome);
-        printf("Média: %.2f\n\n", med);
+        printf("MÃ©dia: %.2f\n\n", med);
     }
 }
 
@@ -222,7 +222,7 @@ void ex8()
         printf("Produto %d: \n", i);
         printf("Introduza o nome: ");
         scanf("%s", lista[i].nome);
-        printf("Introduza o preço: ");
+        printf("Introduza o preÃ§o: ");
         scanf("%f", &lista[i].preco);
         printf("Introduza a quantidade: ");
         scanf("%d", &lista[i].quantidade);
@@ -235,7 +235,7 @@ void ex8()
     {
         printf("Produto %d:\n", i);
         printf("Nome: %s\n", lista[i].nome);
-        printf("Preço: %.2f\n", lista[i].preco);
+        printf("PreÃ§o: %.2f\n", lista[i].preco);
         printf("Quantidade: %d\n\n", lista[i].quantidade);
     }
 }
@@ -262,7 +262,7 @@ void ex9()
     med = soma / (float)10;
 
     system("cls");
-    printf("A idade média dos estudantes é: %.2f\n", med);
+    printf("A idade mÃ©dia dos estudantes Ã©: %.2f\n", med);
 }
 
 void ex10()
@@ -272,7 +272,7 @@ void ex10()
 
     for (i = 0; i < 5; i++)
     {
-        printf("Veículo %d: \n", i);
+        printf("VeÃ­culo %d: \n", i);
         printf("Introduza a marca: ");
         scanf("%s", lista[i].marca);
         printf("Introduza o modelo: ");
@@ -286,7 +286,7 @@ void ex10()
 
     for (i = 0; i < 5; i++)
     {
-        printf("Veículo %d:\n", i);
+        printf("VeÃ­culo %d:\n", i);
         printf("Marca: %s\n", lista[i].marca);
         printf("Modelo: %s\n", lista[i].modelo);
         printf("Ano: %d\n\n", lista[i].ano);
@@ -302,7 +302,7 @@ void ex11()
 
     for (i = 0; i < 10; i++)
     {
-        printf("Introduza o número %d: ", i);
+        printf("Introduza o nÃºmero %d: ", i);
         scanf("%d", &num[i]);
         fprintf(f, "%d\n", num[i]);
     }
@@ -390,7 +390,7 @@ void ex15()
         fclose(A);
         fclose(B);
 
-        printf("Conteúdo copiado com sucesso\n");
+        printf("ConteÃºdo copiado com sucesso\n");
     }
 }
 
@@ -410,9 +410,9 @@ void ex16()
         scanf("%s", lista[i].nome);
         fprintf(f, "Nome: %s\n", lista[i].nome);
 
-        printf("Introduza o preço: ");
+        printf("Introduza o preÃ§o: ");
         scanf("%f", &lista[i].preco);
-        fprintf(f, "Preço: %f\n", lista[i].preco);
+        fprintf(f, "PreÃ§o: %f\n", lista[i].preco);
 
         printf("Introduza a quantidade: ");
         scanf("%d", &lista[i].quantidade);
@@ -423,7 +423,7 @@ void ex16()
     system("cls");
 
     for (i = 0; i < 5; i++)
-        printf("Produto %d - Nome: %s | Preço: %.2f | Quantidade: %d\n", i, lista[i].nome, lista[i].preco, lista[i].quantidade);
+        printf("Produto %d - Nome: %s | PreÃ§o: %.2f | Quantidade: %d\n", i, lista[i].nome, lista[i].preco, lista[i].quantidade);
 
     fclose(f);
 }
@@ -442,14 +442,14 @@ void ex17()
         {
             fscanf(f, "Produto %d: \n", &indiceLido);
             fscanf(f, "Nome: %s\n", lista[i].nome);
-            fscanf(f, "Preço: %f\n", &lista[i].preco);
+            fscanf(f, "PreÃ§o: %f\n", &lista[i].preco);
             fscanf(f, "Quantidade: %d\n\n", &lista[i].quantidade);
         }
 
         fclose(f);
 
         for (i = 0; i < 5; i++)
-            printf("Produto %d - Nome: %s | Preço: %.2f | Quantidade: %d\n", i, lista[i].nome, lista[i].preco, lista[i].quantidade);
+            printf("Produto %d - Nome: %s | PreÃ§o: %.2f | Quantidade: %d\n", i, lista[i].nome, lista[i].preco, lista[i].quantidade);
     }
 }
 
@@ -500,19 +500,19 @@ main()
     setlocale(LC_ALL, "Portuguese");
     int opcao;
 
-    printf("======== Menu de Exercícios ========\n");
-    printf("1 - Soma de 10 números\n");
-    printf("2 - Média de 10 números decimais\n");
-    printf("3 - Maior e menor de 10 números\n");
-    printf("4 - Contar pares e ímpares em 15 números\n");
-    printf("5 - Ordenação crescente de 10 números\n");
+    printf("======== Menu de ExercÃ­cios ========\n");
+    printf("1 - Soma de 10 nÃºmeros\n");
+    printf("2 - MÃ©dia de 10 nÃºmeros decimais\n");
+    printf("3 - Maior e menor de 10 nÃºmeros\n");
+    printf("4 - Contar pares e Ã­mpares em 15 nÃºmeros\n");
+    printf("5 - OrdenaÃ§Ã£o crescente de 10 nÃºmeros\n");
     printf("6 - Dados de 5 pessoas\n");
-    printf("7 - Média de notas de 3 alunos\n");
+    printf("7 - MÃ©dia de notas de 3 alunos\n");
     printf("8 - Dados de 5 produtos\n");
-    printf("9 - Idade média de 10 estudantes\n");
-    printf("10 - Lista de 5 veículos\n");
-    printf("11 - Gravar 10 números em arquivo\n");
-    printf("12 - Ler 10 números de arquivo\n");
+    printf("9 - Idade mÃ©dia de 10 estudantes\n");
+    printf("10 - Lista de 5 veÃ­culos\n");
+    printf("11 - Gravar 10 nÃºmeros em arquivo\n");
+    printf("12 - Ler 10 nÃºmeros de arquivo\n");
     printf("13 - Gravar 5 pessoas em arquivo\n");
     printf("14 - Ler 5 pessoas de arquivo\n");
     printf("15 - Copiar arquivo origem para destino\n");
@@ -521,7 +521,7 @@ main()
     printf("18 - Contar linhas de um arquivo\n");
     printf("19 - Contar vogais de um arquivo\n");
     printf("0 - Sair\n\n");
-    printf("Escolha uma opção: ");
+    printf("Escolha uma opÃ§Ã£o: ");
     scanf("%d", &opcao);
 
     system("cls");

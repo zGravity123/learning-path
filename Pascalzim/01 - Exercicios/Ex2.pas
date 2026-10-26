@@ -1,7 +1,7 @@
 Program Ex2 ;
 Begin
 
-  write('Ol· Mundo!');
+  write('Ol√° Mundo!');
   readkey;
   
 End.

@@ -13,6 +13,6 @@ int main()
 
     area = 4 * Pi * raio * raio;
 
-    printf("A área da esfera esfera %.2f é: %.2f\n", raio, area);
+    printf("A Ã¡rea da esfera esfera %.2f Ã©: %.2f\n", raio, area);
 
 }

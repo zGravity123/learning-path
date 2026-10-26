@@ -20,6 +20,6 @@ main()
     system("cls");
 
     printf("\n");
-    printf("A media ponderada dos 3 valores é: %.2f", (a*0.4) + (b*0.4) + (c*0.2) );
+    printf("A media ponderada dos 3 valores Ã©: %.2f", (a*0.4) + (b*0.4) + (c*0.2) );
 
 }

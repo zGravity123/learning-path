@@ -20,9 +20,9 @@ main()
     for (i = 0; i < 5; i++)
     {
         fscanf(fp, "%s %f %s", lista[i].nome, &lista[i].salario, lista[i].departamento);
-        printf("Funcionário %d:\n", i);
+        printf("FuncionÃ¡rio %d:\n", i);
         printf("Nome: %s\n", lista[i].nome);
-        printf("Salário: %.2f\n", lista[i].salario);
+        printf("SalÃ¡rio: %.2f\n", lista[i].salario);
         printf("Departamento: %s\n\n", lista[i].departamento);
     }
 

@@ -17,7 +17,7 @@ Begin
 			
  end;
  
- writeln('São ',conta,' números com multiplo de 5');
+ writeln('SÃ£o ',conta,' nÃºmeros com multiplo de 5');
  readkey;
  
  

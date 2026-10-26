@@ -1,0 +1,72 @@
+form {
+display: flex;
+flex-direction: column;
+gap: 10px;
+width: 500px;
+}
+
+body {
+display: flex;
+justify-content: center; /* centraliza o formulario no meio duhh  */ 
+background-color: #ececec;
+}
+
+label {
+font-family: Arial, Helvetica, sans-serif;
+}
+
+.label-com-icone {
+display: flex;
+align-items: center;
+gap: 8px; /* espaço entre o icone e a palavra */
+}
+
+.icone {
+width: 16px;
+height: 16px;
+}
+
+/* NOTAS /
+/ width: largura /
+/ height: altura /
+/ padding: espaco por dentro da caixa /
+/ margin: espaco pelo lado de fora /
+/ border-radius: deixa os cantos redondos /
+/ display flex: pra conseguir alinhar as coisas */
+
+fieldset {
+width: 100%;
+box-sizing: border-box; /* Serve pro padding e a border ficarem incluídos dentro da largura sem isso sla faria 100% + 40pix (do width e padding) */
+display: flex;
+flex-direction: column;
+background-color: white;
+padding: 20px;
+border-radius: 8px;
+}
+
+input, label, fieldset {
+margin-bottom: 12px; /* isso é pra dar espaço entre cada resposta*/
+}
+
+input[type="text"],
+input[type="email"] {
+width: 100%;
+box-sizing: border-box;
+border-radius: 8px;
+padding: 8px;
+border: 1px solid #999;
+background-color: #e1e0e0;
+}
+
+button {
+width: 100px;
+padding: 8px;
+background-color: #2e8ad5;
+border-radius: 5px;
+border: none;
+color: white;
+margin-top: 8px;
+display: flex;
+justify-content: center;
+align-self: flex-end;
+}

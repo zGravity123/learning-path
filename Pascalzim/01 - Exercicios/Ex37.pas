@@ -4,7 +4,7 @@ var op: integer;
 					
 Begin
 
-	writeln('Introduza o código de origem');
+	writeln('Introduza o cÃ³digo de origem');
 	readln(op);
 	
 	case op of
@@ -17,7 +17,7 @@ Begin
 		10..20: writeln('Centro Oeste');
 		21..30: writeln('Noroeste')
 		else
-			writeln('Código Invalido');
+			writeln('CÃ³digo Invalido');
 	end;
 	readkey;
 		

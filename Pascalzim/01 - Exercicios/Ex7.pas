@@ -6,8 +6,8 @@ Begin
 
 	writeln('Introduza um valor');
 	readln(num);
-	writeln('O quadrado do número inserido é: ', num*num);
-	writeln('O dobro do número inserido é: ', num*2);
+	writeln('O quadrado do nÃºmero inserido Ã©: ', num*num);
+	writeln('O dobro do nÃºmero inserido Ã©: ', num*2);
 	readkey;
 	
 End.

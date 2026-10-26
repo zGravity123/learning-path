@@ -10,10 +10,10 @@ main()
 
     setlocale(LC_ALL, "Portuguese");
 
-    printf("Insira o preço base do produto: ");
+    printf("Insira o preÃ§o base do produto: ");
     scanf("%f", &preco);
 
-    printf("Escolha uma das opçoes: \n");
+    printf("Escolha uma das opÃ§oes: \n");
     printf("\n1 - Coimbra \n2 - Lisboa \n3 - Porto \n4 - Evora \n");
     scanf("%d", &op);
 
