@@ -77,10 +77,11 @@
 
 | Módulo | Contenido y Enfoque | Ejercicios | Estado |
 | :--- | :--- | :---: | :---: |
-| [Pascalzim](./Pascalzim) | Algoritmos, lógica matemática, vectores, matrices, archivos y proyectos | 150+ | Completado |
-| [C](./C) | Programación estructurada, I/O de bajo nivel, punteros, memoria y simulaciones | 180+ | Completado |
-| [C++](./C%2B%2B) | Desafíos lógicos, C++ moderno, arquitectura modular (.h / .cpp) | 60+ | Activo |
-| [HTML & CSS](./HTML%20%26%20CSS) | Estructura semántica, tablas adaptativas, formularios con UI | 2 Proyectos | En Progreso |
+| [Pascalzim](./Pascalzim) | Algoritmos, lógica matemática, vectores, matrices, archivos y proyectos | 290 archivos Pascal | Completado |
+| [C](./C) | Programación estructurada, I/O de bajo nivel, punteros, memoria y simulaciones | 200 archivos C | Completado |
+| [C++](./C%2B%2B) | Desafíos lógicos, C++ moderno, arquitectura modular (.h / .cpp) | 78 archivos C++ | Activo |
+| [Visual Basics](./Visual%20Basics) | Aplicaciones de escritorio, programación orientada a eventos e interfaces gráficas | 36 PDFs | Activo |
+| [HTML & CSS](./HTML%20%26%20CSS) | Estructura semántica, tablas adaptativas, formularios con UI | 2 proyectos | En Progreso |
 
 <br>
 
@@ -96,11 +97,11 @@ learning-path/
 |   `-- 13 - Especiais     # Tres en Línea y Escape Room
 |-- C/                     # Sistemas de bajo nivel, rendimiento y automatización
 |   |-- 01 a 10 - Fichas   # Guías temáticas de sintaxis y lógica
-|   |-- 02 - Exercicios    # +90 ejercicios secuenciales
+|   |-- 02 - Exercicios    # Parte de los 200 archivos de código C
 |   |-- 06 - Especiais     # Chatbot, Portugal 2026, CodeQuest y Escape Room
 |   `-- 07 - CodeAvalia    # Evaluaciones prácticas calificadas
 |-- C++/                   # C++ Moderno y diseño de software modular
-|   |-- 01 - Exercicios    # Práctica continua + Módulos de Matemáticas y Geometría
+|   |-- 01 - Exercicios    # Parte de los 78 archivos de código C++
 |   `-- 02 - Fichas        # Guías de trabajo de laboratorio
 `-- HTML & CSS/            # Desarrollo Web e interfaces
     |-- 01 - Ex1-2         # Horario escolar semántico en tabla estilizada

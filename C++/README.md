@@ -11,7 +11,7 @@
 <p align="center">
   <img src="https://img.shields.io/badge/Status-In_Progress-yellow?style=for-the-badge&logo=cplusplus&logoColor=white" alt="Status">
   <img src="https://img.shields.io/badge/Compiler-G++-00599C?style=for-the-badge&logo=gnu" alt="Compiler">
-  <img src="https://img.shields.io/badge/Exercises-60+-blue?style=for-the-badge" alt="Exercises">
+  <img src="https://img.shields.io/badge/Exercises-78_C%2B%2B_files-blue?style=for-the-badge" alt="Exercises">
 </p>
 
 ---
@@ -31,7 +31,7 @@ This module represents the progression from structured C to **C++**. The focus i
 
 | Directory | Description | Highlights |
 | :--- | :--- | :--- |
-| [`01 - Exercicios`](./01%20-%20Exercicios) | 55 progressive logical challenges | Includes modular projects `Ex54` and `Ex55` |
+| [`01 - Exercicios`](./01%20-%20Exercicios) | Progressive logical challenges and modular projects | Part of the 78 C++ source files |
 | [`02 - Fichas de Trabalho`](./02%20-%20Fichas%20de%20Trabalho) | Curriculum laboratory worksheets | Worksheet 0 (10 exercises) and Worksheet 1 |
 
 ---

@@ -9,7 +9,7 @@
 <p align="center">
   <img src="https://img.shields.io/badge/Status-Completed-2ea44f?style=for-the-badge&logo=checkmarx&logoColor=white" alt="Status">
   <img src="https://img.shields.io/badge/IDE-Pascalzim-blue?style=for-the-badge" alt="IDE">
-  <img src="https://img.shields.io/badge/Exercises-150+-orange?style=for-the-badge" alt="Exercises">
+  <img src="https://img.shields.io/badge/Exercises-290_Pascal_files-orange?style=for-the-badge" alt="Exercises">
 </p>
 
 ---
@@ -32,7 +32,7 @@ Exercises are organized chronologically and thematically according to curriculum
 
 | Directory | Description | Core Topics |
 | :--- | :--- | :--- |
-| [`01 - Exercicios`](./01%20-%20Exercicios) | Sequential practice exercises (Ex1 to Ex107) | General algorithms, mathematical logic, and fundamentals |
+| [`01 - Exercicios`](./01%20-%20Exercicios) | Sequential practice exercises | Part of the 290 Pascal source files |
 | [`02 - Ficha 1`](./02%20-%20Ficha%201) | Introductory worksheet with interactive menus | CLI menus, geometric calculations (tank and cylinder volume) |
 | [`03 - Ficha 2`](./03%20-%20Ficha%202) | Conditional operations | Square roots, powers, and numerical validation |
 | [`04 - Ficha 3`](./04%20-%20Ficha%203) | Weighted averages and grading | Exam, project, and oral test grade calculation |

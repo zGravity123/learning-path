@@ -77,10 +77,10 @@
 
 | Module | Content & Focus | Exercises | Status |
 | :--- | :--- | :---: | :---: |
-| [Pascalzim](./Pascalzim) | Algorithms, mathematical logic, arrays, matrices, file I/O, and projects | 150+ | Completed |
-| [C](./C) | Structured programming, low-level I/O, pointers, memory, and interactive simulations | 180+ | Completed |
-| [C++](./C%2B%2B) | Logic challenges, modern C++, modular architecture (.h / .cpp) | 60+ | Active |
-| [Visual Basic](./Visual%20Basic) | Desktop applications, event-driven programming, and GUI design | - | Active |
+| [Pascalzim](./Pascalzim) | Algorithms, mathematical logic, arrays, matrices, file I/O, and projects | 290 Pascal files | Completed |
+| [C](./C) | Structured programming, low-level I/O, pointers, memory, and interactive simulations | 200 C files | Completed |
+| [C++](./C%2B%2B) | Logic challenges, modern C++, modular architecture (.h / .cpp) | 78 C++ files | Active |
+| [Visual Basics](./Visual%20Basics) | Desktop applications, event-driven programming, and GUI design | 36 PDFs | Active |
 | [HTML & CSS](./HTML%20%26%20CSS) | Semantic markup, responsive tables, forms with custom UI icons | 2 Projects | In Progress |
 
 <br>
@@ -97,11 +97,11 @@ learning-path/
 |   `-- 13 - Especiais     # Tic-Tac-Toe and Escape Room
 |-- C/                     # Low-level systems, performance, and automation
 |   |-- 01 to 10 - Fichas  # Thematic syntax and logic worksheets
-|   |-- 02 - Exercicios    # +90 sequential exercises
+|   |-- 02 - Exercicios    # Part of 200 C source files
 |   |-- 06 - Especiais     # Chatbot, Portugal 2026, CodeQuest, and Escape Room
 |   `-- 07 - CodeAvalia    # Graded practical evaluations
 |-- C++/                   # Modern C++ and modular software design
-|   |-- 01 - Exercicios    # Continuous practice + Math and Geometry modules
+|   |-- 01 - Exercicios    # Part of 78 C++ source files
 |   `-- 02 - Fichas        # Laboratory worksheets
 |-- Visual Basic/          # Event-driven programming and GUI interfaces
 |   `-- ...                # Practice projects and worksheets

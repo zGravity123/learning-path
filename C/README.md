@@ -11,7 +11,7 @@
 <p align="center">
   <img src="https://img.shields.io/badge/Status-Completed-2ea44f?style=for-the-badge&logo=checkmarx&logoColor=white" alt="Status">
   <img src="https://img.shields.io/badge/Compiler-GCC-00599C?style=for-the-badge&logo=gnu" alt="Compiler">
-  <img src="https://img.shields.io/badge/Exercises-180+-blue?style=for-the-badge" alt="Exercises">
+  <img src="https://img.shields.io/badge/Exercises-200_C_files-blue?style=for-the-badge" alt="Exercises">
 </p>
 
 ---
@@ -34,7 +34,7 @@ Core concepts covered:
 | Directory | Description | Highlights |
 | :--- | :--- | :--- |
 | [`01 - Ficha 1`](./01%20-%20Ficha%201) | Syntax foundations and formatted I/O | 15 introductory problems |
-| [`02 - Exercicios`](./02%20-%20Exercicios) | Continuous algorithmic practice (Ex1 to Ex92) | 92 programs focusing on problem-solving |
+| [`02 - Exercicios`](./02%20-%20Exercicios) | Continuous algorithmic practice | Part of the 200 C source files |
 | [`03 - Self-Study`](./03%20-%20Self-Study) | Independent research and extra challenges | 8 autonomous practice problems |
 | [`04 - Ficha 2`](./04%20-%20Ficha%202) | Conditional logic and repetitive control flow | 20 consolidation exercises |
 | [`05 - Ficha 3`](./05%20-%20Ficha%203) | Functions and vector manipulation | 10 modularized exercises |
