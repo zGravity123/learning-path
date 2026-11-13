@@ -1,0 +1,11 @@
+.contentor {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 12px;
+}
+
+.item {
+    width: 150px;
+    background-color: lightblue;
+    flex-grow: 1;
+}
